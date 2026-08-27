@@ -1,0 +1,1001 @@
+loan_id,applicant_name,age,gender,marital_status,dependents,education_level,employment_type,employment_years,annual_income,loan_amount,loan_purpose,loan_term_months,interest_rate,credit_score,property_ownership,loan_status,application_date,debt_to_income_ratio,income_category,loan_status_approved
+1,Applicant_1,59,Female,Married,2,High School,Business Owner,9,206191.61,140863.76,Education,60,11.58,737,Rented,Approved,2026-04-25 21:51:24.033532,68.32,High,True
+2,Applicant_2,49,Male,Married,1,High School,Salaried,2,571076.34,700782.13,Business,60,3.1,751,Owned,Rejected,2026-01-07 21:51:24.033552,122.71,High,False
+3,Applicant_3,35,Female,Married,2,High School,Self-Employed,12,150000.0,549777.88,Business,84,14.37,689,Rented,Rejected,2025-12-20 21:51:24.033558,366.52,Upper-Middle,False
+4,Applicant_4,63,Female,Married,1,Graduate,Business Owner,0,1064790.28,433932.46,Personal,60,6.9,627,Owned,Approved,2026-04-24 21:51:24.033562,40.75,High,True
+5,Applicant_5,28,Male,Married,1,Under-Graduate,Self-Employed,12,1340188.22,421621.13,Home,12,9.58,675,Owned,Pending,2026-01-05 21:51:24.033566,31.46,High,False
+6,Applicant_6,41,Male,Divorced,4,Graduate,Student,19,776636.01,362511.68,Auto,48,10.96,683,Owned,Approved,2026-04-12 21:51:24.033570,46.68,High,True
+7,Applicant_7,59,Female,Single,1,Graduate,Student,3,447791.99,387448.13,Auto,48,6.11,699,Rented,Approved,2026-07-10 21:51:24.033574,86.52,High,True
+8,Applicant_8,39,Female,Divorced,2,Graduate,Salaried,7,459501.42,760327.26,Home,36,6.89,602,Rented,Rejected,2026-02-23 21:51:24.033578,165.47,High,False
+9,Applicant_9,43,Male,Married,3,Graduate,Business Owner,4,731177.12,379027.73,Auto,48,8.96,658,Owned,Rejected,2026-02-04 21:51:24.033582,51.84,High,False
+10,Applicant_10,31,Female,Married,3,Post-Graduate,Self-Employed,4,729651.18,1006125.29,Auto,48,5.51,672,Mortgage,Rejected,2026-06-11 21:51:24.033586,137.89,High,False
+11,Applicant_11,31,Female,Married,0,Under-Graduate,Retired,2,1214732.71,583869.1,Education,48,4.76,500,Rented,Approved,2026-02-15 21:51:24.033590,48.07,High,True
+12,Applicant_12,44,Male,Married,0,Graduate,Self-Employed,11,582449.59,338646.66,Business,120,5.08,746,Rented,Approved,2026-05-17 21:51:24.033593,58.14,High,True
+13,Applicant_13,56,Male,Single,0,Under-Graduate,Retired,22,1024031.34,772542.47,Auto,24,12.73,693,Mortgage,Rejected,2026-05-15 21:51:24.033597,75.44,High,False
+14,Applicant_14,60,Male,Married,2,Post-Graduate,Business Owner,22,727811.99,674690.86,Business,84,9.89,701,Rented,Approved,2025-11-14 21:51:24.033601,92.7,High,True
+15,Applicant_15,44,Female,Married,1,Graduate,Salaried,1,552097.22,50000.0,Auto,48,5.72,638,Mortgage,Approved,2025-10-08 21:51:24.033605,9.06,High,True
+16,Applicant_16,23,Male,Married,0,Post-Graduate,Self-Employed,16,717849.57,210348.02,Auto,60,11.55,726,Owned,Approved,2026-01-29 21:51:24.033609,29.3,High,True
+17,Applicant_17,42,Female,Married,4,Graduate,Retired,10,984615.35,467682.32,Education,60,5.92,613,Owned,Rejected,2025-12-21 21:51:24.033613,47.5,High,False
+18,Applicant_18,22,Female,Single,2,Post-Graduate,Student,2,1215973.36,56589.78,Home,48,3.0,626,Owned,Approved,2025-11-08 21:51:24.033617,4.65,High,True
+19,Applicant_19,44,Female,Married,1,Post-Graduate,Salaried,0,749210.73,1085348.37,Home,48,10.94,730,Rented,Approved,2026-02-08 21:51:24.033620,144.87,High,True
+20,Applicant_20,64,Male,Married,2,Graduate,Business Owner,2,368424.75,730225.01,Auto,48,14.26,708,Owned,Approved,2026-08-04 21:51:24.033624,198.2,High,True
+21,Applicant_21,50,Female,Married,2,Graduate,Salaried,19,1249885.92,496266.8,Debt Consolidation,48,10.45,577,Mortgage,Approved,2025-11-01 21:51:24.033628,39.7,High,True
+22,Applicant_22,58,Male,Married,0,Post-Graduate,Salaried,8,490732.25,404042.16,Business,84,3.0,806,Mortgage,Rejected,2026-06-06 21:51:24.033633,82.33,High,False
+23,Applicant_23,22,Female,Single,1,High School,Self-Employed,10,954329.27,332094.18,Home,60,8.42,619,Owned,Approved,2025-11-04 21:51:24.033637,34.8,High,True
+24,Applicant_24,41,Male,Single,3,Graduate,Salaried,2,840066.93,50000.0,Personal,24,7.54,669,Mortgage,Approved,2026-03-02 21:51:24.033640,5.95,High,True
+25,Applicant_25,53,Male,Divorced,2,Under-Graduate,Business Owner,10,786571.96,50000.0,Business,24,9.82,819,Rented,Approved,2025-11-03 21:51:24.033644,6.36,High,True
+26,Applicant_26,32,Female,Single,2,Under-Graduate,Salaried,0,655209.48,1032313.8,Business,48,5.53,515,Owned,Approved,2025-08-29 21:51:24.033648,157.55,High,True
+27,Applicant_27,42,Male,Married,1,High School,Business Owner,3,1098059.51,940607.9,Personal,24,7.33,543,Owned,Approved,2026-02-03 21:51:24.033651,85.66,High,True
+28,Applicant_28,64,Male,Single,0,Under-Graduate,Salaried,7,150000.0,338782.23,Auto,60,3.53,715,Mortgage,Approved,2026-07-19 21:51:24.033655,225.85,Upper-Middle,True
+29,Applicant_29,45,Female,Married,0,Post-Graduate,Salaried,1,1304588.2,754239.76,Home,24,9.28,481,Owned,Approved,2025-10-28 21:51:24.033659,57.81,High,True
+30,Applicant_30,47,Female,Married,1,Under-Graduate,Salaried,13,484996.89,641797.82,Education,48,3.66,516,Owned,Approved,2026-05-07 21:51:24.033662,132.33,High,True
+31,Applicant_31,62,Female,Single,1,High School,Salaried,2,1013182.76,674800.63,Education,12,10.03,774,Mortgage,Rejected,2025-09-22 21:51:24.033666,66.6,High,False
+32,Applicant_32,48,Female,Married,0,Graduate,Salaried,8,992010.25,100950.23,Education,36,5.87,647,Owned,Rejected,2026-08-24 21:51:24.033669,10.18,High,False
+33,Applicant_33,36,Male,Divorced,3,Graduate,Salaried,4,1359990.95,50000.0,Education,60,3.0,850,Rented,Approved,2026-05-12 21:51:24.033673,3.68,High,True
+34,Applicant_34,35,Male,Married,4,Graduate,Self-Employed,7,929099.65,831126.42,Debt Consolidation,48,11.28,597,Owned,Approved,2025-10-16 21:51:24.033678,89.46,High,True
+35,Applicant_35,64,Male,Single,3,Under-Graduate,Salaried,0,518356.33,50000.0,Debt Consolidation,120,10.23,654,Owned,Pending,2026-05-06 21:51:24.033684,9.65,High,False
+36,Applicant_36,23,Male,Single,3,Under-Graduate,Self-Employed,0,208098.0,458505.81,Personal,84,13.24,723,Owned,Approved,2026-03-14 21:51:24.033690,220.33,High,True
+37,Applicant_37,57,Female,Single,1,Graduate,Salaried,19,710478.74,397043.35,Personal,48,3.0,717,Mortgage,Approved,2025-12-10 21:51:24.033696,55.88,High,True
+38,Applicant_38,27,Female,Single,4,Post-Graduate,Student,2,150000.0,371157.73,Debt Consolidation,12,6.21,659,Owned,Rejected,2026-05-14 21:51:24.033701,247.44,Upper-Middle,False
+39,Applicant_39,41,Male,Single,0,Post-Graduate,Retired,13,598605.72,588046.23,Home,60,8.96,628,Owned,Approved,2026-01-16 21:51:24.033708,98.24,High,True
+40,Applicant_40,29,Male,Married,4,Graduate,Self-Employed,35,732947.75,310274.12,Auto,84,10.5,698,Owned,Approved,2025-12-09 21:51:24.033714,42.33,High,True
+41,Applicant_41,59,Female,Married,4,High School,Salaried,1,574033.61,610805.93,Education,60,3.38,790,Rented,Approved,2025-12-20 21:51:24.033720,106.41,High,True
+42,Applicant_42,38,Male,Married,3,Graduate,Salaried,2,866709.46,539523.52,Personal,24,10.01,741,Rented,Approved,2026-08-14 21:51:24.033728,62.25,High,True
+43,Applicant_43,24,Female,Single,4,Graduate,Retired,8,755558.4,1087645.06,Education,120,6.5,629,Mortgage,Rejected,2026-02-11 21:51:24.033734,143.95,High,False
+44,Applicant_44,45,Male,Married,2,Post-Graduate,Salaried,26,718925.38,112085.37,Business,36,3.0,600,Owned,Approved,2026-04-24 21:51:24.033739,15.59,High,True
+45,Applicant_45,34,Female,Single,1,Under-Graduate,Salaried,19,150000.0,508195.32,Home,60,5.87,624,Rented,Approved,2026-02-03 21:51:24.033745,338.8,Upper-Middle,True
+46,Applicant_46,29,Male,Married,1,Graduate,Salaried,5,332117.93,620776.63,Auto,84,10.3,578,Rented,Pending,2026-04-10 21:51:24.033750,186.91,High,False
+47,Applicant_47,46,Female,Married,2,Under-Graduate,Salaried,12,1107062.69,428207.28,Business,36,3.0,691,Owned,Pending,2026-06-27 21:51:24.033755,38.68,High,False
+48,Applicant_48,22,Female,Single,0,Post-Graduate,Salaried,1,1171702.51,125618.97,Home,84,10.73,745,Mortgage,Approved,2025-11-18 21:51:24.033761,10.72,High,True
+49,Applicant_49,40,Female,Married,2,Graduate,Business Owner,30,150000.0,851988.78,Auto,36,9.49,674,Mortgage,Approved,2026-07-05 21:51:24.033767,567.99,Upper-Middle,True
+50,Applicant_50,48,Female,Married,4,Graduate,Salaried,26,524112.73,594341.61,Auto,120,7.61,817,Rented,Approved,2025-09-16 21:51:24.033772,113.4,High,True
+51,Applicant_51,27,Female,Married,0,Post-Graduate,Self-Employed,1,1278786.15,145268.92,Auto,36,3.0,822,Mortgage,Rejected,2026-08-16 21:51:24.033778,11.36,High,False
+52,Applicant_52,64,Female,Divorced,3,Graduate,Salaried,2,562784.47,622827.03,Business,120,3.06,704,Owned,Approved,2026-04-14 21:51:24.033784,110.67,High,True
+53,Applicant_53,28,Male,Single,4,High School,Salaried,0,805403.69,976438.5,Auto,24,7.11,736,Owned,Approved,2025-10-02 21:51:24.033790,121.24,High,True
+54,Applicant_54,55,Female,Married,4,Under-Graduate,Retired,2,1426722.13,489831.54,Education,60,4.56,607,Owned,Approved,2026-04-06 21:51:24.033795,34.33,High,True
+55,Applicant_55,34,Female,Married,4,High School,Salaried,13,705369.08,499380.45,Home,48,7.33,651,Rented,Approved,2025-11-19 21:51:24.033801,70.8,High,True
+56,Applicant_56,37,Male,Married,2,Graduate,Business Owner,3,648112.24,939041.41,Personal,48,11.67,781,Mortgage,Approved,2026-04-14 21:51:24.033807,144.89,High,True
+57,Applicant_57,56,Female,Single,4,High School,Self-Employed,0,787185.32,228292.49,Auto,36,7.54,633,Rented,Approved,2025-10-31 21:51:24.033813,29.0,High,True
+58,Applicant_58,60,Female,Single,3,Post-Graduate,Salaried,3,1591364.32,983714.57,Business,60,7.45,798,Rented,Approved,2026-01-19 21:51:24.033818,61.82,High,True
+59,Applicant_59,24,Female,Married,0,Graduate,Retired,31,1028480.73,772415.1,Business,36,7.45,769,Mortgage,Approved,2025-09-22 21:51:24.033825,75.1,High,True
+60,Applicant_60,22,Male,Married,2,Graduate,Salaried,7,857632.65,241218.69,Home,48,12.05,740,Owned,Approved,2026-01-31 21:51:24.033831,28.13,High,True
+61,Applicant_61,26,Male,Married,3,Graduate,Student,4,640256.02,312884.68,Personal,36,13.03,586,Mortgage,Approved,2025-09-03 21:51:24.033835,48.87,High,True
+62,Applicant_62,62,Female,Single,1,Under-Graduate,Salaried,1,1065526.77,353052.41,Business,120,9.98,655,Owned,Rejected,2026-04-27 21:51:24.033838,33.13,High,False
+63,Applicant_63,24,Female,Single,2,Post-Graduate,Student,34,1113879.91,50000.0,Auto,12,8.98,731,Owned,Rejected,2026-05-04 21:51:24.033842,4.49,High,False
+64,Applicant_64,49,Male,Married,2,Graduate,Salaried,13,420728.6,572932.09,Home,36,9.3,601,Mortgage,Approved,2026-03-24 21:51:24.033845,136.18,High,True
+65,Applicant_65,38,Female,Married,0,Post-Graduate,Self-Employed,2,1124651.28,253894.84,Debt Consolidation,36,13.5,664,Rented,Approved,2025-12-01 21:51:24.033849,22.58,High,True
+66,Applicant_66,46,Female,Married,2,Graduate,Business Owner,0,789539.09,583034.37,Personal,48,10.17,740,Mortgage,Approved,2026-08-11 21:51:24.033853,73.84,High,True
+67,Applicant_67,64,Male,Divorced,3,Post-Graduate,Retired,0,859919.45,138535.89,Home,36,13.83,634,Rented,Approved,2025-12-02 21:51:24.033857,16.11,High,True
+68,Applicant_68,54,Female,Married,2,Graduate,Retired,1,496284.4,758443.71,Auto,48,7.03,612,Mortgage,Approved,2025-09-13 21:51:24.033860,152.82,High,True
+69,Applicant_69,30,Male,Single,0,Under-Graduate,Business Owner,6,690007.19,706535.26,Personal,84,3.83,535,Rented,Approved,2026-01-21 21:51:24.033864,102.4,High,True
+70,Applicant_70,56,Male,Single,0,Under-Graduate,Student,21,437943.09,302353.88,Business,60,6.16,649,Owned,Rejected,2025-10-13 21:51:24.033868,69.04,High,False
+71,Applicant_71,34,Male,Married,1,Post-Graduate,Salaried,5,418712.73,600701.76,Personal,48,6.53,741,Mortgage,Approved,2026-01-02 21:51:24.033871,143.46,High,True
+72,Applicant_72,51,Female,Married,4,Graduate,Salaried,14,1000836.09,523217.76,Auto,24,14.12,610,Owned,Approved,2026-07-26 21:51:24.033875,52.28,High,True
+73,Applicant_73,35,Male,Married,1,Graduate,Salaried,4,707953.37,915043.86,Business,60,11.08,681,Mortgage,Approved,2025-11-16 21:51:24.033878,129.25,High,True
+74,Applicant_74,28,Male,Single,2,Under-Graduate,Salaried,9,330144.93,210905.89,Auto,36,6.27,662,Mortgage,Rejected,2026-07-22 21:51:24.033882,63.88,High,False
+75,Applicant_75,34,Male,Single,1,Graduate,Salaried,10,1720821.06,457356.57,Home,60,11.33,626,Mortgage,Approved,2026-05-17 21:51:24.033885,26.58,High,True
+76,Applicant_76,43,Male,Single,1,Graduate,Self-Employed,1,400137.98,320608.58,Business,36,8.05,747,Mortgage,Rejected,2026-01-29 21:51:24.033889,80.12,High,False
+77,Applicant_77,60,Female,Married,3,Graduate,Salaried,3,1286841.18,512549.1,Debt Consolidation,48,14.22,811,Owned,Approved,2025-11-21 21:51:24.033893,39.83,High,True
+78,Applicant_78,41,Male,Married,3,Post-Graduate,Business Owner,8,259414.54,649316.61,Auto,48,7.33,760,Rented,Rejected,2026-04-08 21:51:24.033897,250.3,High,False
+79,Applicant_79,36,Male,Divorced,0,Post-Graduate,Salaried,0,1032600.93,317493.93,Education,84,3.11,624,Rented,Pending,2026-01-01 21:51:24.033900,30.75,High,False
+80,Applicant_80,38,Female,Single,1,Under-Graduate,Salaried,3,749775.85,398050.26,Business,24,7.85,839,Rented,Pending,2026-01-11 21:51:24.033904,53.09,High,False
+81,Applicant_81,44,Male,Married,0,Graduate,Self-Employed,6,598377.31,770491.42,Education,48,7.33,760,Rented,Approved,2026-04-17 21:51:24.033907,128.76,High,True
+82,Applicant_82,46,Male,Divorced,2,Graduate,Business Owner,35,928696.93,880050.91,Personal,24,3.8,643,Owned,Approved,2026-04-25 21:51:24.033911,94.76,High,True
+83,Applicant_83,45,Male,Single,2,Under-Graduate,Business Owner,5,874903.94,638184.49,Personal,60,10.55,617,Rented,Approved,2026-07-06 21:51:24.033914,72.94,High,True
+84,Applicant_84,61,Male,Single,0,Under-Graduate,Self-Employed,13,525013.93,461370.33,Home,84,13.49,769,Rented,Pending,2026-06-01 21:51:24.033918,87.88,High,False
+85,Applicant_85,49,Male,Single,1,Graduate,Salaried,4,506904.45,434732.86,Debt Consolidation,48,4.57,693,Rented,Approved,2026-05-22 21:51:24.033921,85.76,High,True
+86,Applicant_86,35,Male,Single,1,Post-Graduate,Self-Employed,12,220434.32,653475.37,Personal,48,11.9,611,Mortgage,Approved,2026-05-25 21:51:24.033925,296.45,High,True
+87,Applicant_87,21,Male,Single,4,Graduate,Salaried,7,972225.75,563774.76,Personal,84,6.38,668,Owned,Approved,2026-02-21 21:51:24.033928,57.99,High,True
+88,Applicant_88,45,Female,Married,4,High School,Salaried,17,348478.07,50000.0,Business,48,8.41,647,Owned,Approved,2025-12-15 21:51:24.033932,14.35,High,True
+89,Applicant_89,27,Male,Married,0,Graduate,Self-Employed,4,851589.98,660267.87,Personal,48,8.05,614,Mortgage,Approved,2026-06-16 21:51:24.033936,77.53,High,True
+90,Applicant_90,29,Female,Divorced,3,High School,Salaried,7,1086991.19,259040.46,Home,48,8.41,761,Rented,Approved,2025-08-31 21:51:24.033939,23.83,High,True
+91,Applicant_91,44,Female,Married,1,Under-Graduate,Salaried,7,933222.01,103257.81,Auto,60,10.16,742,Mortgage,Approved,2025-11-19 21:51:24.033943,11.06,High,True
+92,Applicant_92,21,Male,Married,1,Post-Graduate,Retired,4,560747.48,50000.0,Personal,24,4.92,747,Owned,Approved,2026-08-10 21:51:24.033946,8.92,High,True
+93,Applicant_93,64,Female,Married,3,Graduate,Retired,1,1213524.96,439490.78,Home,60,13.03,745,Rented,Pending,2026-03-17 21:51:24.033950,36.22,High,False
+94,Applicant_94,28,Male,Married,4,Post-Graduate,Salaried,0,686811.41,215373.18,Home,48,10.26,606,Owned,Rejected,2026-04-04 21:51:24.033954,31.36,High,False
+95,Applicant_95,44,Female,Single,4,Post-Graduate,Salaried,0,316335.7,50000.0,Personal,24,11.42,631,Mortgage,Rejected,2025-10-18 21:51:24.033957,15.81,High,False
+96,Applicant_96,31,Male,Divorced,2,Graduate,Salaried,16,736509.0,399632.46,Personal,60,5.77,796,Owned,Approved,2025-12-18 21:51:24.033962,54.26,High,True
+97,Applicant_97,37,Male,Married,1,Under-Graduate,Salaried,2,1084718.95,362640.17,Home,48,4.6,688,Mortgage,Rejected,2026-03-21 21:51:24.033966,33.43,High,False
+98,Applicant_98,28,Male,Married,3,High School,Retired,1,580234.27,458027.69,Personal,24,12.64,562,Rented,Approved,2025-09-13 21:51:24.033969,78.94,High,True
+99,Applicant_99,55,Female,Married,1,Post-Graduate,Salaried,10,1201272.97,323908.57,Business,60,4.45,697,Rented,Approved,2026-07-10 21:51:24.033973,26.96,High,True
+100,Applicant_100,55,Male,Single,2,Under-Graduate,Business Owner,3,541869.57,1012212.31,Education,84,9.02,732,Rented,Approved,2026-03-05 21:51:24.033977,186.8,High,True
+101,Applicant_101,53,Female,Single,1,Graduate,Salaried,5,596314.72,644854.44,Personal,84,12.07,721,Rented,Approved,2025-10-05 21:51:24.033980,108.14,High,True
+102,Applicant_102,25,Male,Married,2,Post-Graduate,Retired,1,431568.39,360108.27,Auto,120,8.06,604,Rented,Approved,2026-06-24 21:51:24.033983,83.44,High,True
+103,Applicant_103,62,Female,Single,1,Graduate,Salaried,25,1123483.81,482184.49,Home,84,12.6,830,Mortgage,Pending,2025-11-12 21:51:24.033987,42.92,High,False
+104,Applicant_104,59,Male,Single,0,Post-Graduate,Business Owner,15,828702.97,896099.95,Auto,12,7.55,559,Rented,Approved,2026-07-09 21:51:24.033990,108.13,High,True
+105,Applicant_105,61,Female,Single,4,High School,Salaried,15,458095.22,767854.39,Education,48,4.03,688,Owned,Approved,2026-08-24 21:51:24.033994,167.62,High,True
+106,Applicant_106,48,Male,Divorced,0,Under-Graduate,Self-Employed,4,691515.86,109060.69,Education,60,9.81,818,Owned,Approved,2026-05-01 21:51:24.033997,15.77,High,True
+107,Applicant_107,27,Male,Married,2,Graduate,Salaried,11,150000.0,227198.64,Personal,48,9.19,727,Mortgage,Approved,2025-09-22 21:51:24.034001,151.47,Upper-Middle,True
+108,Applicant_108,29,Male,Single,1,Graduate,Salaried,1,1161188.95,281082.88,Personal,60,17.91,746,Mortgage,Approved,2026-03-17 21:51:24.034005,24.21,High,True
+109,Applicant_109,28,Male,Married,0,Post-Graduate,Retired,0,781701.34,376884.01,Education,60,5.19,595,Mortgage,Approved,2026-01-17 21:51:24.034009,48.21,High,True
+110,Applicant_110,32,Female,Single,0,Post-Graduate,Retired,0,150000.0,333281.5,Personal,48,7.62,707,Mortgage,Rejected,2025-09-04 21:51:24.034013,222.19,Upper-Middle,False
+111,Applicant_111,54,Male,Single,0,Under-Graduate,Student,7,267327.42,509522.59,Home,84,5.94,677,Mortgage,Approved,2026-03-25 21:51:24.034017,190.6,High,True
+112,Applicant_112,53,Female,Single,3,Under-Graduate,Self-Employed,4,681362.37,706001.97,Home,48,8.0,589,Mortgage,Approved,2025-12-09 21:51:24.034020,103.62,High,True
+113,Applicant_113,43,Male,Single,1,Post-Graduate,Business Owner,5,324331.7,752744.88,Personal,48,7.86,749,Mortgage,Rejected,2026-03-08 21:51:24.034024,232.09,High,False
+114,Applicant_114,44,Male,Married,4,Graduate,Salaried,0,1167339.73,408496.74,Home,120,5.45,614,Rented,Rejected,2026-08-05 21:51:24.034027,34.99,High,False
+115,Applicant_115,57,Male,Married,2,Graduate,Salaried,4,1017429.15,50000.0,Home,48,10.14,623,Owned,Rejected,2026-06-28 21:51:24.034030,4.91,High,False
+116,Applicant_116,55,Male,Divorced,1,Graduate,Salaried,10,993814.38,208685.22,Business,36,7.75,714,Owned,Approved,2025-09-06 21:51:24.034034,21.0,High,True
+117,Applicant_117,64,Female,Divorced,2,Graduate,Self-Employed,4,150000.0,354463.06,Auto,48,13.21,668,Owned,Approved,2025-10-11 21:51:24.034037,236.31,Upper-Middle,True
+118,Applicant_118,60,Male,Married,2,Post-Graduate,Salaried,10,639816.63,151390.35,Personal,60,6.23,693,Rented,Approved,2026-04-16 21:51:24.034041,23.66,High,True
+119,Applicant_119,42,Male,Married,3,Under-Graduate,Salaried,2,570953.42,819440.52,Auto,60,15.01,663,Owned,Rejected,2026-08-04 21:51:24.034044,143.52,High,False
+120,Applicant_120,47,Female,Married,1,Under-Graduate,Self-Employed,13,468378.22,169728.5,Home,60,9.47,793,Mortgage,Rejected,2025-11-08 21:51:24.034048,36.24,High,False
+121,Applicant_121,55,Female,Single,1,Graduate,Business Owner,7,683929.89,672777.65,Auto,60,12.95,605,Rented,Approved,2026-07-14 21:51:24.034051,98.37,High,True
+122,Applicant_122,21,Male,Single,3,Graduate,Salaried,1,399504.72,50000.0,Education,36,8.9,642,Mortgage,Approved,2026-03-02 21:51:24.034055,12.52,High,True
+123,Applicant_123,55,Male,Married,4,Graduate,Salaried,2,936088.29,684016.31,Auto,84,5.77,718,Mortgage,Rejected,2025-09-06 21:51:24.034058,73.07,High,False
+124,Applicant_124,57,Female,Married,3,Graduate,Salaried,7,1156620.54,461004.76,Education,84,7.58,600,Mortgage,Approved,2025-09-04 21:51:24.034062,39.86,High,True
+125,Applicant_125,34,Male,Single,1,Under-Graduate,Salaried,14,1122153.5,923508.6,Personal,36,3.65,597,Mortgage,Approved,2026-06-26 21:51:24.034065,82.3,High,True
+126,Applicant_126,23,Male,Single,3,Graduate,Salaried,4,794835.5,183162.47,Debt Consolidation,24,8.11,691,Mortgage,Approved,2026-07-30 21:51:24.034069,23.04,High,True
+127,Applicant_127,21,Male,Married,2,Post-Graduate,Self-Employed,2,1649695.88,342047.86,Auto,120,9.1,749,Owned,Approved,2025-09-05 21:51:24.034072,20.73,High,True
+128,Applicant_128,25,Female,Single,2,Graduate,Self-Employed,16,1305990.05,396278.87,Education,84,8.66,759,Rented,Pending,2025-08-28 21:51:24.034075,30.34,High,False
+129,Applicant_129,46,Female,Married,1,High School,Business Owner,8,809376.72,457299.98,Education,84,13.16,687,Owned,Approved,2026-05-24 21:51:24.034079,56.5,High,True
+130,Applicant_130,34,Male,Married,2,Post-Graduate,Salaried,4,657091.12,403125.37,Debt Consolidation,84,7.98,626,Mortgage,Approved,2025-12-05 21:51:24.034083,61.35,High,True
+131,Applicant_131,59,Male,Single,0,Graduate,Business Owner,5,1385210.87,408530.0,Debt Consolidation,48,3.0,702,Mortgage,Approved,2025-11-10 21:51:24.034086,29.49,High,True
+132,Applicant_132,47,Male,Single,1,Post-Graduate,Salaried,1,1253032.27,403942.49,Home,60,18.0,725,Mortgage,Approved,2026-07-04 21:51:24.034090,32.24,High,True
+133,Applicant_133,29,Female,Single,3,Under-Graduate,Self-Employed,7,285829.12,50000.0,Business,48,6.08,700,Rented,Approved,2026-03-28 21:51:24.034093,17.49,High,True
+134,Applicant_134,35,Male,Single,1,High School,Business Owner,3,1284328.53,778133.66,Auto,24,11.89,778,Owned,Approved,2026-01-21 21:51:24.034096,60.59,High,True
+135,Applicant_135,35,Male,Single,0,Graduate,Salaried,35,788250.59,1301118.24,Home,60,3.24,598,Owned,Approved,2026-03-08 21:51:24.034100,165.06,High,True
+136,Applicant_136,46,Female,Married,0,High School,Salaried,5,505635.39,583515.91,Home,48,9.36,624,Rented,Approved,2026-05-24 21:51:24.034103,115.4,High,True
+137,Applicant_137,62,Male,Married,4,High School,Student,5,150000.0,181989.76,Education,60,5.72,767,Rented,Rejected,2026-04-27 21:51:24.034107,121.33,Upper-Middle,False
+138,Applicant_138,33,Female,Married,2,High School,Salaried,6,742433.52,210329.18,Education,48,3.0,562,Rented,Approved,2026-08-16 21:51:24.034110,28.33,High,True
+139,Applicant_139,52,Male,Married,1,Post-Graduate,Business Owner,19,845108.97,671688.72,Home,48,7.51,636,Mortgage,Approved,2026-08-24 21:51:24.034113,79.48,High,True
+140,Applicant_140,59,Male,Single,3,Post-Graduate,Salaried,12,1484931.06,607931.45,Business,36,8.32,621,Rented,Pending,2025-08-31 21:51:24.034117,40.94,High,False
+141,Applicant_141,52,Male,Divorced,3,Post-Graduate,Business Owner,4,1232893.52,420398.77,Auto,36,7.73,554,Rented,Approved,2025-09-16 21:51:24.034120,34.1,High,True
+142,Applicant_142,24,Female,Married,1,Under-Graduate,Salaried,10,616845.31,710953.22,Education,36,9.35,665,Mortgage,Rejected,2026-06-22 21:51:24.034123,115.26,High,False
+143,Applicant_143,50,Female,Married,2,Post-Graduate,Salaried,7,1005736.96,50000.0,Auto,36,7.56,739,Owned,Approved,2026-04-05 21:51:24.034127,4.97,High,True
+144,Applicant_144,57,Female,Single,3,Under-Graduate,Self-Employed,5,1180499.77,711137.4,Home,120,8.74,692,Rented,Rejected,2026-06-24 21:51:24.034130,60.24,High,False
+145,Applicant_145,43,Male,Married,2,Post-Graduate,Salaried,1,884382.96,566573.13,Auto,36,9.1,743,Rented,Rejected,2026-06-07 21:51:24.034134,64.06,High,False
+146,Applicant_146,59,Female,Single,0,Under-Graduate,Salaried,4,615138.34,221134.56,Home,36,8.38,775,Rented,Approved,2026-05-15 21:51:24.034137,35.95,High,True
+147,Applicant_147,35,Male,Single,3,Under-Graduate,Salaried,2,637131.02,98669.3,Education,48,7.9,649,Rented,Rejected,2026-02-28 21:51:24.034141,15.49,High,False
+148,Applicant_148,63,Male,Single,2,Graduate,Salaried,19,1004189.23,533971.64,Home,60,5.37,850,Rented,Pending,2025-09-22 21:51:24.034144,53.17,High,False
+149,Applicant_149,49,Female,Married,1,Under-Graduate,Salaried,3,1015192.23,894026.68,Education,36,10.58,652,Owned,Approved,2026-05-15 21:51:24.034148,88.06,High,True
+150,Applicant_150,56,Male,Married,1,Post-Graduate,Salaried,24,732818.15,436133.9,Home,60,7.51,662,Rented,Approved,2026-01-14 21:51:24.034151,59.51,High,True
+151,Applicant_151,33,Male,Single,0,Under-Graduate,Retired,6,150000.0,261248.2,Business,60,7.23,623,Owned,Approved,2026-07-31 21:51:24.034155,174.17,Upper-Middle,True
+152,Applicant_152,52,Male,Single,0,Post-Graduate,Salaried,7,333790.91,553560.71,Personal,36,10.29,723,Mortgage,Rejected,2026-08-12 21:51:24.034158,165.84,High,False
+153,Applicant_153,27,Male,Married,3,Graduate,Self-Employed,6,1097875.57,1009844.11,Home,36,9.24,656,Owned,Approved,2025-11-24 21:51:24.034162,91.98,High,True
+154,Applicant_154,42,Male,Single,0,High School,Salaried,1,150000.0,620763.95,Education,84,6.06,673,Mortgage,Approved,2025-09-29 21:51:24.034165,413.84,Upper-Middle,True
+155,Applicant_155,48,Female,Married,1,Graduate,Salaried,3,1323672.41,651032.56,Home,60,12.88,663,Owned,Approved,2025-11-03 21:51:24.034168,49.18,High,True
+156,Applicant_156,22,Male,Single,2,Under-Graduate,Retired,0,1264462.9,842383.62,Education,60,4.34,661,Owned,Approved,2026-07-05 21:51:24.034172,66.62,High,True
+157,Applicant_157,62,Female,Married,0,Post-Graduate,Salaried,7,866438.55,632316.07,Auto,24,4.89,692,Mortgage,Approved,2025-11-13 21:51:24.034175,72.98,High,True
+158,Applicant_158,26,Female,Divorced,4,Post-Graduate,Retired,4,1089172.41,281328.48,Education,48,10.84,643,Rented,Approved,2026-05-06 21:51:24.034179,25.83,High,True
+159,Applicant_159,48,Male,Married,1,Graduate,Salaried,12,1061509.87,50000.0,Education,48,14.63,647,Rented,Rejected,2026-07-21 21:51:24.034182,4.71,High,False
+160,Applicant_160,48,Male,Married,1,Post-Graduate,Business Owner,1,803250.75,241937.13,Debt Consolidation,36,6.48,765,Owned,Approved,2026-01-10 21:51:24.034186,30.12,High,True
+161,Applicant_161,64,Male,Married,1,Graduate,Self-Employed,1,300444.35,190676.63,Education,48,9.94,656,Owned,Approved,2026-03-15 21:51:24.034189,63.46,High,True
+162,Applicant_162,64,Female,Married,1,Graduate,Student,4,1236909.19,684606.27,Education,60,4.33,710,Mortgage,Approved,2026-02-27 21:51:24.034193,55.35,High,True
+163,Applicant_163,40,Male,Single,0,Graduate,Self-Employed,20,1412892.0,723537.45,Auto,36,5.25,608,Mortgage,Approved,2026-02-04 21:51:24.034196,51.21,High,True
+164,Applicant_164,50,Female,Divorced,3,Graduate,Self-Employed,9,366563.79,549160.18,Debt Consolidation,60,12.46,644,Owned,Approved,2025-12-26 21:51:24.034199,149.81,High,True
+165,Applicant_165,31,Male,Married,4,High School,Salaried,4,285498.0,144766.25,Personal,60,9.78,581,Owned,Approved,2025-09-03 21:51:24.034203,50.71,High,True
+166,Applicant_166,48,Female,Married,1,High School,Salaried,5,795281.24,1000247.17,Auto,36,12.57,828,Owned,Approved,2025-09-29 21:51:24.034206,125.77,High,True
+167,Applicant_167,45,Male,Single,2,Graduate,Retired,0,599510.16,383461.14,Personal,60,12.3,790,Mortgage,Approved,2025-10-23 21:51:24.034210,63.96,High,True
+168,Applicant_168,59,Male,Single,3,Under-Graduate,Salaried,33,907979.7,668974.68,Auto,24,3.0,727,Mortgage,Approved,2026-04-29 21:51:24.034213,73.68,High,True
+169,Applicant_169,53,Female,Single,3,Graduate,Salaried,8,1333197.62,513810.95,Personal,60,4.31,850,Mortgage,Approved,2025-12-12 21:51:24.034217,38.54,High,True
+170,Applicant_170,21,Female,Married,1,Under-Graduate,Business Owner,2,150000.0,558425.78,Personal,36,9.46,741,Rented,Pending,2026-01-30 21:51:24.034220,372.28,Upper-Middle,False
+171,Applicant_171,47,Male,Married,1,Under-Graduate,Salaried,7,1482508.78,659091.52,Home,24,3.0,666,Mortgage,Approved,2025-10-22 21:51:24.034224,44.46,High,True
+172,Applicant_172,33,Female,Single,1,High School,Retired,0,687332.62,305114.35,Business,60,4.81,709,Rented,Rejected,2025-11-05 21:51:24.034227,44.39,High,False
+173,Applicant_173,61,Male,Married,3,Post-Graduate,Business Owner,27,1054711.59,865512.68,Auto,48,13.49,788,Rented,Rejected,2026-02-15 21:51:24.034231,82.06,High,False
+174,Applicant_174,23,Female,Single,3,Under-Graduate,Self-Employed,1,1097490.34,57738.48,Auto,84,6.6,609,Mortgage,Approved,2026-06-21 21:51:24.034235,5.26,High,True
+175,Applicant_175,59,Female,Married,0,Graduate,Student,8,1144136.46,209204.23,Auto,48,10.99,586,Rented,Rejected,2026-05-06 21:51:24.034238,18.28,High,False
+176,Applicant_176,26,Male,Single,1,High School,Salaried,2,874763.24,861880.22,Business,36,8.4,712,Mortgage,Approved,2026-01-20 21:51:24.034241,98.53,High,True
+177,Applicant_177,28,Male,Married,4,Graduate,Salaried,10,968224.24,665201.33,Home,48,6.12,633,Rented,Approved,2026-01-20 21:51:24.034245,68.7,High,True
+178,Applicant_178,47,Male,Single,3,Post-Graduate,Self-Employed,11,965608.82,1211309.51,Home,48,3.0,499,Mortgage,Approved,2026-01-22 21:51:24.034248,125.45,High,True
+179,Applicant_179,29,Male,Married,4,Under-Graduate,Salaried,8,597886.88,519138.12,Business,36,9.32,580,Rented,Rejected,2026-01-03 21:51:24.034252,86.83,High,False
+180,Applicant_180,57,Female,Single,3,Under-Graduate,Business Owner,7,150000.0,976120.2,Home,60,13.59,655,Owned,Approved,2025-11-03 21:51:24.034255,650.75,Upper-Middle,True
+181,Applicant_181,53,Male,Married,1,Graduate,Retired,17,362325.67,50000.0,Home,60,6.22,683,Rented,Rejected,2026-05-26 21:51:24.034259,13.8,High,False
+182,Applicant_182,62,Male,Single,2,High School,Self-Employed,0,808304.81,104215.81,Home,84,8.74,686,Owned,Approved,2025-12-18 21:51:24.034262,12.89,High,True
+183,Applicant_183,64,Female,Single,2,Graduate,Salaried,3,535277.34,750747.15,Auto,120,3.18,840,Owned,Rejected,2025-09-05 21:51:24.034266,140.25,High,False
+184,Applicant_184,44,Female,Single,0,Post-Graduate,Retired,2,536201.57,50000.0,Education,36,6.15,663,Owned,Approved,2026-01-25 21:51:24.034269,9.32,High,True
+185,Applicant_185,35,Male,Single,2,Graduate,Self-Employed,35,1569700.42,444737.07,Home,60,9.69,702,Rented,Approved,2025-12-13 21:51:24.034272,28.33,High,True
+186,Applicant_186,52,Male,Single,3,Graduate,Self-Employed,3,1193557.92,826818.54,Debt Consolidation,48,11.1,549,Rented,Approved,2025-09-15 21:51:24.034276,69.27,High,True
+187,Applicant_187,52,Male,Single,0,Post-Graduate,Salaried,10,749169.61,640327.95,Business,60,10.45,677,Rented,Approved,2025-12-31 21:51:24.034279,85.47,High,True
+188,Applicant_188,44,Male,Married,3,Post-Graduate,Retired,9,1118813.98,503106.66,Auto,48,3.0,706,Owned,Approved,2025-10-17 21:51:24.034282,44.97,High,True
+189,Applicant_189,61,Female,Single,2,Graduate,Self-Employed,1,681892.56,374249.91,Auto,120,6.9,569,Mortgage,Pending,2026-01-26 21:51:24.034286,54.88,High,False
+190,Applicant_190,32,Male,Married,4,Graduate,Business Owner,2,894289.37,556623.24,Auto,60,5.11,605,Mortgage,Approved,2026-05-22 21:51:24.034289,62.24,High,True
+191,Applicant_191,59,Female,Married,0,Post-Graduate,Business Owner,2,1026651.46,661629.54,Business,120,7.42,719,Rented,Pending,2026-08-12 21:51:24.034293,64.45,High,False
+192,Applicant_192,22,Male,Married,1,Under-Graduate,Salaried,4,682957.61,314949.59,Home,60,8.11,636,Owned,Approved,2026-03-27 21:51:24.034296,46.12,High,True
+193,Applicant_193,23,Female,Married,2,High School,Self-Employed,2,575899.78,604086.09,Home,84,12.23,671,Mortgage,Rejected,2026-08-12 21:51:24.034300,104.89,High,False
+194,Applicant_194,57,Female,Single,1,Graduate,Business Owner,0,1339572.73,801960.61,Personal,60,9.53,723,Rented,Approved,2026-02-11 21:51:24.034303,59.87,High,True
+195,Applicant_195,37,Female,Single,3,Graduate,Salaried,16,1095645.19,437706.12,Auto,48,13.46,842,Owned,Approved,2026-05-12 21:51:24.034307,39.95,High,True
+196,Applicant_196,22,Male,Single,3,Graduate,Business Owner,26,150000.0,519074.4,Auto,36,6.05,662,Owned,Rejected,2026-08-05 21:51:24.034310,346.05,Upper-Middle,False
+197,Applicant_197,22,Male,Married,0,Graduate,Retired,3,582745.63,635458.07,Personal,48,3.54,821,Rented,Approved,2026-07-17 21:51:24.034313,109.05,High,True
+198,Applicant_198,48,Male,Married,2,Under-Graduate,Self-Employed,3,537491.0,654373.58,Business,12,13.59,523,Rented,Approved,2026-07-22 21:51:24.034317,121.75,High,True
+199,Applicant_199,43,Female,Married,2,Post-Graduate,Business Owner,0,601544.76,745967.0,Auto,48,10.02,691,Rented,Approved,2025-10-04 21:51:24.034320,124.01,High,True
+200,Applicant_200,57,Female,Married,1,Graduate,Business Owner,9,1194960.92,215975.01,Business,48,5.9,653,Owned,Approved,2026-03-16 21:51:24.034323,18.07,High,True
+201,Applicant_201,52,Female,Married,4,Graduate,Business Owner,13,857682.39,351901.7,Home,48,10.03,637,Rented,Approved,2026-05-04 21:51:24.034327,41.03,High,True
+202,Applicant_202,53,Female,Married,3,Graduate,Salaried,1,294148.13,362273.97,Business,120,11.42,732,Rented,Rejected,2026-03-31 21:51:24.034331,123.16,High,False
+203,Applicant_203,21,Female,Married,2,Under-Graduate,Salaried,1,696714.07,246904.59,Education,84,8.92,662,Owned,Approved,2026-08-22 21:51:24.034334,35.44,High,True
+204,Applicant_204,39,Male,Single,3,High School,Self-Employed,12,1066695.06,50000.0,Personal,36,5.95,518,Rented,Approved,2026-07-27 21:51:24.034338,4.69,High,True
+205,Applicant_205,22,Female,Single,2,Graduate,Business Owner,7,762141.99,50000.0,Debt Consolidation,48,6.96,552,Rented,Approved,2026-04-05 21:51:24.034341,6.56,High,True
+206,Applicant_206,64,Male,Divorced,4,Graduate,Self-Employed,0,592129.62,834726.76,Debt Consolidation,48,9.52,737,Mortgage,Approved,2025-11-07 21:51:24.034344,140.97,High,True
+207,Applicant_207,46,Male,Divorced,2,High School,Business Owner,7,982487.71,64909.96,Debt Consolidation,48,9.2,549,Rented,Approved,2025-11-08 21:51:24.034348,6.61,High,True
+208,Applicant_208,52,Male,Single,3,High School,Salaried,2,1497277.0,938622.56,Education,60,12.74,739,Owned,Rejected,2026-03-04 21:51:24.034351,62.69,High,False
+209,Applicant_209,26,Male,Married,3,Post-Graduate,Self-Employed,3,1034569.93,707034.66,Auto,48,7.53,689,Owned,Rejected,2026-03-04 21:51:24.034355,68.34,High,False
+210,Applicant_210,52,Male,Single,1,Graduate,Salaried,11,1370376.61,386407.25,Education,48,5.13,666,Owned,Approved,2026-06-28 21:51:24.034358,28.2,High,True
+211,Applicant_211,24,Female,Single,3,Graduate,Business Owner,13,618954.31,672598.19,Business,84,17.52,673,Owned,Rejected,2026-06-12 21:51:24.034362,108.67,High,False
+212,Applicant_212,31,Male,Married,0,Post-Graduate,Self-Employed,4,846655.16,619037.31,Personal,60,9.11,721,Rented,Approved,2026-06-03 21:51:24.034365,73.12,High,True
+213,Applicant_213,37,Female,Married,1,Graduate,Salaried,23,838579.21,191503.18,Home,24,11.42,585,Mortgage,Rejected,2026-02-18 21:51:24.034369,22.84,High,False
+214,Applicant_214,58,Male,Single,1,Graduate,Salaried,4,897471.63,495806.22,Debt Consolidation,60,10.33,683,Owned,Approved,2026-08-21 21:51:24.034372,55.24,High,True
+215,Applicant_215,44,Male,Married,4,Post-Graduate,Business Owner,11,1026207.84,225645.14,Personal,48,9.15,588,Mortgage,Approved,2026-06-04 21:51:24.034375,21.99,High,True
+216,Applicant_216,25,Male,Single,3,Graduate,Self-Employed,5,482412.35,683155.84,Debt Consolidation,36,7.7,693,Owned,Approved,2025-12-09 21:51:24.034379,141.61,High,True
+217,Applicant_217,54,Male,Single,3,Under-Graduate,Salaried,18,1108933.07,299738.13,Personal,24,3.0,731,Mortgage,Approved,2025-12-12 21:51:24.034382,27.03,High,True
+218,Applicant_218,26,Female,Married,3,Graduate,Retired,19,198845.62,472943.73,Auto,48,4.78,693,Mortgage,Approved,2026-07-12 21:51:24.034386,237.84,Upper-Middle,True
+219,Applicant_219,42,Male,Married,2,Graduate,Business Owner,0,315697.33,460856.3,Home,48,9.65,728,Mortgage,Approved,2025-09-21 21:51:24.034389,145.98,High,True
+220,Applicant_220,31,Female,Married,4,Post-Graduate,Retired,22,1704250.44,534042.12,Home,36,3.0,623,Owned,Approved,2026-05-26 21:51:24.034393,31.34,High,True
+221,Applicant_221,36,Male,Married,2,Graduate,Self-Employed,13,645951.7,965515.42,Auto,60,8.75,675,Owned,Approved,2026-01-16 21:51:24.034396,149.47,High,True
+222,Applicant_222,53,Female,Married,1,High School,Self-Employed,12,1141807.74,432531.04,Business,60,10.81,660,Mortgage,Approved,2025-11-22 21:51:24.034400,37.88,High,True
+223,Applicant_223,29,Female,Single,0,Post-Graduate,Student,1,1529316.16,841019.6,Personal,36,11.42,655,Mortgage,Approved,2026-08-25 21:51:24.034403,54.99,High,True
+224,Applicant_224,26,Female,Married,3,Graduate,Self-Employed,13,150000.0,634399.16,Personal,12,10.59,615,Mortgage,Approved,2026-04-21 21:51:24.034406,422.93,Upper-Middle,True
+225,Applicant_225,36,Male,Married,3,Under-Graduate,Business Owner,15,1300498.47,897152.71,Business,60,11.85,645,Owned,Approved,2025-10-09 21:51:24.034410,68.99,High,True
+226,Applicant_226,49,Male,Married,1,Graduate,Salaried,2,1109577.44,405237.98,Home,12,14.12,590,Mortgage,Approved,2025-12-22 21:51:24.034413,36.52,High,True
+227,Applicant_227,23,Male,Divorced,0,High School,Self-Employed,24,1506158.91,694918.15,Home,84,12.34,544,Rented,Pending,2026-01-11 21:51:24.034416,46.14,High,False
+228,Applicant_228,40,Female,Married,3,Graduate,Salaried,0,377390.74,483404.95,Home,60,9.19,623,Owned,Pending,2025-10-05 21:51:24.034420,128.09,High,False
+229,Applicant_229,56,Male,Married,0,Post-Graduate,Salaried,1,1430501.86,50000.0,Auto,36,8.03,730,Rented,Approved,2026-04-19 21:51:24.034423,3.5,High,True
+230,Applicant_230,39,Male,Single,3,Graduate,Salaried,6,554234.23,194843.8,Education,36,8.9,698,Owned,Approved,2026-01-12 21:51:24.034427,35.16,High,True
+231,Applicant_231,46,Female,Single,4,Post-Graduate,Salaried,6,1271911.13,663065.54,Home,12,7.54,579,Mortgage,Approved,2026-03-04 21:51:24.034430,52.13,High,True
+232,Applicant_232,23,Male,Married,1,Under-Graduate,Retired,8,835591.59,644554.18,Auto,36,12.41,647,Rented,Pending,2025-10-09 21:51:24.034433,77.14,High,False
+233,Applicant_233,39,Female,Single,1,Under-Graduate,Salaried,0,1158307.52,137406.33,Home,24,10.5,735,Owned,Approved,2025-10-21 21:51:24.034437,11.86,High,True
+234,Applicant_234,40,Male,Married,3,Graduate,Business Owner,25,869547.67,561702.91,Business,60,7.17,644,Owned,Approved,2026-07-28 21:51:24.034441,64.6,High,True
+235,Applicant_235,52,Male,Married,3,Graduate,Business Owner,0,150000.0,640912.86,Education,36,13.13,566,Rented,Approved,2026-06-23 21:51:24.034444,427.28,Upper-Middle,True
+236,Applicant_236,27,Female,Married,2,Under-Graduate,Self-Employed,1,150000.0,490293.64,Education,48,7.48,850,Owned,Approved,2026-02-03 21:51:24.034447,326.86,Upper-Middle,True
+237,Applicant_237,61,Male,Married,4,High School,Salaried,0,933966.21,704069.22,Auto,48,5.19,666,Owned,Approved,2026-05-19 21:51:24.034451,75.38,High,True
+238,Applicant_238,53,Female,Single,0,Graduate,Business Owner,6,744505.98,665915.49,Debt Consolidation,36,8.46,586,Rented,Approved,2025-10-12 21:51:24.034454,89.44,High,True
+239,Applicant_239,60,Male,Married,2,Post-Graduate,Self-Employed,21,1009288.38,490159.8,Home,12,5.62,693,Mortgage,Approved,2026-07-28 21:51:24.034458,48.56,High,True
+240,Applicant_240,59,Male,Married,3,Graduate,Business Owner,8,749138.61,356969.05,Education,12,11.78,673,Mortgage,Approved,2026-02-18 21:51:24.034461,47.65,High,True
+241,Applicant_241,38,Female,Single,3,High School,Business Owner,13,1657230.95,791911.65,Business,12,5.54,556,Rented,Approved,2026-06-23 21:51:24.034465,47.79,High,True
+242,Applicant_242,60,Female,Single,0,Graduate,Retired,0,942214.85,629685.39,Education,60,8.1,687,Rented,Approved,2025-10-29 21:51:24.034468,66.83,High,True
+243,Applicant_243,21,Female,Married,3,Graduate,Self-Employed,6,671220.91,113198.86,Debt Consolidation,36,11.79,758,Owned,Approved,2026-01-05 21:51:24.034472,16.86,High,True
+244,Applicant_244,31,Male,Single,2,Under-Graduate,Salaried,4,984945.23,561851.34,Auto,60,6.01,661,Mortgage,Rejected,2025-11-23 21:51:24.034475,57.04,High,False
+245,Applicant_245,48,Female,Married,1,Graduate,Self-Employed,5,678530.08,177713.08,Education,48,9.94,515,Rented,Approved,2026-02-07 21:51:24.034478,26.19,High,True
+246,Applicant_246,45,Male,Single,0,Post-Graduate,Salaried,0,887172.09,229920.98,Home,48,5.09,707,Rented,Approved,2025-09-12 21:51:24.034482,25.92,High,True
+247,Applicant_247,43,Male,Single,3,Post-Graduate,Student,9,363007.93,317465.19,Business,48,9.36,728,Owned,Approved,2026-01-15 21:51:24.034485,87.45,High,True
+248,Applicant_248,51,Female,Divorced,0,Graduate,Salaried,5,846565.92,512564.51,Auto,60,10.49,633,Mortgage,Approved,2026-06-06 21:51:24.034489,60.55,High,True
+249,Applicant_249,50,Male,Married,1,Graduate,Salaried,11,658859.04,604855.96,Home,36,8.35,633,Owned,Approved,2026-07-13 21:51:24.034492,91.8,High,True
+250,Applicant_250,62,Female,Married,1,Post-Graduate,Business Owner,5,400905.35,385496.27,Education,24,8.62,850,Owned,Approved,2026-05-31 21:51:24.034496,96.16,High,True
+251,Applicant_251,55,Male,Married,3,Graduate,Self-Employed,1,1640294.35,397748.87,Education,48,10.05,627,Mortgage,Approved,2026-02-23 21:51:24.034499,24.25,High,True
+252,Applicant_252,27,Male,Married,2,Post-Graduate,Salaried,8,416505.85,359091.78,Home,36,7.52,590,Owned,Approved,2026-02-20 21:51:24.034503,86.22,High,True
+253,Applicant_253,36,Male,Married,3,Under-Graduate,Self-Employed,1,852785.69,793303.82,Business,48,11.61,682,Mortgage,Approved,2025-12-25 21:51:24.034506,93.02,High,True
+254,Applicant_254,46,Female,Divorced,1,Under-Graduate,Student,16,528876.79,50000.0,Business,60,13.3,725,Owned,Approved,2026-07-13 21:51:24.034509,9.45,High,True
+255,Applicant_255,22,Female,Married,2,Graduate,Salaried,7,968815.79,413570.33,Home,48,5.26,722,Mortgage,Approved,2025-12-14 21:51:24.034513,42.69,High,True
+256,Applicant_256,21,Female,Married,2,Graduate,Student,1,340245.95,932595.74,Education,60,14.68,482,Owned,Approved,2025-09-10 21:51:24.034516,274.09,High,True
+257,Applicant_257,32,Female,Single,3,Graduate,Salaried,26,1186142.73,644824.41,Business,48,7.44,627,Mortgage,Approved,2026-06-28 21:51:24.034519,54.36,High,True
+258,Applicant_258,25,Female,Married,4,Graduate,Business Owner,5,1664462.47,854717.23,Education,60,15.48,772,Owned,Approved,2026-05-15 21:51:24.034523,51.35,High,True
+259,Applicant_259,57,Female,Single,0,Post-Graduate,Business Owner,0,514184.31,50000.0,Auto,60,7.49,706,Mortgage,Approved,2025-09-25 21:51:24.034526,9.72,High,True
+260,Applicant_260,52,Male,Married,2,Under-Graduate,Salaried,7,1336787.55,152170.22,Auto,48,10.98,581,Rented,Approved,2026-08-14 21:51:24.034530,11.38,High,True
+261,Applicant_261,29,Male,Married,0,Graduate,Self-Employed,2,697248.26,643933.48,Business,60,10.96,779,Owned,Approved,2025-10-31 21:51:24.034533,92.35,High,True
+262,Applicant_262,61,Male,Married,2,Graduate,Salaried,13,1452316.45,934176.57,Debt Consolidation,84,7.14,757,Mortgage,Rejected,2026-06-12 21:51:24.034537,64.32,High,False
+263,Applicant_263,55,Female,Married,1,Graduate,Business Owner,13,1725399.59,180453.86,Business,48,8.75,656,Rented,Rejected,2026-01-10 21:51:24.034540,10.46,High,False
+264,Applicant_264,39,Female,Divorced,1,Under-Graduate,Self-Employed,30,756518.0,391426.7,Home,48,13.54,750,Owned,Approved,2026-03-14 21:51:24.034544,51.74,High,True
+265,Applicant_265,36,Male,Married,1,Graduate,Self-Employed,5,241893.57,612409.96,Education,60,7.37,839,Rented,Approved,2026-06-23 21:51:24.034547,253.17,High,True
+266,Applicant_266,23,Female,Married,2,Post-Graduate,Salaried,4,1229233.75,93300.45,Personal,48,7.04,595,Mortgage,Approved,2026-07-27 21:51:24.034550,7.59,High,True
+267,Applicant_267,40,Female,Married,1,Graduate,Salaried,11,939766.88,646073.55,Home,24,4.46,724,Rented,Approved,2026-05-24 21:51:24.034554,68.75,High,True
+268,Applicant_268,44,Male,Married,3,High School,Salaried,1,1050716.47,50000.0,Debt Consolidation,84,13.99,838,Mortgage,Rejected,2026-07-01 21:51:24.034557,4.76,High,False
+269,Applicant_269,53,Female,Single,1,High School,Salaried,6,714061.98,637827.05,Debt Consolidation,12,6.82,732,Owned,Rejected,2026-05-16 21:51:24.034561,89.32,High,False
+270,Applicant_270,44,Female,Married,0,Graduate,Self-Employed,6,496202.87,221376.21,Home,60,12.7,619,Rented,Pending,2025-10-20 21:51:24.034564,44.61,High,False
+271,Applicant_271,31,Male,Single,3,Graduate,Student,0,1314139.27,374672.79,Debt Consolidation,60,6.4,699,Owned,Approved,2026-04-16 21:51:24.034568,28.51,High,True
+272,Applicant_272,28,Female,Divorced,1,Post-Graduate,Business Owner,4,977916.0,682527.51,Auto,120,12.59,789,Rented,Approved,2026-01-23 21:51:24.034571,69.79,High,True
+273,Applicant_273,56,Male,Single,1,Graduate,Self-Employed,15,272577.19,625230.6,Personal,24,11.32,598,Owned,Rejected,2026-06-22 21:51:24.034575,229.38,High,False
+274,Applicant_274,58,Female,Divorced,2,Under-Graduate,Retired,15,1124750.09,497765.26,Auto,48,7.7,677,Owned,Approved,2026-03-03 21:51:24.034578,44.26,High,True
+275,Applicant_275,60,Female,Married,1,Under-Graduate,Business Owner,0,1044467.44,771331.35,Auto,48,5.93,660,Rented,Rejected,2025-12-24 21:51:24.034582,73.85,High,False
+276,Applicant_276,40,Female,Married,0,Under-Graduate,Retired,0,719880.43,50000.0,Business,36,6.21,629,Mortgage,Approved,2025-11-07 21:51:24.034585,6.95,High,True
+277,Applicant_277,55,Male,Married,1,Under-Graduate,Self-Employed,2,1497925.29,557236.02,Personal,24,6.17,699,Rented,Approved,2026-01-05 21:51:24.034589,37.2,High,True
+278,Applicant_278,45,Female,Single,4,Graduate,Salaried,16,602730.74,278752.36,Home,48,12.23,671,Owned,Approved,2026-04-19 21:51:24.034592,46.25,High,True
+279,Applicant_279,55,Female,Divorced,2,Graduate,Salaried,1,782405.4,757048.81,Education,48,9.06,731,Owned,Approved,2026-05-08 21:51:24.034595,96.76,High,True
+280,Applicant_280,45,Male,Married,2,Under-Graduate,Business Owner,10,1157459.24,692378.78,Home,24,4.6,771,Owned,Approved,2026-07-05 21:51:24.034599,59.82,High,True
+281,Applicant_281,49,Female,Single,2,Graduate,Salaried,0,880705.18,702537.5,Auto,60,7.62,578,Owned,Approved,2025-11-11 21:51:24.034602,79.77,High,True
+282,Applicant_282,38,Male,Married,0,Under-Graduate,Salaried,7,296230.74,960706.91,Auto,60,8.04,685,Owned,Approved,2026-01-01 21:51:24.034606,324.31,High,True
+283,Applicant_283,38,Female,Single,1,Graduate,Self-Employed,3,923519.75,815377.31,Education,60,3.0,675,Mortgage,Approved,2025-12-31 21:51:24.034609,88.29,High,True
+284,Applicant_284,22,Male,Married,3,Graduate,Self-Employed,12,684244.08,455922.03,Auto,84,7.81,696,Owned,Approved,2025-11-06 21:51:24.034613,66.63,High,True
+285,Applicant_285,55,Male,Divorced,0,High School,Self-Employed,2,1192798.5,499645.0,Home,48,11.03,678,Rented,Approved,2026-05-08 21:51:24.034616,41.89,High,True
+286,Applicant_286,36,Male,Single,1,Graduate,Salaried,8,910487.34,668262.75,Home,120,8.02,601,Owned,Rejected,2026-06-01 21:51:24.034620,73.4,High,False
+287,Applicant_287,61,Female,Married,1,High School,Salaried,2,887803.06,538128.91,Home,84,9.39,796,Rented,Approved,2026-01-12 21:51:24.034623,60.61,High,True
+288,Applicant_288,56,Male,Married,1,High School,Self-Employed,10,430699.53,697448.53,Education,36,10.2,830,Rented,Approved,2025-10-28 21:51:24.034626,161.93,High,True
+289,Applicant_289,53,Female,Married,4,Under-Graduate,Retired,16,757989.88,50000.0,Debt Consolidation,36,7.3,723,Owned,Pending,2025-10-27 21:51:24.034630,6.6,High,False
+290,Applicant_290,24,Male,Married,0,Under-Graduate,Business Owner,1,1238040.44,1026624.99,Home,48,11.06,727,Owned,Pending,2025-11-11 21:51:24.034633,82.92,High,False
+291,Applicant_291,53,Male,Married,2,Post-Graduate,Retired,16,539385.46,517088.0,Debt Consolidation,48,13.6,690,Owned,Approved,2026-02-01 21:51:24.034637,95.87,High,True
+292,Applicant_292,34,Male,Single,0,High School,Business Owner,7,836979.91,50000.0,Business,48,3.17,757,Mortgage,Rejected,2025-09-06 21:51:24.034640,5.97,High,False
+293,Applicant_293,41,Female,Single,4,Graduate,Self-Employed,1,475421.58,244137.86,Business,48,7.29,484,Owned,Approved,2025-11-27 21:51:24.034644,51.35,High,True
+294,Applicant_294,40,Male,Married,0,Post-Graduate,Salaried,4,376462.94,50000.0,Business,60,16.65,679,Owned,Approved,2026-06-19 21:51:24.034647,13.28,High,True
+295,Applicant_295,28,Female,Married,1,Post-Graduate,Business Owner,1,816056.38,194734.18,Personal,48,9.1,634,Rented,Approved,2026-01-20 21:51:24.034651,23.86,High,True
+296,Applicant_296,27,Female,Single,3,Post-Graduate,Self-Employed,9,919520.47,460170.44,Home,24,8.38,691,Owned,Approved,2026-01-09 21:51:24.034654,50.04,High,True
+297,Applicant_297,23,Female,Single,3,Post-Graduate,Self-Employed,11,1647545.18,924120.09,Education,84,7.6,767,Owned,Rejected,2025-11-11 21:51:24.034657,56.09,High,False
+298,Applicant_298,37,Male,Married,1,Graduate,Self-Employed,0,667815.85,614988.88,Business,36,12.96,681,Owned,Rejected,2025-10-25 21:51:24.034661,92.09,High,False
+299,Applicant_299,53,Male,Single,1,Post-Graduate,Self-Employed,5,829932.29,565200.97,Education,120,5.21,651,Mortgage,Pending,2025-09-01 21:51:24.034664,68.1,High,False
+300,Applicant_300,32,Female,Married,1,High School,Salaried,13,349970.59,182170.73,Personal,24,11.74,567,Owned,Rejected,2025-09-13 21:51:24.034668,52.05,High,False
+301,Applicant_301,42,Male,Married,1,Graduate,Self-Employed,22,1094896.01,269144.11,Home,120,7.53,671,Owned,Approved,2025-12-16 21:51:24.034671,24.58,High,True
+302,Applicant_302,42,Female,Married,1,High School,Salaried,5,1009237.91,290860.25,Business,24,5.88,733,Owned,Approved,2026-04-08 21:51:24.034675,28.82,High,True
+303,Applicant_303,50,Male,Married,2,Under-Graduate,Business Owner,24,1445357.87,302283.99,Education,36,7.69,612,Owned,Pending,2026-06-20 21:51:24.034678,20.91,High,False
+304,Applicant_304,58,Female,Married,1,Under-Graduate,Salaried,6,1294648.86,401569.67,Auto,12,8.34,519,Owned,Rejected,2026-05-31 21:51:24.034682,31.02,High,False
+305,Applicant_305,58,Female,Divorced,1,Post-Graduate,Salaried,4,990562.67,422716.9,Auto,60,6.76,850,Rented,Rejected,2025-09-03 21:51:24.034685,42.67,High,False
+306,Applicant_306,28,Female,Single,2,Under-Graduate,Self-Employed,15,661971.4,405058.06,Business,84,12.39,706,Rented,Pending,2026-04-14 21:51:24.034688,61.19,High,False
+307,Applicant_307,47,Male,Single,4,Graduate,Business Owner,5,931867.38,312029.22,Personal,48,5.9,662,Rented,Approved,2026-04-07 21:51:24.034692,33.48,High,True
+308,Applicant_308,47,Female,Married,2,Under-Graduate,Self-Employed,5,805594.62,537814.89,Education,84,8.99,791,Owned,Rejected,2025-09-23 21:51:24.034695,66.76,High,False
+309,Applicant_309,54,Male,Married,0,Graduate,Salaried,5,1231359.01,411963.86,Personal,48,10.38,691,Mortgage,Rejected,2026-02-22 21:51:24.034698,33.46,High,False
+310,Applicant_310,41,Male,Single,0,High School,Self-Employed,15,1180492.6,53241.17,Auto,60,8.95,786,Owned,Pending,2026-08-17 21:51:24.034703,4.51,High,False
+311,Applicant_311,50,Female,Married,4,High School,Salaried,14,731433.82,509626.91,Home,60,11.2,779,Rented,Approved,2026-04-02 21:51:24.034706,69.68,High,True
+312,Applicant_312,53,Female,Married,1,Graduate,Retired,4,265202.49,467306.08,Home,36,6.98,578,Mortgage,Approved,2025-11-09 21:51:24.034710,176.21,High,True
+313,Applicant_313,48,Female,Married,0,Graduate,Retired,3,1383354.92,57704.31,Home,48,10.68,716,Mortgage,Approved,2025-09-24 21:51:24.034713,4.17,High,True
+314,Applicant_314,53,Female,Single,2,Under-Graduate,Self-Employed,5,1082749.58,334435.59,Auto,84,10.78,818,Mortgage,Approved,2026-07-21 21:51:24.034717,30.89,High,True
+315,Applicant_315,25,Male,Married,2,Graduate,Salaried,6,722203.97,667180.32,Auto,84,11.89,600,Owned,Approved,2025-09-17 21:51:24.034720,92.38,High,True
+316,Applicant_316,39,Male,Married,2,High School,Business Owner,2,1067149.34,181794.02,Business,120,3.0,601,Mortgage,Approved,2026-02-01 21:51:24.034724,17.04,High,True
+317,Applicant_317,24,Female,Single,1,Graduate,Salaried,12,879944.52,152189.86,Business,84,10.28,614,Rented,Approved,2026-01-30 21:51:24.034727,17.3,High,True
+318,Applicant_318,55,Male,Married,0,Graduate,Self-Employed,5,1377447.17,409032.59,Home,24,11.65,751,Rented,Approved,2026-08-27 21:51:24.034730,29.69,High,True
+319,Applicant_319,37,Male,Married,4,High School,Salaried,3,150000.0,674421.04,Home,60,7.06,702,Rented,Approved,2025-09-02 21:51:24.034734,449.61,Upper-Middle,True
+320,Applicant_320,64,Male,Married,1,Under-Graduate,Retired,0,691123.61,1006891.73,Auto,48,6.58,525,Mortgage,Approved,2026-06-24 21:51:24.034738,145.69,High,True
+321,Applicant_321,48,Male,Married,2,Under-Graduate,Salaried,2,1489621.81,684501.9,Education,120,6.05,707,Rented,Approved,2026-08-27 21:51:24.034742,45.95,High,True
+322,Applicant_322,50,Male,Single,3,Graduate,Self-Employed,23,1075279.36,803751.77,Home,48,4.89,659,Owned,Approved,2025-12-28 21:51:24.034745,74.75,High,True
+323,Applicant_323,49,Male,Married,2,Under-Graduate,Business Owner,2,1559042.67,597075.34,Home,48,10.83,671,Owned,Approved,2025-10-16 21:51:24.034748,38.3,High,True
+324,Applicant_324,26,Male,Married,1,Post-Graduate,Self-Employed,1,361277.16,308167.53,Debt Consolidation,48,16.49,613,Owned,Approved,2026-08-03 21:51:24.034752,85.3,High,True
+325,Applicant_325,55,Male,Single,1,Post-Graduate,Salaried,4,1278878.69,682479.1,Personal,36,6.55,707,Mortgage,Approved,2025-09-15 21:51:24.034755,53.37,High,True
+326,Applicant_326,61,Female,Single,2,Under-Graduate,Retired,2,1254889.77,476029.75,Home,24,6.87,764,Rented,Approved,2026-07-09 21:51:24.034760,37.93,High,True
+327,Applicant_327,57,Male,Single,3,Post-Graduate,Self-Employed,0,177308.59,605569.47,Auto,84,8.55,628,Owned,Rejected,2025-09-14 21:51:24.034763,341.53,Upper-Middle,False
+328,Applicant_328,44,Male,Married,4,Post-Graduate,Self-Employed,3,731799.08,235111.65,Auto,60,3.0,545,Mortgage,Approved,2025-12-30 21:51:24.034767,32.13,High,True
+329,Applicant_329,49,Female,Married,0,Graduate,Salaried,6,807388.36,630604.82,Personal,24,6.07,655,Rented,Approved,2026-07-27 21:51:24.034770,78.1,High,True
+330,Applicant_330,51,Male,Divorced,0,Under-Graduate,Self-Employed,6,202177.59,466257.7,Education,60,8.3,740,Owned,Rejected,2026-07-26 21:51:24.034774,230.62,High,False
+331,Applicant_331,55,Female,Single,4,Graduate,Self-Employed,3,740159.07,564752.17,Home,60,5.37,646,Mortgage,Approved,2026-02-09 21:51:24.034777,76.3,High,True
+332,Applicant_332,53,Female,Married,3,Under-Graduate,Salaried,4,1199273.26,476179.51,Business,48,12.69,560,Mortgage,Pending,2026-01-06 21:51:24.034781,39.71,High,False
+333,Applicant_333,41,Male,Married,3,Graduate,Salaried,26,693630.78,422383.13,Auto,36,3.97,741,Mortgage,Rejected,2026-08-02 21:51:24.034784,60.89,High,False
+334,Applicant_334,52,Male,Married,1,Post-Graduate,Business Owner,3,946853.26,635713.42,Auto,84,11.65,793,Owned,Approved,2026-07-17 21:51:24.034787,67.14,High,True
+335,Applicant_335,43,Female,Divorced,2,Under-Graduate,Salaried,2,949748.11,386294.48,Auto,60,13.64,681,Owned,Approved,2026-06-28 21:51:24.034791,40.67,High,True
+336,Applicant_336,53,Female,Married,3,Graduate,Salaried,2,845142.64,55167.32,Education,48,9.84,551,Rented,Approved,2026-07-18 21:51:24.034794,6.53,High,True
+337,Applicant_337,23,Male,Married,2,Graduate,Self-Employed,4,567927.19,50000.0,Auto,60,8.02,654,Rented,Approved,2026-04-20 21:51:24.034798,8.8,High,True
+338,Applicant_338,38,Female,Married,1,Graduate,Business Owner,11,1113525.59,551636.64,Home,24,9.36,692,Rented,Approved,2025-09-07 21:51:24.034801,49.54,High,True
+339,Applicant_339,45,Male,Single,0,Post-Graduate,Salaried,1,215186.5,374779.01,Auto,48,6.96,615,Owned,Approved,2025-09-08 21:51:24.034807,174.16,High,True
+340,Applicant_340,62,Female,Single,2,Under-Graduate,Self-Employed,9,853435.26,50000.0,Home,36,3.0,726,Mortgage,Rejected,2026-02-11 21:51:24.034813,5.86,High,False
+341,Applicant_341,51,Male,Married,1,Graduate,Salaried,0,1404194.54,529829.79,Personal,36,5.07,607,Owned,Approved,2025-11-14 21:51:24.034819,37.73,High,True
+342,Applicant_342,23,Female,Single,2,Under-Graduate,Salaried,4,671050.7,473715.12,Home,60,8.46,682,Owned,Approved,2026-03-30 21:51:24.034824,70.59,High,True
+343,Applicant_343,60,Female,Divorced,4,Graduate,Salaried,11,559071.51,360108.19,Home,84,5.21,661,Owned,Approved,2026-02-05 21:51:24.034830,64.41,High,True
+344,Applicant_344,44,Female,Married,1,Post-Graduate,Business Owner,3,1140206.46,569106.61,Business,48,7.05,729,Owned,Approved,2026-02-27 21:51:24.034835,49.91,High,True
+345,Applicant_345,52,Male,Married,3,High School,Salaried,6,915372.7,868226.32,Personal,36,10.18,678,Mortgage,Approved,2026-02-02 21:51:24.034840,94.85,High,True
+346,Applicant_346,42,Male,Married,0,Graduate,Salaried,1,1148178.91,859685.4,Personal,60,9.01,664,Rented,Approved,2026-04-03 21:51:24.034846,74.87,High,True
+347,Applicant_347,43,Male,Single,2,Post-Graduate,Self-Employed,10,865399.39,540254.1,Education,84,12.2,615,Owned,Approved,2026-02-05 21:51:24.034853,62.43,High,True
+348,Applicant_348,22,Male,Single,4,Graduate,Business Owner,0,150000.0,476281.08,Home,60,9.53,682,Owned,Pending,2026-07-11 21:51:24.034859,317.52,Upper-Middle,False
+349,Applicant_349,47,Male,Single,0,Graduate,Salaried,15,1321965.36,544165.86,Business,84,9.74,659,Rented,Approved,2025-12-13 21:51:24.034864,41.16,High,True
+350,Applicant_350,62,Female,Single,0,Graduate,Self-Employed,1,1678010.55,586521.94,Business,48,6.01,610,Owned,Approved,2026-04-11 21:51:24.034869,34.95,High,True
+351,Applicant_351,22,Male,Married,1,Graduate,Salaried,16,1363616.4,424876.51,Home,60,3.84,692,Mortgage,Approved,2026-03-09 21:51:24.034875,31.16,High,True
+352,Applicant_352,46,Male,Divorced,0,Post-Graduate,Self-Employed,3,150000.0,548872.06,Debt Consolidation,24,7.05,709,Rented,Approved,2026-05-19 21:51:24.034881,365.91,Upper-Middle,True
+353,Applicant_353,37,Female,Married,3,Post-Graduate,Self-Employed,10,1030435.29,59383.72,Home,36,5.95,652,Rented,Approved,2026-02-22 21:51:24.034886,5.76,High,True
+354,Applicant_354,60,Female,Married,4,Post-Graduate,Self-Employed,3,663301.68,522777.69,Debt Consolidation,48,7.92,754,Rented,Rejected,2025-10-17 21:51:24.034892,78.81,High,False
+355,Applicant_355,53,Female,Single,1,Graduate,Salaried,18,416302.5,633507.81,Personal,48,4.77,701,Mortgage,Pending,2025-11-07 21:51:24.034898,152.17,High,False
+356,Applicant_356,29,Female,Single,1,Graduate,Salaried,1,899092.86,362844.26,Business,84,11.45,577,Mortgage,Approved,2025-08-30 21:51:24.034903,40.36,High,True
+357,Applicant_357,63,Male,Married,1,Under-Graduate,Salaried,1,790421.08,473267.66,Debt Consolidation,84,5.94,786,Owned,Approved,2026-08-07 21:51:24.034910,59.88,High,True
+358,Applicant_358,59,Male,Single,3,High School,Salaried,5,1053463.12,188778.49,Business,24,7.23,741,Owned,Approved,2025-11-03 21:51:24.034915,17.92,High,True
+359,Applicant_359,49,Female,Divorced,0,Graduate,Salaried,0,872632.08,149912.2,Home,36,8.43,760,Mortgage,Approved,2026-08-18 21:51:24.034952,17.18,High,True
+360,Applicant_360,62,Female,Married,2,High School,Business Owner,1,401675.16,559028.22,Auto,48,12.43,712,Mortgage,Approved,2026-02-22 21:51:24.034966,139.17,High,True
+361,Applicant_361,46,Male,Divorced,2,Post-Graduate,Retired,23,619359.29,295722.36,Home,36,14.66,492,Mortgage,Approved,2026-04-17 21:51:24.034972,47.75,High,True
+362,Applicant_362,55,Female,Married,2,Post-Graduate,Retired,30,554816.58,50000.0,Auto,60,14.9,767,Mortgage,Approved,2026-07-26 21:51:24.034978,9.01,High,True
+363,Applicant_363,45,Male,Married,1,Post-Graduate,Student,3,163406.73,188702.08,Business,84,4.01,684,Owned,Approved,2026-06-20 21:51:24.034984,115.48,Upper-Middle,True
+364,Applicant_364,44,Male,Married,3,Graduate,Self-Employed,20,301342.14,229413.85,Auto,120,7.19,708,Owned,Rejected,2026-06-09 21:51:24.034990,76.13,High,False
+365,Applicant_365,33,Male,Single,0,Graduate,Business Owner,6,765572.53,716882.54,Auto,60,6.53,723,Mortgage,Rejected,2026-02-18 21:51:24.034995,93.64,High,False
+366,Applicant_366,27,Female,Single,0,Post-Graduate,Salaried,2,1419501.63,550151.92,Education,60,9.8,834,Mortgage,Approved,2026-05-19 21:51:24.035001,38.76,High,True
+367,Applicant_367,56,Female,Married,3,Graduate,Self-Employed,9,635777.17,255951.38,Personal,48,9.58,636,Rented,Approved,2025-11-16 21:51:24.035007,40.26,High,True
+368,Applicant_368,40,Male,Married,3,High School,Self-Employed,8,547027.69,335425.55,Home,36,6.46,638,Rented,Pending,2026-01-19 21:51:24.035012,61.32,High,False
+369,Applicant_369,21,Female,Single,0,Post-Graduate,Self-Employed,35,377485.28,867383.64,Auto,48,6.18,611,Mortgage,Approved,2026-07-06 21:51:24.035018,229.78,High,True
+370,Applicant_370,28,Male,Married,1,Graduate,Business Owner,2,862214.6,762108.68,Home,48,5.01,594,Rented,Rejected,2026-03-21 21:51:24.035024,88.39,High,False
+371,Applicant_371,36,Male,Single,1,Under-Graduate,Salaried,8,1321703.73,186943.08,Business,60,3.0,595,Mortgage,Approved,2026-07-17 21:51:24.035030,14.14,High,True
+372,Applicant_372,34,Female,Single,1,Graduate,Salaried,0,1651073.11,825787.24,Home,36,3.96,531,Owned,Approved,2026-07-12 21:51:24.035033,50.02,High,True
+373,Applicant_373,32,Female,Married,1,Post-Graduate,Retired,0,964159.75,477423.93,Business,48,11.53,714,Rented,Approved,2026-03-22 21:51:24.035037,49.52,High,True
+374,Applicant_374,43,Female,Divorced,0,Under-Graduate,Salaried,0,905997.5,723891.26,Auto,48,13.63,839,Rented,Rejected,2026-02-25 21:51:24.035040,79.9,High,False
+375,Applicant_375,35,Female,Married,2,High School,Self-Employed,35,632610.76,454273.77,Home,120,13.22,844,Rented,Approved,2025-12-25 21:51:24.035043,71.81,High,True
+376,Applicant_376,48,Female,Divorced,3,Under-Graduate,Retired,12,699373.35,832032.18,Debt Consolidation,48,11.68,611,Rented,Approved,2026-08-17 21:51:24.035047,118.97,High,True
+377,Applicant_377,54,Female,Single,2,Under-Graduate,Self-Employed,12,1101670.04,175306.23,Home,60,4.96,658,Owned,Approved,2026-03-27 21:51:24.035050,15.91,High,True
+378,Applicant_378,22,Male,Single,2,Under-Graduate,Self-Employed,5,724049.87,428473.88,Auto,60,4.37,778,Mortgage,Rejected,2026-01-20 21:51:24.035054,59.18,High,False
+379,Applicant_379,52,Male,Married,0,High School,Salaried,2,785087.02,840608.74,Home,36,3.0,714,Mortgage,Pending,2026-03-26 21:51:24.035057,107.07,High,False
+380,Applicant_380,43,Male,Single,4,Graduate,Salaried,1,839861.09,50000.0,Education,48,6.46,690,Owned,Pending,2025-09-23 21:51:24.035060,5.95,High,False
+381,Applicant_381,42,Male,Married,3,Graduate,Student,2,613668.76,487102.81,Education,84,8.8,659,Owned,Pending,2025-08-28 21:51:24.035064,79.38,High,False
+382,Applicant_382,45,Female,Married,3,Graduate,Self-Employed,3,820008.3,389807.03,Auto,48,4.97,774,Owned,Approved,2025-11-18 21:51:24.035067,47.54,High,True
+383,Applicant_383,42,Male,Married,3,Graduate,Self-Employed,11,150000.0,691705.14,Home,84,10.01,594,Owned,Approved,2026-02-22 21:51:24.035071,461.14,Upper-Middle,True
+384,Applicant_384,42,Male,Single,4,Under-Graduate,Salaried,6,1069534.35,799575.76,Auto,36,10.78,718,Owned,Approved,2026-06-27 21:51:24.035074,74.76,High,True
+385,Applicant_385,62,Male,Married,2,Post-Graduate,Salaried,0,1790708.74,704479.47,Business,24,6.84,707,Rented,Approved,2026-04-02 21:51:24.035078,39.34,High,True
+386,Applicant_386,26,Female,Single,1,Post-Graduate,Retired,0,629182.55,567480.07,Personal,84,3.81,683,Rented,Rejected,2026-04-06 21:51:24.035081,90.19,High,False
+387,Applicant_387,35,Male,Single,2,Graduate,Salaried,0,999534.86,511358.07,Education,60,13.33,743,Rented,Rejected,2026-05-17 21:51:24.035084,51.16,High,False
+388,Applicant_388,63,Female,Married,3,Under-Graduate,Self-Employed,4,1190630.53,404041.03,Education,120,8.62,682,Rented,Approved,2025-11-01 21:51:24.035088,33.94,High,True
+389,Applicant_389,57,Male,Single,3,Graduate,Salaried,21,1362086.11,558792.33,Home,60,15.29,637,Mortgage,Approved,2026-05-27 21:51:24.035091,41.02,High,True
+390,Applicant_390,53,Male,Married,2,Under-Graduate,Business Owner,8,744271.4,908703.35,Auto,84,8.82,687,Rented,Pending,2025-11-15 21:51:24.035094,122.09,High,False
+391,Applicant_391,28,Female,Single,0,Post-Graduate,Retired,12,150000.0,267456.56,Home,60,9.07,552,Mortgage,Approved,2026-05-01 21:51:24.035098,178.3,Upper-Middle,True
+392,Applicant_392,64,Female,Single,1,Graduate,Self-Employed,5,956892.78,387417.19,Home,60,5.12,729,Mortgage,Approved,2026-07-30 21:51:24.035101,40.49,High,True
+393,Applicant_393,64,Male,Married,4,Graduate,Salaried,3,901451.48,478857.21,Home,48,7.02,749,Mortgage,Approved,2026-07-29 21:51:24.035105,53.12,High,True
+394,Applicant_394,25,Female,Single,2,Graduate,Self-Employed,0,711733.45,780261.15,Education,48,3.04,627,Mortgage,Approved,2025-09-02 21:51:24.035108,109.63,High,True
+395,Applicant_395,59,Female,Married,2,Under-Graduate,Business Owner,16,796595.15,562524.66,Education,84,3.8,608,Rented,Approved,2025-11-13 21:51:24.035112,70.62,High,True
+396,Applicant_396,24,Male,Married,1,High School,Self-Employed,12,907472.18,775374.93,Debt Consolidation,48,11.09,630,Owned,Approved,2026-04-12 21:51:24.035115,85.44,High,True
+397,Applicant_397,26,Female,Single,1,Post-Graduate,Student,1,994704.8,789550.8,Home,48,7.51,674,Rented,Approved,2026-07-08 21:51:24.035119,79.38,High,True
+398,Applicant_398,52,Female,Married,3,Graduate,Self-Employed,5,977923.88,665770.31,Business,48,7.02,697,Mortgage,Pending,2025-11-09 21:51:24.035122,68.08,High,False
+399,Applicant_399,50,Female,Married,2,Post-Graduate,Student,5,762925.74,202081.79,Personal,48,5.91,809,Mortgage,Approved,2026-01-06 21:51:24.035125,26.49,High,True
+400,Applicant_400,55,Female,Married,3,Under-Graduate,Self-Employed,7,1003711.53,965106.3,Education,48,7.15,799,Mortgage,Approved,2026-07-04 21:51:24.035129,96.15,High,True
+401,Applicant_401,60,Female,Single,2,Under-Graduate,Salaried,23,735987.66,895466.59,Auto,12,12.47,746,Owned,Pending,2025-11-09 21:51:24.035132,121.67,High,False
+402,Applicant_402,36,Female,Married,2,Graduate,Salaried,6,1106810.2,517791.21,Auto,84,9.0,689,Mortgage,Approved,2025-12-31 21:51:24.035137,46.78,High,True
+403,Applicant_403,33,Female,Married,1,Graduate,Salaried,6,599022.87,113104.33,Home,48,4.37,605,Rented,Approved,2025-10-20 21:51:24.035140,18.88,High,True
+404,Applicant_404,62,Female,Single,3,Under-Graduate,Retired,0,879223.28,63060.52,Auto,48,12.11,814,Rented,Rejected,2026-07-23 21:51:24.035144,7.17,High,False
+405,Applicant_405,50,Female,Single,1,Graduate,Business Owner,0,200504.57,571208.38,Business,24,14.54,660,Mortgage,Approved,2026-05-31 21:51:24.035147,284.89,High,True
+406,Applicant_406,39,Female,Married,1,Graduate,Business Owner,1,702035.81,303509.88,Home,12,10.23,702,Owned,Rejected,2026-01-28 21:51:24.035151,43.23,High,False
+407,Applicant_407,37,Female,Married,2,Graduate,Salaried,0,1076995.49,50000.0,Home,36,11.62,730,Mortgage,Approved,2025-10-14 21:51:24.035154,4.64,High,True
+408,Applicant_408,39,Male,Married,4,Post-Graduate,Salaried,10,436506.05,57777.6,Business,60,12.77,684,Rented,Approved,2025-08-28 21:51:24.035157,13.24,High,True
+409,Applicant_409,48,Female,Married,0,High School,Business Owner,10,721959.81,368404.88,Personal,24,3.0,772,Mortgage,Approved,2025-12-26 21:51:24.035161,51.03,High,True
+410,Applicant_410,46,Female,Married,3,High School,Self-Employed,1,150000.0,554580.28,Education,84,15.02,716,Owned,Approved,2026-06-02 21:51:24.035164,369.72,Upper-Middle,True
+411,Applicant_411,57,Male,Single,1,Post-Graduate,Salaried,14,302770.36,893599.65,Business,36,12.35,759,Mortgage,Rejected,2025-12-31 21:51:24.035168,295.14,High,False
+412,Applicant_412,46,Female,Single,1,Post-Graduate,Self-Employed,1,407410.18,635581.82,Auto,36,10.21,715,Mortgage,Approved,2025-10-12 21:51:24.035171,156.01,High,True
+413,Applicant_413,43,Male,Single,0,Graduate,Salaried,2,890700.42,393206.73,Home,36,8.06,676,Mortgage,Pending,2026-02-21 21:51:24.035174,44.15,High,False
+414,Applicant_414,29,Male,Married,1,Post-Graduate,Salaried,2,983363.6,606385.88,Auto,12,3.82,685,Rented,Rejected,2026-07-02 21:51:24.035178,61.66,High,False
+415,Applicant_415,32,Female,Single,2,Graduate,Self-Employed,3,827577.77,581358.92,Education,60,7.34,675,Mortgage,Approved,2026-05-07 21:51:24.035181,70.25,High,True
+416,Applicant_416,21,Male,Married,0,Post-Graduate,Salaried,2,696962.65,707072.66,Debt Consolidation,84,10.07,577,Rented,Rejected,2026-01-17 21:51:24.035184,101.45,High,False
+417,Applicant_417,21,Female,Divorced,2,Graduate,Retired,5,698359.3,488816.21,Home,60,4.63,599,Rented,Approved,2026-06-19 21:51:24.035188,69.99,High,True
+418,Applicant_418,54,Female,Single,4,Graduate,Salaried,4,1136418.3,790135.37,Education,36,8.26,739,Owned,Approved,2026-01-13 21:51:24.035191,69.53,High,True
+419,Applicant_419,52,Male,Married,0,Graduate,Salaried,34,935127.94,730846.5,Auto,36,4.36,579,Mortgage,Rejected,2025-12-15 21:51:24.035195,78.15,High,False
+420,Applicant_420,45,Male,Single,3,Graduate,Salaried,0,716421.76,523156.0,Education,48,7.15,647,Owned,Approved,2026-03-01 21:51:24.035198,73.02,High,True
+421,Applicant_421,60,Male,Married,1,Graduate,Business Owner,1,1367319.8,466617.18,Home,120,3.77,595,Mortgage,Approved,2026-02-25 21:51:24.035202,34.13,High,True
+422,Applicant_422,21,Female,Single,2,Graduate,Self-Employed,0,1629990.02,757529.57,Auto,36,3.4,643,Mortgage,Approved,2026-02-18 21:51:24.035205,46.47,High,True
+423,Applicant_423,36,Female,Married,1,High School,Self-Employed,7,351703.02,300227.19,Personal,60,9.69,667,Rented,Approved,2026-01-08 21:51:24.035208,85.36,High,True
+424,Applicant_424,59,Female,Married,0,Post-Graduate,Salaried,0,1059004.03,78148.41,Education,48,6.47,647,Mortgage,Approved,2025-11-25 21:51:24.035212,7.38,High,True
+425,Applicant_425,25,Male,Single,0,Post-Graduate,Salaried,14,2085955.84,76556.56,Education,36,6.8,565,Rented,Approved,2026-01-07 21:51:24.035215,3.67,High,True
+426,Applicant_426,42,Female,Married,0,High School,Self-Employed,5,962082.22,277015.15,Auto,48,6.28,665,Mortgage,Approved,2026-07-05 21:51:24.035219,28.79,High,True
+427,Applicant_427,49,Male,Single,0,High School,Business Owner,5,896177.05,684702.64,Auto,24,18.0,603,Owned,Approved,2025-12-14 21:51:24.035222,76.4,High,True
+428,Applicant_428,23,Female,Married,2,Post-Graduate,Student,6,827706.42,381616.32,Auto,60,10.63,629,Owned,Approved,2026-05-30 21:51:24.035225,46.11,High,True
+429,Applicant_429,32,Male,Single,3,Under-Graduate,Salaried,1,1046072.61,557264.48,Personal,36,11.0,739,Owned,Approved,2026-01-14 21:51:24.035229,53.27,High,True
+430,Applicant_430,46,Female,Single,3,Graduate,Self-Employed,1,1151959.67,361317.1,Debt Consolidation,60,5.79,756,Rented,Approved,2025-12-24 21:51:24.035232,31.37,High,True
+431,Applicant_431,36,Male,Married,2,Graduate,Retired,3,352093.25,363539.94,Auto,24,10.27,575,Owned,Rejected,2026-03-30 21:51:24.035235,103.25,High,False
+432,Applicant_432,57,Female,Married,0,Post-Graduate,Salaried,7,839406.55,212870.17,Auto,120,7.7,805,Rented,Approved,2026-05-07 21:51:24.035239,25.36,High,True
+433,Applicant_433,42,Male,Married,1,Under-Graduate,Business Owner,1,150000.0,474269.22,Personal,36,5.76,639,Rented,Approved,2025-12-02 21:51:24.035242,316.18,Upper-Middle,True
+434,Applicant_434,49,Female,Married,1,Under-Graduate,Salaried,0,766273.35,450954.15,Auto,84,15.25,631,Rented,Approved,2026-03-24 21:51:24.035246,58.85,High,True
+435,Applicant_435,34,Female,Married,1,Graduate,Retired,28,488924.56,615546.21,Education,60,10.5,608,Owned,Approved,2025-09-15 21:51:24.035249,125.9,High,True
+436,Applicant_436,48,Male,Single,2,Graduate,Business Owner,0,985671.03,580555.33,Home,120,10.33,684,Mortgage,Approved,2025-09-11 21:51:24.035253,58.9,High,True
+437,Applicant_437,25,Female,Divorced,2,Post-Graduate,Retired,12,187447.79,444798.73,Business,48,5.1,838,Owned,Pending,2025-11-02 21:51:24.035256,237.29,Upper-Middle,False
+438,Applicant_438,50,Female,Single,1,Graduate,Business Owner,12,645073.08,78295.12,Education,60,4.05,556,Mortgage,Pending,2026-03-22 21:51:24.035259,12.14,High,False
+439,Applicant_439,25,Male,Single,1,Post-Graduate,Salaried,2,1236617.7,799762.25,Personal,48,8.3,515,Owned,Rejected,2025-10-02 21:51:24.035263,64.67,High,False
+440,Applicant_440,32,Male,Single,3,Under-Graduate,Retired,1,579466.74,476187.59,Personal,36,6.49,701,Owned,Pending,2026-01-15 21:51:24.035269,82.18,High,False
+441,Applicant_441,36,Female,Single,3,Under-Graduate,Salaried,1,150000.0,522299.95,Home,48,10.64,725,Owned,Approved,2026-08-14 21:51:24.035272,348.2,Upper-Middle,True
+442,Applicant_442,46,Male,Married,1,Under-Graduate,Salaried,9,953013.26,948138.62,Business,36,10.88,684,Owned,Approved,2025-09-07 21:51:24.035276,99.49,High,True
+443,Applicant_443,46,Female,Divorced,4,High School,Business Owner,8,615388.4,754302.2,Personal,120,8.73,727,Owned,Rejected,2026-05-11 21:51:24.035279,122.57,High,False
+444,Applicant_444,41,Male,Single,4,Post-Graduate,Business Owner,12,775645.83,625005.78,Auto,24,11.4,589,Rented,Approved,2026-05-24 21:51:24.035282,80.58,High,True
+445,Applicant_445,59,Female,Single,1,Under-Graduate,Retired,22,558052.17,499354.38,Home,48,9.18,604,Mortgage,Rejected,2026-02-14 21:51:24.035286,89.48,High,False
+446,Applicant_446,56,Male,Married,1,Post-Graduate,Salaried,9,1639758.7,496739.25,Home,60,5.45,689,Mortgage,Rejected,2026-07-01 21:51:24.035289,30.29,High,False
+447,Applicant_447,53,Female,Married,2,Graduate,Business Owner,1,226770.91,567232.06,Education,48,7.81,820,Rented,Pending,2025-09-10 21:51:24.035292,250.13,High,False
+448,Applicant_448,50,Female,Married,4,Graduate,Business Owner,2,1983398.24,613933.88,Auto,60,8.98,724,Mortgage,Approved,2025-11-07 21:51:24.035296,30.95,High,True
+449,Applicant_449,57,Female,Single,3,Graduate,Salaried,14,693745.39,979192.49,Education,24,11.75,728,Rented,Rejected,2026-03-27 21:51:24.035299,141.15,High,False
+450,Applicant_450,43,Female,Married,0,Post-Graduate,Salaried,1,923378.63,1192514.5,Home,48,9.29,594,Rented,Approved,2026-06-25 21:51:24.035303,129.15,High,True
+451,Applicant_451,30,Male,Married,1,Post-Graduate,Salaried,0,620081.43,581273.03,Personal,36,6.5,713,Rented,Approved,2026-03-23 21:51:24.035306,93.74,High,True
+452,Applicant_452,25,Female,Divorced,2,Under-Graduate,Salaried,9,603346.58,50000.0,Auto,84,11.88,585,Mortgage,Approved,2025-12-06 21:51:24.035310,8.29,High,True
+453,Applicant_453,56,Male,Married,2,Graduate,Retired,4,536068.04,233511.55,Home,60,9.83,821,Mortgage,Rejected,2026-04-29 21:51:24.035313,43.56,High,False
+454,Applicant_454,54,Male,Married,0,Graduate,Self-Employed,20,1090503.18,1007219.13,Education,120,13.91,599,Mortgage,Pending,2025-11-13 21:51:24.035316,92.36,High,False
+455,Applicant_455,51,Male,Married,3,High School,Business Owner,8,285680.12,701222.74,Education,12,8.81,616,Rented,Approved,2026-08-17 21:51:24.035320,245.46,High,True
+456,Applicant_456,30,Male,Single,2,Graduate,Retired,0,995643.42,619293.02,Home,36,4.87,562,Owned,Approved,2026-01-26 21:51:24.035323,62.2,High,True
+457,Applicant_457,39,Female,Divorced,3,Post-Graduate,Salaried,23,150000.0,453285.38,Auto,36,12.62,686,Mortgage,Approved,2026-03-19 21:51:24.035326,302.19,Upper-Middle,True
+458,Applicant_458,52,Female,Married,3,Post-Graduate,Business Owner,2,959411.51,167073.82,Home,12,6.48,683,Rented,Pending,2026-05-15 21:51:24.035331,17.41,High,False
+459,Applicant_459,21,Male,Single,3,Post-Graduate,Self-Employed,3,1189657.04,969781.13,Business,36,9.53,801,Owned,Approved,2026-04-03 21:51:24.035334,81.52,High,True
+460,Applicant_460,25,Male,Married,1,Graduate,Student,4,340192.36,269501.13,Personal,60,9.15,742,Rented,Approved,2026-02-27 21:51:24.035338,79.22,High,True
+461,Applicant_461,24,Female,Divorced,2,Graduate,Salaried,0,1121497.04,704207.31,Education,36,8.66,616,Rented,Approved,2025-09-24 21:51:24.035341,62.79,High,True
+462,Applicant_462,36,Male,Single,0,Graduate,Retired,5,870554.16,135803.5,Business,48,7.91,749,Owned,Approved,2026-07-22 21:51:24.035344,15.6,High,True
+463,Applicant_463,44,Male,Single,2,Post-Graduate,Salaried,1,1489370.58,439702.37,Business,84,3.0,580,Owned,Approved,2026-06-07 21:51:24.035348,29.52,High,True
+464,Applicant_464,36,Male,Married,0,Post-Graduate,Salaried,4,507917.45,778028.0,Home,60,4.99,622,Rented,Approved,2026-08-16 21:51:24.035351,153.18,High,True
+465,Applicant_465,22,Female,Divorced,2,Graduate,Business Owner,3,1976394.36,430085.63,Debt Consolidation,48,12.43,689,Rented,Pending,2026-08-24 21:51:24.035354,21.76,High,False
+466,Applicant_466,48,Female,Single,1,Post-Graduate,Salaried,11,150000.0,396834.03,Personal,48,10.0,589,Rented,Rejected,2026-07-16 21:51:24.035358,264.56,Upper-Middle,False
+467,Applicant_467,52,Male,Married,0,Under-Graduate,Self-Employed,13,718198.48,502978.16,Home,48,15.18,765,Rented,Approved,2026-07-08 21:51:24.035361,70.03,High,True
+468,Applicant_468,47,Male,Single,0,Graduate,Self-Employed,1,170572.12,125919.19,Home,36,4.87,850,Rented,Pending,2025-12-10 21:51:24.035365,73.82,Upper-Middle,False
+469,Applicant_469,40,Female,Married,0,Post-Graduate,Business Owner,3,1590421.67,73238.87,Home,60,8.39,656,Owned,Approved,2026-04-16 21:51:24.035368,4.6,High,True
+470,Applicant_470,44,Female,Single,3,Under-Graduate,Salaried,3,745319.6,699986.22,Home,48,12.57,627,Owned,Approved,2026-06-02 21:51:24.035371,93.92,High,True
+471,Applicant_471,32,Male,Married,3,Graduate,Salaried,1,781325.97,381781.22,Business,84,6.52,669,Owned,Approved,2025-08-31 21:51:24.035375,48.86,High,True
+472,Applicant_472,55,Female,Single,2,Graduate,Salaried,12,1027295.24,697815.73,Education,60,6.8,635,Mortgage,Approved,2026-07-03 21:51:24.035378,67.93,High,True
+473,Applicant_473,53,Male,Married,0,Post-Graduate,Self-Employed,9,848077.93,813091.24,Personal,60,7.47,700,Mortgage,Rejected,2026-01-23 21:51:24.035382,95.87,High,False
+474,Applicant_474,53,Male,Married,0,High School,Salaried,1,612495.38,835619.93,Business,48,6.94,574,Rented,Approved,2026-06-21 21:51:24.035385,136.43,High,True
+475,Applicant_475,63,Female,Married,0,Under-Graduate,Salaried,3,347341.1,50000.0,Business,36,10.36,705,Rented,Approved,2025-09-10 21:51:24.035388,14.4,High,True
+476,Applicant_476,57,Male,Married,0,Post-Graduate,Salaried,0,917405.36,304607.8,Business,60,3.0,832,Mortgage,Rejected,2026-07-15 21:51:24.035392,33.2,High,False
+477,Applicant_477,32,Female,Married,3,Under-Graduate,Salaried,7,1001533.45,650523.89,Home,48,14.25,519,Rented,Approved,2026-04-07 21:51:24.035395,64.95,High,True
+478,Applicant_478,23,Male,Married,1,Graduate,Self-Employed,1,1128150.89,654840.47,Auto,36,5.14,586,Rented,Rejected,2025-09-16 21:51:24.035398,58.05,High,False
+479,Applicant_479,21,Male,Single,1,Post-Graduate,Student,34,1615090.74,1129842.52,Business,36,3.0,644,Rented,Rejected,2026-07-17 21:51:24.035402,69.96,High,False
+480,Applicant_480,53,Female,Married,0,Post-Graduate,Salaried,12,150000.0,245868.21,Home,36,8.46,723,Owned,Approved,2026-04-11 21:51:24.035405,163.91,Upper-Middle,True
+481,Applicant_481,60,Male,Married,1,Graduate,Self-Employed,3,822913.12,827087.15,Home,60,7.18,751,Owned,Rejected,2026-06-16 21:51:24.035408,100.51,High,False
+482,Applicant_482,30,Female,Single,2,Under-Graduate,Business Owner,6,1326695.13,604236.89,Personal,36,7.88,744,Mortgage,Approved,2025-12-04 21:51:24.035412,45.54,High,True
+483,Applicant_483,63,Male,Married,2,Post-Graduate,Self-Employed,19,800191.03,50000.0,Business,48,9.59,544,Mortgage,Approved,2026-02-15 21:51:24.035415,6.25,High,True
+484,Applicant_484,64,Male,Divorced,1,Graduate,Business Owner,6,150000.0,346611.73,Auto,48,10.76,626,Owned,Approved,2026-03-26 21:51:24.035419,231.07,Upper-Middle,True
+485,Applicant_485,49,Male,Single,0,High School,Self-Employed,1,333584.17,573507.84,Business,48,14.4,607,Owned,Approved,2025-12-25 21:51:24.035422,171.92,High,True
+486,Applicant_486,33,Female,Single,1,Graduate,Self-Employed,3,981427.94,50000.0,Personal,84,6.08,674,Rented,Pending,2025-10-18 21:51:24.035425,5.09,High,False
+487,Applicant_487,32,Male,Single,1,Graduate,Salaried,14,966878.92,50000.0,Auto,84,11.21,681,Rented,Approved,2026-01-22 21:51:24.035429,5.17,High,True
+488,Applicant_488,51,Female,Single,1,Graduate,Business Owner,8,1119007.88,50000.0,Home,48,10.98,570,Rented,Approved,2025-12-18 21:51:24.035432,4.47,High,True
+489,Applicant_489,22,Male,Married,4,Under-Graduate,Business Owner,8,537596.42,572557.42,Debt Consolidation,12,3.0,644,Rented,Pending,2025-11-24 21:51:24.035435,106.5,High,False
+490,Applicant_490,55,Female,Married,2,Under-Graduate,Salaried,16,953953.29,364293.17,Auto,48,5.58,726,Rented,Approved,2025-11-24 21:51:24.035439,38.19,High,True
+491,Applicant_491,43,Male,Married,2,Graduate,Salaried,17,471654.68,326412.4,Home,60,4.0,629,Rented,Approved,2026-06-17 21:51:24.035442,69.21,High,True
+492,Applicant_492,37,Female,Single,1,Under-Graduate,Retired,20,953983.2,336025.89,Education,48,10.07,663,Owned,Approved,2026-04-21 21:51:24.035445,35.22,High,True
+493,Applicant_493,46,Female,Married,1,Graduate,Self-Employed,0,871284.88,101245.72,Personal,60,9.68,815,Mortgage,Rejected,2025-09-04 21:51:24.035449,11.62,High,False
+494,Applicant_494,28,Female,Single,2,Under-Graduate,Self-Employed,6,521655.99,372207.11,Home,36,9.75,839,Owned,Approved,2026-02-23 21:51:24.035452,71.35,High,True
+495,Applicant_495,49,Female,Divorced,2,Post-Graduate,Retired,10,1473273.45,50000.0,Auto,60,7.43,507,Mortgage,Approved,2026-08-15 21:51:24.035456,3.39,High,True
+496,Applicant_496,46,Female,Single,3,Post-Graduate,Business Owner,11,167745.62,832539.52,Home,36,7.78,689,Owned,Approved,2025-10-03 21:51:24.035459,496.31,Upper-Middle,True
+497,Applicant_497,30,Female,Married,0,High School,Self-Employed,7,793351.61,973852.32,Debt Consolidation,60,8.4,850,Owned,Approved,2026-01-20 21:51:24.035462,122.75,High,True
+498,Applicant_498,46,Male,Married,2,Graduate,Business Owner,1,512837.77,50000.0,Home,36,7.1,718,Owned,Rejected,2026-08-22 21:51:24.035466,9.75,High,False
+499,Applicant_499,54,Male,Single,1,Graduate,Student,12,1583680.81,368643.7,Education,60,11.22,681,Rented,Approved,2026-01-01 21:51:24.035469,23.28,High,True
+500,Applicant_500,61,Female,Single,3,Post-Graduate,Self-Employed,10,1089359.2,386876.8,Debt Consolidation,12,4.76,785,Rented,Approved,2026-05-08 21:51:24.035472,35.51,High,True
+501,Applicant_501,27,Female,Married,2,High School,Self-Employed,0,590275.85,451144.34,Home,48,5.76,697,Mortgage,Approved,2026-01-12 21:51:24.035476,76.43,High,True
+502,Applicant_502,24,Female,Married,2,Graduate,Salaried,4,738113.88,780428.52,Debt Consolidation,60,8.92,736,Mortgage,Rejected,2026-08-11 21:51:24.035479,105.73,High,False
+503,Applicant_503,31,Male,Divorced,0,Graduate,Retired,1,1594502.95,369460.98,Debt Consolidation,36,7.21,663,Rented,Rejected,2026-06-16 21:51:24.035483,23.17,High,False
+504,Applicant_504,49,Male,Single,2,Graduate,Business Owner,3,471489.75,475289.59,Personal,60,4.62,696,Rented,Approved,2026-08-16 21:51:24.035487,100.81,High,True
+505,Applicant_505,56,Male,Single,0,Post-Graduate,Salaried,0,150000.0,1334135.39,Home,60,10.36,714,Owned,Approved,2026-06-03 21:51:24.035490,889.42,Upper-Middle,True
+506,Applicant_506,45,Female,Single,1,Graduate,Student,4,966402.74,468837.99,Business,48,6.5,749,Rented,Approved,2026-03-01 21:51:24.035493,48.51,High,True
+507,Applicant_507,41,Male,Single,0,Under-Graduate,Self-Employed,6,975456.15,994547.16,Personal,48,5.54,645,Owned,Approved,2026-04-28 21:51:24.035497,101.96,High,True
+508,Applicant_508,56,Male,Married,2,High School,Salaried,7,1116413.83,640556.54,Debt Consolidation,48,7.89,643,Rented,Approved,2026-02-05 21:51:24.035500,57.38,High,True
+509,Applicant_509,30,Male,Married,1,Post-Graduate,Self-Employed,8,1119050.3,344961.48,Home,48,5.37,525,Owned,Approved,2026-06-19 21:51:24.035503,30.83,High,True
+510,Applicant_510,57,Male,Married,1,Graduate,Self-Employed,14,1558282.26,298194.48,Personal,48,8.38,649,Rented,Approved,2026-05-12 21:51:24.035507,19.14,High,True
+511,Applicant_511,29,Female,Married,3,Post-Graduate,Student,1,162745.0,497963.67,Auto,60,7.24,756,Owned,Pending,2026-02-08 21:51:24.035510,305.98,Upper-Middle,False
+512,Applicant_512,44,Male,Single,1,Graduate,Salaried,1,368878.72,184587.53,Home,48,6.71,717,Rented,Approved,2026-07-07 21:51:24.035514,50.04,High,True
+513,Applicant_513,55,Female,Single,2,High School,Business Owner,15,1114881.33,258117.53,Auto,36,6.73,600,Owned,Rejected,2026-07-22 21:51:24.035517,23.15,High,False
+514,Applicant_514,55,Male,Single,1,Post-Graduate,Self-Employed,1,407749.8,381543.03,Personal,36,11.98,527,Mortgage,Approved,2026-05-03 21:51:24.035520,93.57,High,True
+515,Applicant_515,56,Male,Married,0,Graduate,Salaried,29,267364.81,582136.19,Education,12,9.79,668,Owned,Pending,2025-12-12 21:51:24.035524,217.73,High,False
+516,Applicant_516,38,Male,Single,3,Under-Graduate,Retired,14,1596337.82,1011279.22,Education,36,3.0,753,Mortgage,Approved,2025-12-07 21:51:24.035527,63.35,High,True
+517,Applicant_517,59,Male,Single,0,Post-Graduate,Self-Employed,5,202023.15,364212.76,Debt Consolidation,60,11.59,641,Mortgage,Approved,2025-10-29 21:51:24.035531,180.28,High,True
+518,Applicant_518,52,Male,Single,2,Post-Graduate,Salaried,31,709491.19,629225.05,Auto,60,10.31,564,Mortgage,Rejected,2026-06-25 21:51:24.035534,88.69,High,False
+519,Applicant_519,44,Male,Single,2,Graduate,Self-Employed,0,826253.02,50000.0,Business,36,10.1,632,Mortgage,Approved,2026-07-17 21:51:24.035537,6.05,High,True
+520,Applicant_520,43,Female,Married,2,Under-Graduate,Student,2,1373654.66,796880.82,Auto,120,11.61,706,Owned,Approved,2026-07-16 21:51:24.035541,58.01,High,True
+521,Applicant_521,52,Male,Married,2,High School,Salaried,8,150000.0,50000.0,Auto,48,8.55,779,Mortgage,Approved,2026-04-25 21:51:24.035544,33.33,Upper-Middle,True
+522,Applicant_522,57,Female,Married,1,Post-Graduate,Salaried,3,1016190.06,723548.21,Business,84,10.67,659,Rented,Rejected,2025-12-01 21:51:24.035548,71.2,High,False
+523,Applicant_523,32,Female,Married,0,High School,Salaried,21,493849.18,477341.01,Debt Consolidation,60,6.87,764,Owned,Approved,2025-09-15 21:51:24.035552,96.66,High,True
+524,Applicant_524,33,Female,Married,3,Graduate,Salaried,0,1101044.49,466217.18,Education,60,11.47,755,Mortgage,Rejected,2026-01-07 21:51:24.035556,42.34,High,False
+525,Applicant_525,43,Male,Single,2,Post-Graduate,Business Owner,6,487276.91,415925.88,Personal,24,9.26,585,Mortgage,Approved,2026-04-18 21:51:24.035560,85.36,High,True
+526,Applicant_526,45,Male,Divorced,3,Post-Graduate,Self-Employed,7,1478922.5,135649.27,Home,36,3.68,780,Mortgage,Approved,2026-08-26 21:51:24.035563,9.17,High,True
+527,Applicant_527,55,Male,Single,3,Post-Graduate,Salaried,8,489611.99,150484.26,Home,12,12.13,703,Mortgage,Approved,2026-05-05 21:51:24.035566,30.74,High,True
+528,Applicant_528,61,Male,Single,3,Post-Graduate,Salaried,2,150000.0,734225.64,Education,60,8.05,583,Mortgage,Approved,2026-08-27 21:51:24.035570,489.48,Upper-Middle,True
+529,Applicant_529,50,Female,Married,2,Graduate,Salaried,3,534460.3,503342.3,Home,36,7.56,820,Mortgage,Approved,2025-10-01 21:51:24.035573,94.18,High,True
+530,Applicant_530,37,Male,Single,1,Graduate,Retired,14,745479.96,413884.11,Auto,60,6.95,669,Mortgage,Approved,2026-06-24 21:51:24.035577,55.52,High,True
+531,Applicant_531,40,Male,Married,3,Graduate,Salaried,1,1282941.55,624151.43,Education,36,7.21,524,Owned,Approved,2026-04-25 21:51:24.035580,48.65,High,True
+532,Applicant_532,45,Female,Married,2,Graduate,Retired,14,346634.07,528366.88,Home,60,9.3,623,Mortgage,Approved,2025-12-15 21:51:24.035584,152.43,High,True
+533,Applicant_533,42,Female,Married,0,Under-Graduate,Self-Employed,6,354541.55,277979.17,Auto,24,5.04,603,Mortgage,Approved,2025-10-10 21:51:24.035587,78.41,High,True
+534,Applicant_534,33,Female,Married,3,Graduate,Salaried,11,1234231.16,1189078.94,Education,36,3.01,625,Mortgage,Rejected,2026-04-07 21:51:24.035591,96.34,High,False
+535,Applicant_535,39,Male,Married,3,Graduate,Student,10,299909.95,707411.79,Education,36,4.77,644,Owned,Rejected,2025-10-04 21:51:24.035594,235.87,High,False
+536,Applicant_536,56,Male,Married,2,Post-Graduate,Self-Employed,1,778406.62,535579.2,Debt Consolidation,48,9.84,659,Owned,Rejected,2025-12-25 21:51:24.035597,68.8,High,False
+537,Applicant_537,32,Male,Married,0,Post-Graduate,Business Owner,6,786539.53,356188.84,Business,36,7.93,656,Rented,Approved,2026-05-04 21:51:24.035601,45.29,High,True
+538,Applicant_538,61,Male,Divorced,1,High School,Retired,16,937031.81,766772.71,Auto,60,12.4,672,Mortgage,Rejected,2025-10-29 21:51:24.035604,81.83,High,False
+539,Applicant_539,39,Male,Married,3,Post-Graduate,Salaried,4,550060.72,279481.0,Debt Consolidation,24,8.27,726,Owned,Approved,2026-05-30 21:51:24.035608,50.81,High,True
+540,Applicant_540,32,Male,Married,4,Graduate,Salaried,27,479202.25,255903.07,Personal,48,11.45,620,Rented,Approved,2025-11-05 21:51:24.035611,53.4,High,True
+541,Applicant_541,29,Male,Married,1,Under-Graduate,Business Owner,4,983957.78,974131.18,Home,60,6.08,774,Rented,Rejected,2026-07-17 21:51:24.035614,99.0,High,False
+542,Applicant_542,27,Male,Single,0,Post-Graduate,Salaried,1,491601.66,508589.05,Home,24,6.98,581,Mortgage,Pending,2026-07-24 21:51:24.035618,103.46,High,False
+543,Applicant_543,48,Male,Married,3,Graduate,Salaried,3,306012.32,286262.23,Business,84,8.53,729,Mortgage,Approved,2026-07-18 21:51:24.035621,93.55,High,True
+544,Applicant_544,34,Female,Married,1,Post-Graduate,Salaried,24,1341120.0,501592.0,Education,120,7.99,811,Mortgage,Approved,2025-09-21 21:51:24.035625,37.4,High,True
+545,Applicant_545,51,Female,Married,2,High School,Salaried,3,1045238.15,738052.24,Personal,24,7.66,665,Owned,Approved,2026-04-26 21:51:24.035628,70.61,High,True
+546,Applicant_546,39,Female,Married,4,Graduate,Business Owner,16,1557000.96,673951.25,Business,36,5.45,695,Owned,Approved,2026-07-02 21:51:24.035631,43.29,High,True
+547,Applicant_547,36,Male,Married,0,Graduate,Salaried,17,1163587.06,772793.43,Business,48,3.0,602,Owned,Rejected,2025-11-07 21:51:24.035635,66.41,High,False
+548,Applicant_548,25,Male,Married,2,Graduate,Self-Employed,3,342742.54,150124.35,Debt Consolidation,60,10.71,639,Rented,Approved,2026-01-05 21:51:24.035638,43.8,High,True
+549,Applicant_549,55,Male,Married,0,Graduate,Self-Employed,0,888547.7,765761.77,Education,48,10.32,805,Mortgage,Rejected,2026-05-24 21:51:24.035642,86.18,High,False
+550,Applicant_550,32,Female,Married,1,Post-Graduate,Self-Employed,10,443748.7,449863.54,Home,60,6.35,739,Rented,Approved,2025-10-13 21:51:24.035645,101.38,High,True
+551,Applicant_551,45,Female,Married,3,Post-Graduate,Salaried,2,189356.16,524948.21,Personal,60,9.83,713,Owned,Rejected,2025-09-19 21:51:24.035649,277.23,Upper-Middle,False
+552,Applicant_552,41,Male,Single,1,Graduate,Business Owner,12,671120.24,838658.46,Auto,24,7.92,524,Owned,Pending,2026-04-18 21:51:24.035652,124.96,High,False
+553,Applicant_553,56,Female,Single,4,High School,Salaried,4,1242613.15,696763.19,Personal,60,12.37,622,Owned,Approved,2026-03-05 21:51:24.035655,56.07,High,True
+554,Applicant_554,43,Male,Married,2,Under-Graduate,Business Owner,5,959965.08,598294.69,Debt Consolidation,60,3.91,819,Mortgage,Approved,2026-07-07 21:51:24.035659,62.32,High,True
+555,Applicant_555,36,Male,Married,1,Post-Graduate,Student,12,293642.35,50000.0,Business,48,8.06,712,Rented,Rejected,2026-07-21 21:51:24.035662,17.03,High,False
+556,Applicant_556,59,Female,Divorced,1,Under-Graduate,Self-Employed,3,657063.37,487259.48,Education,84,7.78,722,Mortgage,Approved,2025-09-19 21:51:24.035666,74.16,High,True
+557,Applicant_557,62,Female,Married,1,Graduate,Self-Employed,4,792853.37,280290.89,Education,60,9.06,693,Rented,Approved,2026-08-23 21:51:24.035669,35.35,High,True
+558,Applicant_558,59,Female,Married,1,Post-Graduate,Self-Employed,3,174355.02,699092.69,Auto,36,13.88,630,Rented,Approved,2026-01-27 21:51:24.035672,400.96,Upper-Middle,True
+559,Applicant_559,34,Female,Single,0,Post-Graduate,Salaried,3,1135268.95,777468.29,Auto,48,8.07,706,Owned,Approved,2026-04-30 21:51:24.035675,68.48,High,True
+560,Applicant_560,51,Male,Married,1,Under-Graduate,Student,5,758505.99,415431.31,Business,48,11.1,557,Rented,Rejected,2025-10-06 21:51:24.035679,54.77,High,False
+561,Applicant_561,25,Female,Married,2,Under-Graduate,Student,13,293762.06,313228.39,Personal,24,7.98,551,Mortgage,Approved,2026-01-31 21:51:24.035682,106.63,High,True
+562,Applicant_562,55,Male,Married,3,Graduate,Salaried,3,271130.56,935764.22,Business,120,12.25,621,Owned,Pending,2026-01-23 21:51:24.035686,345.13,High,False
+563,Applicant_563,43,Female,Single,2,High School,Self-Employed,5,1290265.58,331118.68,Home,24,11.13,695,Rented,Approved,2026-08-04 21:51:24.035689,25.66,High,True
+564,Applicant_564,49,Male,Married,3,Graduate,Retired,8,697674.79,165529.5,Education,60,7.33,554,Rented,Rejected,2025-09-20 21:51:24.035692,23.73,High,False
+565,Applicant_565,63,Female,Single,0,High School,Retired,2,1326140.81,266852.08,Personal,48,7.08,690,Owned,Approved,2026-02-04 21:51:24.035696,20.12,High,True
+566,Applicant_566,31,Male,Divorced,1,High School,Self-Employed,2,1478862.19,344600.17,Education,12,10.2,600,Mortgage,Approved,2026-01-14 21:51:24.035700,23.3,High,True
+567,Applicant_567,38,Female,Married,2,Graduate,Self-Employed,21,1258979.31,258818.35,Education,84,6.21,611,Owned,Approved,2026-01-22 21:51:24.035703,20.56,High,True
+568,Applicant_568,32,Male,Married,2,Under-Graduate,Salaried,10,636627.3,736709.59,Personal,84,9.17,783,Owned,Rejected,2026-01-29 21:51:24.035707,115.72,High,False
+569,Applicant_569,29,Female,Married,0,Graduate,Retired,6,150000.0,50000.0,Business,48,7.25,682,Mortgage,Approved,2026-08-02 21:51:24.035710,33.33,Upper-Middle,True
+570,Applicant_570,30,Male,Married,3,Post-Graduate,Salaried,8,975198.52,252883.08,Auto,36,9.79,607,Owned,Rejected,2025-12-19 21:51:24.035713,25.93,High,False
+571,Applicant_571,64,Male,Married,3,Post-Graduate,Self-Employed,0,1686630.55,486700.72,Personal,24,7.94,694,Rented,Approved,2026-08-25 21:51:24.035717,28.86,High,True
+572,Applicant_572,37,Male,Divorced,2,Post-Graduate,Salaried,7,835843.97,558868.94,Home,48,6.08,562,Owned,Approved,2026-08-26 21:51:24.035720,66.86,High,True
+573,Applicant_573,58,Male,Single,0,High School,Salaried,5,150000.0,973713.75,Debt Consolidation,36,12.37,710,Owned,Rejected,2026-05-28 21:51:24.035723,649.14,Upper-Middle,False
+574,Applicant_574,27,Female,Single,3,Under-Graduate,Self-Employed,6,580048.6,932666.56,Home,48,9.34,768,Mortgage,Approved,2026-08-26 21:51:24.035727,160.79,High,True
+575,Applicant_575,33,Male,Married,2,Post-Graduate,Retired,3,776506.69,51793.6,Home,120,8.31,732,Owned,Approved,2026-03-31 21:51:24.035730,6.67,High,True
+576,Applicant_576,60,Female,Single,3,Under-Graduate,Salaried,0,410804.57,50000.0,Personal,48,9.97,850,Mortgage,Approved,2026-06-18 21:51:24.035734,12.17,High,True
+577,Applicant_577,62,Male,Divorced,3,High School,Self-Employed,1,150000.0,506991.95,Home,84,3.0,524,Rented,Approved,2026-08-24 21:51:24.035737,337.99,Upper-Middle,True
+578,Applicant_578,29,Male,Single,3,Graduate,Salaried,24,810859.69,311508.13,Business,60,15.82,690,Mortgage,Approved,2026-07-21 21:51:24.035740,38.42,High,True
+579,Applicant_579,47,Female,Married,2,High School,Salaried,4,536049.5,166232.62,Personal,48,8.59,572,Owned,Approved,2025-09-03 21:51:24.035744,31.01,High,True
+580,Applicant_580,22,Female,Single,0,Graduate,Self-Employed,5,1559076.66,504513.85,Personal,84,3.0,666,Owned,Approved,2026-06-19 21:51:24.035747,32.36,High,True
+581,Applicant_581,25,Male,Married,2,Under-Graduate,Self-Employed,0,890413.4,564595.25,Debt Consolidation,48,12.69,680,Rented,Rejected,2026-02-08 21:51:24.035751,63.41,High,False
+582,Applicant_582,49,Female,Married,2,Graduate,Salaried,0,1037831.56,265088.84,Auto,84,5.87,850,Owned,Pending,2025-10-24 21:51:24.035754,25.54,High,False
+583,Applicant_583,57,Female,Married,3,Graduate,Salaried,10,802365.54,325256.27,Business,36,12.15,675,Mortgage,Approved,2025-12-19 21:51:24.035757,40.54,High,True
+584,Applicant_584,58,Male,Single,0,Post-Graduate,Salaried,6,887493.32,286628.37,Home,24,8.93,673,Mortgage,Approved,2025-11-14 21:51:24.035761,32.3,High,True
+585,Applicant_585,39,Female,Single,0,Post-Graduate,Salaried,5,189080.28,384782.45,Auto,84,3.0,760,Rented,Approved,2025-11-09 21:51:24.035764,203.5,Upper-Middle,True
+586,Applicant_586,28,Female,Married,3,Graduate,Retired,2,433933.48,651604.35,Personal,48,9.41,675,Owned,Rejected,2026-03-27 21:51:24.035768,150.16,High,False
+587,Applicant_587,21,Female,Married,3,Graduate,Retired,10,1285445.88,198186.36,Auto,84,9.16,826,Rented,Approved,2026-04-17 21:51:24.035771,15.42,High,True
+588,Applicant_588,42,Male,Married,4,Post-Graduate,Salaried,1,933784.79,320608.2,Education,84,12.53,733,Mortgage,Approved,2026-06-15 21:51:24.035777,34.33,High,True
+589,Applicant_589,37,Female,Married,3,High School,Self-Employed,1,690597.23,388201.0,Education,24,10.33,746,Mortgage,Pending,2025-11-27 21:51:24.035780,56.21,High,False
+590,Applicant_590,27,Male,Married,2,Graduate,Retired,4,1044468.5,498109.33,Business,48,4.16,530,Rented,Approved,2025-11-30 21:51:24.035784,47.69,High,True
+591,Applicant_591,45,Male,Married,2,Graduate,Salaried,2,1052344.76,577275.66,Debt Consolidation,48,12.01,838,Mortgage,Rejected,2026-02-24 21:51:24.035787,54.86,High,False
+592,Applicant_592,24,Male,Single,3,Post-Graduate,Business Owner,2,1646357.85,1071832.2,Home,60,7.05,627,Mortgage,Approved,2025-09-09 21:51:24.035790,65.1,High,True
+593,Applicant_593,56,Male,Married,2,Graduate,Retired,8,915226.54,660195.2,Education,60,14.52,679,Owned,Approved,2026-08-23 21:51:24.035794,72.13,High,True
+594,Applicant_594,26,Female,Married,2,Under-Graduate,Salaried,8,424996.97,666860.78,Personal,36,7.26,627,Mortgage,Rejected,2025-11-08 21:51:24.035798,156.91,High,False
+595,Applicant_595,51,Female,Married,0,Under-Graduate,Salaried,13,803721.41,425348.36,Education,48,7.76,598,Owned,Approved,2025-09-02 21:51:24.035802,52.92,High,True
+596,Applicant_596,39,Female,Divorced,2,Post-Graduate,Retired,4,1093026.25,225637.58,Home,60,5.62,583,Owned,Rejected,2026-06-03 21:51:24.035805,20.64,High,False
+597,Applicant_597,64,Male,Single,3,Graduate,Self-Employed,0,1248263.6,352100.08,Education,24,6.75,688,Owned,Approved,2026-01-26 21:51:24.035808,28.21,High,True
+598,Applicant_598,59,Male,Single,1,Under-Graduate,Salaried,2,203987.25,301106.9,Auto,60,5.83,522,Owned,Rejected,2026-08-13 21:51:24.035812,147.61,High,False
+599,Applicant_599,47,Male,Married,1,Post-Graduate,Salaried,31,951482.69,609824.59,Home,60,12.62,660,Owned,Approved,2025-11-28 21:51:24.035815,64.09,High,True
+600,Applicant_600,30,Female,Single,1,Under-Graduate,Self-Employed,7,491098.03,50000.0,Personal,84,3.84,764,Rented,Approved,2026-07-08 21:51:24.035819,10.18,High,True
+601,Applicant_601,46,Male,Married,1,Post-Graduate,Business Owner,9,623347.23,665909.44,Education,36,11.32,730,Mortgage,Approved,2025-12-18 21:51:24.035822,106.83,High,True
+602,Applicant_602,39,Female,Single,1,Under-Graduate,Business Owner,0,1188335.85,467172.91,Debt Consolidation,24,11.4,714,Owned,Approved,2026-07-14 21:51:24.035825,39.31,High,True
+603,Applicant_603,59,Female,Divorced,1,Post-Graduate,Retired,5,1148499.42,705337.51,Personal,48,13.32,608,Owned,Approved,2026-02-18 21:51:24.035829,61.41,High,True
+604,Applicant_604,23,Male,Single,4,Post-Graduate,Salaried,0,578739.02,297305.71,Business,24,8.65,553,Mortgage,Approved,2026-04-28 21:51:24.035832,51.37,High,True
+605,Applicant_605,33,Female,Single,2,High School,Self-Employed,6,786863.19,247616.48,Home,120,4.91,763,Owned,Approved,2026-02-22 21:51:24.035836,31.47,High,True
+606,Applicant_606,48,Male,Single,0,Post-Graduate,Self-Employed,20,635567.28,386132.76,Auto,12,7.9,644,Owned,Approved,2026-01-26 21:51:24.035839,60.75,High,True
+607,Applicant_607,40,Female,Married,0,Post-Graduate,Self-Employed,27,2006681.2,379418.21,Home,60,10.58,673,Mortgage,Approved,2026-04-01 21:51:24.035842,18.91,High,True
+608,Applicant_608,48,Female,Divorced,2,Graduate,Salaried,6,961343.27,725777.56,Debt Consolidation,48,8.8,664,Mortgage,Approved,2026-03-11 21:51:24.035846,75.5,High,True
+609,Applicant_609,28,Male,Married,1,Post-Graduate,Retired,4,514207.36,723105.35,Home,48,9.78,733,Rented,Approved,2026-01-31 21:51:24.035850,140.63,High,True
+610,Applicant_610,61,Male,Married,3,Post-Graduate,Student,23,1378866.86,1033406.46,Auto,24,13.28,827,Owned,Pending,2026-06-07 21:51:24.035853,74.95,High,False
+611,Applicant_611,59,Female,Married,2,Graduate,Self-Employed,8,1392984.55,361262.2,Education,60,10.54,796,Mortgage,Approved,2026-02-13 21:51:24.035857,25.93,High,True
+612,Applicant_612,21,Female,Married,3,Graduate,Self-Employed,0,1566668.28,50000.0,Auto,48,9.19,493,Owned,Approved,2025-12-25 21:51:24.035860,3.19,High,True
+613,Applicant_613,23,Male,Married,1,Post-Graduate,Salaried,5,1685197.47,385361.68,Home,36,3.0,655,Owned,Approved,2025-09-17 21:51:24.035864,22.87,High,True
+614,Applicant_614,33,Female,Married,2,Under-Graduate,Self-Employed,2,1133085.95,564584.22,Education,84,5.76,572,Rented,Rejected,2025-09-05 21:51:24.035867,49.83,High,False
+615,Applicant_615,48,Female,Married,1,Post-Graduate,Business Owner,5,710059.3,700068.59,Home,36,7.08,755,Rented,Approved,2026-07-19 21:51:24.035871,98.59,High,True
+616,Applicant_616,45,Female,Single,4,Graduate,Self-Employed,4,768953.29,585009.2,Home,48,3.0,680,Mortgage,Approved,2026-03-13 21:51:24.035874,76.08,High,True
+617,Applicant_617,53,Male,Married,2,Under-Graduate,Retired,6,733169.88,361042.29,Auto,48,4.62,728,Mortgage,Approved,2026-07-16 21:51:24.035877,49.24,High,True
+618,Applicant_618,58,Female,Married,1,Graduate,Self-Employed,3,688497.85,979966.02,Business,24,7.56,648,Mortgage,Approved,2025-10-03 21:51:24.035881,142.33,High,True
+619,Applicant_619,26,Female,Single,1,Post-Graduate,Salaried,1,1345974.72,210553.98,Education,84,8.13,596,Mortgage,Rejected,2026-01-29 21:51:24.035884,15.64,High,False
+620,Applicant_620,64,Male,Married,0,Graduate,Business Owner,5,850288.36,423099.44,Auto,48,10.27,610,Rented,Approved,2026-03-02 21:51:24.035888,49.76,High,True
+621,Applicant_621,52,Male,Single,2,Graduate,Salaried,14,1238568.75,197625.24,Education,24,7.78,557,Rented,Approved,2026-08-05 21:51:24.035891,15.96,High,True
+622,Applicant_622,41,Female,Single,1,Graduate,Salaried,8,1120606.62,505481.49,Auto,48,9.37,578,Mortgage,Rejected,2026-05-25 21:51:24.035894,45.11,High,False
+623,Applicant_623,36,Male,Single,2,Graduate,Salaried,3,410538.01,944921.61,Debt Consolidation,60,7.04,562,Owned,Approved,2026-03-21 21:51:24.035897,230.17,High,True
+624,Applicant_624,41,Female,Single,1,Graduate,Self-Employed,21,163129.33,460540.74,Home,48,8.65,597,Owned,Rejected,2025-12-27 21:51:24.035901,282.32,Upper-Middle,False
+625,Applicant_625,31,Male,Married,2,Graduate,Business Owner,19,355334.81,462256.04,Business,60,10.08,592,Mortgage,Approved,2026-08-11 21:51:24.035904,130.09,High,True
+626,Applicant_626,57,Male,Single,3,Post-Graduate,Self-Employed,1,679317.45,50000.0,Personal,24,13.65,711,Owned,Rejected,2026-05-08 21:51:24.035908,7.36,High,False
+627,Applicant_627,56,Female,Married,3,Post-Graduate,Business Owner,0,903731.24,419642.19,Personal,36,6.7,708,Rented,Rejected,2026-05-17 21:51:24.035911,46.43,High,False
+628,Applicant_628,55,Male,Married,3,Graduate,Self-Employed,10,590679.87,822136.37,Home,60,9.0,711,Mortgage,Approved,2025-10-18 21:51:24.035914,139.18,High,True
+629,Applicant_629,39,Male,Single,0,Under-Graduate,Salaried,14,1131226.06,429933.87,Auto,24,11.54,773,Mortgage,Rejected,2026-06-03 21:51:24.035918,38.01,High,False
+630,Applicant_630,40,Male,Married,0,Graduate,Business Owner,27,638925.92,411018.74,Business,84,3.46,673,Rented,Approved,2026-07-24 21:51:24.035921,64.33,High,True
+631,Applicant_631,38,Female,Single,2,Post-Graduate,Salaried,17,952782.98,809600.08,Home,24,15.49,617,Mortgage,Approved,2026-07-29 21:51:24.035925,84.97,High,True
+632,Applicant_632,61,Male,Single,1,Graduate,Salaried,7,897032.67,412202.05,Personal,60,12.63,850,Owned,Approved,2026-02-17 21:51:24.035928,45.95,High,True
+633,Applicant_633,34,Male,Single,1,Graduate,Self-Employed,6,1543773.24,861775.02,Business,48,3.0,752,Owned,Approved,2026-03-02 21:51:24.035932,55.82,High,True
+634,Applicant_634,35,Female,Divorced,0,Post-Graduate,Salaried,0,459903.63,140300.91,Business,60,9.8,692,Mortgage,Rejected,2026-05-16 21:51:24.035935,30.51,High,False
+635,Applicant_635,51,Male,Married,1,Post-Graduate,Salaried,2,1733367.64,689799.11,Home,36,6.52,686,Mortgage,Approved,2026-03-16 21:51:24.035938,39.8,High,True
+636,Applicant_636,21,Female,Married,0,High School,Self-Employed,4,612260.06,960972.18,Business,24,7.11,703,Rented,Pending,2026-04-28 21:51:24.035942,156.95,High,False
+637,Applicant_637,23,Male,Single,3,Post-Graduate,Self-Employed,7,313977.24,782199.93,Business,36,9.73,663,Rented,Approved,2026-04-16 21:51:24.035945,249.13,High,True
+638,Applicant_638,36,Female,Married,1,High School,Self-Employed,6,763234.0,50000.0,Personal,24,12.18,690,Rented,Approved,2025-11-11 21:51:24.035949,6.55,High,True
+639,Applicant_639,43,Male,Single,2,Graduate,Retired,10,2146055.66,321275.09,Home,36,6.87,719,Owned,Approved,2025-10-20 21:51:24.035952,14.97,High,True
+640,Applicant_640,31,Female,Single,0,Graduate,Self-Employed,2,1208082.09,432253.57,Home,48,6.92,621,Rented,Approved,2026-01-16 21:51:24.035955,35.78,High,True
+641,Applicant_641,32,Male,Single,2,Graduate,Student,6,1091185.64,782787.54,Auto,48,9.8,549,Owned,Rejected,2026-08-03 21:51:24.035959,71.74,High,False
+642,Applicant_642,30,Male,Married,1,Graduate,Salaried,0,1168074.74,127146.93,Home,60,10.5,513,Rented,Rejected,2026-08-15 21:51:24.035962,10.89,High,False
+643,Applicant_643,52,Male,Married,3,Post-Graduate,Self-Employed,4,542162.61,214697.73,Education,60,4.98,751,Owned,Rejected,2025-10-13 21:51:24.035965,39.6,High,False
+644,Applicant_644,36,Male,Married,3,Post-Graduate,Student,11,980417.75,50557.6,Debt Consolidation,60,14.53,553,Rented,Rejected,2026-01-10 21:51:24.035969,5.16,High,False
+645,Applicant_645,28,Male,Married,1,Graduate,Self-Employed,9,851000.92,268775.93,Auto,48,6.25,717,Mortgage,Approved,2026-05-18 21:51:24.035972,31.58,High,True
+646,Applicant_646,58,Male,Single,4,High School,Business Owner,35,1573626.7,149550.14,Personal,48,11.88,587,Rented,Approved,2026-02-06 21:51:24.035976,9.5,High,True
+647,Applicant_647,32,Female,Married,4,Under-Graduate,Salaried,2,806524.91,947413.64,Home,48,10.08,588,Owned,Approved,2025-12-04 21:51:24.035979,117.47,High,True
+648,Applicant_648,44,Male,Married,3,Graduate,Salaried,5,698689.38,318734.36,Home,60,10.62,622,Mortgage,Approved,2025-08-28 21:51:24.035983,45.62,High,True
+649,Applicant_649,48,Male,Married,3,Graduate,Self-Employed,3,384080.24,693459.08,Home,36,6.32,695,Mortgage,Approved,2026-01-18 21:51:24.035986,180.55,High,True
+650,Applicant_650,28,Female,Single,1,Graduate,Salaried,4,906005.79,505031.46,Auto,12,3.0,576,Rented,Approved,2026-05-16 21:51:24.035990,55.74,High,True
+651,Applicant_651,48,Female,Single,2,Graduate,Student,15,967180.73,501109.16,Debt Consolidation,60,8.43,630,Rented,Approved,2026-05-09 21:51:24.035993,51.81,High,True
+652,Applicant_652,56,Male,Married,0,Graduate,Salaried,9,369364.72,334395.73,Home,36,8.44,677,Mortgage,Approved,2026-06-20 21:51:24.035996,90.53,High,True
+653,Applicant_653,46,Male,Married,0,Post-Graduate,Retired,17,1031265.44,715606.3,Business,84,5.15,583,Owned,Rejected,2025-09-04 21:51:24.036000,69.39,High,False
+654,Applicant_654,28,Male,Married,4,Graduate,Retired,1,943271.81,543216.39,Education,84,11.71,794,Mortgage,Approved,2025-12-13 21:51:24.036003,57.59,High,True
+655,Applicant_655,48,Female,Married,1,Graduate,Salaried,16,1255378.3,527088.3,Debt Consolidation,24,8.32,542,Owned,Approved,2026-03-13 21:51:24.036006,41.99,High,True
+656,Applicant_656,48,Female,Single,3,High School,Salaried,0,1334947.25,333842.23,Home,24,5.67,662,Owned,Approved,2025-11-08 21:51:24.036010,25.01,High,True
+657,Applicant_657,57,Male,Single,3,Under-Graduate,Student,17,887711.72,379662.74,Home,48,10.55,781,Owned,Rejected,2026-07-10 21:51:24.036013,42.77,High,False
+658,Applicant_658,61,Female,Married,3,High School,Retired,3,435454.05,664895.11,Home,60,10.64,574,Mortgage,Pending,2025-12-21 21:51:24.036017,152.69,High,False
+659,Applicant_659,56,Female,Married,4,Graduate,Self-Employed,3,517751.37,564415.57,Auto,36,5.99,671,Mortgage,Approved,2025-10-01 21:51:24.036020,109.01,High,True
+660,Applicant_660,47,Female,Divorced,1,Graduate,Salaried,5,1554851.07,534572.25,Auto,60,12.82,690,Rented,Approved,2026-06-14 21:51:24.036024,34.38,High,True
+661,Applicant_661,37,Female,Married,0,Post-Graduate,Self-Employed,22,916195.76,288868.1,Personal,48,16.35,615,Owned,Pending,2026-02-08 21:51:24.036027,31.53,High,False
+662,Applicant_662,29,Male,Single,1,Graduate,Business Owner,0,1548461.51,1044350.16,Business,36,4.68,673,Rented,Approved,2026-07-25 21:51:24.036030,67.44,High,True
+663,Applicant_663,53,Male,Married,0,Graduate,Salaried,3,1049441.93,365682.11,Business,12,7.86,724,Owned,Rejected,2025-10-18 21:51:24.036034,34.85,High,False
+664,Applicant_664,40,Male,Married,0,Under-Graduate,Business Owner,15,1151494.25,491529.25,Education,60,9.68,642,Mortgage,Rejected,2026-05-09 21:51:24.036037,42.69,High,False
+665,Applicant_665,33,Male,Married,1,Post-Graduate,Salaried,4,1225489.45,447630.58,Home,36,16.48,741,Owned,Approved,2025-09-10 21:51:24.036041,36.53,High,True
+666,Applicant_666,48,Male,Married,3,Post-Graduate,Salaried,1,360744.47,1047319.14,Auto,60,5.93,711,Mortgage,Approved,2025-10-16 21:51:24.036044,290.32,High,True
+667,Applicant_667,49,Female,Divorced,2,Post-Graduate,Salaried,4,972780.3,418571.91,Debt Consolidation,48,5.21,633,Owned,Approved,2026-01-03 21:51:24.036048,43.03,High,True
+668,Applicant_668,33,Male,Married,1,Post-Graduate,Salaried,3,355200.44,392944.26,Personal,48,5.19,770,Mortgage,Approved,2026-07-27 21:51:24.036051,110.63,High,True
+669,Applicant_669,55,Male,Married,2,Graduate,Salaried,19,736035.06,533127.12,Personal,84,12.77,620,Mortgage,Rejected,2026-01-31 21:51:24.036054,72.43,High,False
+670,Applicant_670,26,Male,Married,1,Graduate,Self-Employed,11,1106067.85,305808.55,Personal,84,6.02,748,Rented,Rejected,2026-04-18 21:51:24.036058,27.65,High,False
+671,Applicant_671,38,Female,Married,0,Graduate,Salaried,5,439866.44,531247.92,Home,48,5.52,622,Rented,Rejected,2026-05-14 21:51:24.036061,120.77,High,False
+672,Applicant_672,25,Male,Married,3,Graduate,Salaried,35,1073734.93,1164049.0,Home,36,9.31,654,Owned,Approved,2026-07-26 21:51:24.036065,108.41,High,True
+673,Applicant_673,45,Male,Married,2,High School,Salaried,5,250652.41,583914.76,Home,60,9.58,666,Rented,Approved,2026-07-16 21:51:24.036068,232.96,High,True
+674,Applicant_674,22,Male,Single,3,Post-Graduate,Retired,0,1307327.93,573708.86,Auto,48,12.25,707,Owned,Approved,2026-05-13 21:51:24.036072,43.88,High,True
+675,Applicant_675,30,Male,Married,0,Under-Graduate,Self-Employed,2,584225.13,298986.63,Home,36,8.82,486,Owned,Approved,2025-12-06 21:51:24.036076,51.18,High,True
+676,Applicant_676,50,Female,Married,3,Graduate,Self-Employed,4,439153.03,978578.0,Education,84,9.37,716,Mortgage,Approved,2026-01-14 21:51:24.036079,222.83,High,True
+677,Applicant_677,25,Female,Divorced,2,Graduate,Self-Employed,1,275857.63,1042929.16,Business,36,8.13,671,Owned,Approved,2026-03-02 21:51:24.036082,378.07,High,True
+678,Applicant_678,53,Male,Married,2,Graduate,Retired,23,618258.47,738750.51,Personal,12,3.93,702,Mortgage,Approved,2026-01-18 21:51:24.036086,119.49,High,True
+679,Applicant_679,21,Female,Divorced,2,Graduate,Salaried,11,150000.0,683073.3,Business,12,7.8,720,Mortgage,Pending,2026-04-25 21:51:24.036089,455.38,Upper-Middle,False
+680,Applicant_680,38,Female,Married,3,Graduate,Business Owner,2,630640.34,434265.7,Debt Consolidation,60,8.72,711,Mortgage,Approved,2025-11-25 21:51:24.036093,68.86,High,True
+681,Applicant_681,52,Female,Single,2,Under-Graduate,Business Owner,7,1289794.81,609574.52,Home,60,6.95,519,Rented,Rejected,2026-03-14 21:51:24.036096,47.26,High,False
+682,Applicant_682,31,Male,Single,2,Under-Graduate,Self-Employed,10,774515.36,266155.87,Home,36,3.02,595,Owned,Approved,2026-03-30 21:51:24.036099,34.36,High,True
+683,Applicant_683,41,Male,Single,4,Post-Graduate,Salaried,22,378992.55,184688.09,Business,36,4.53,706,Owned,Approved,2026-07-18 21:51:24.036103,48.73,High,True
+684,Applicant_684,46,Male,Divorced,3,Post-Graduate,Business Owner,17,940505.33,83539.22,Auto,36,8.36,695,Owned,Rejected,2025-11-01 21:51:24.036106,8.88,High,False
+685,Applicant_685,45,Female,Married,1,High School,Salaried,5,905158.31,614988.71,Auto,60,11.76,616,Owned,Rejected,2026-07-24 21:51:24.036110,67.94,High,False
+686,Applicant_686,42,Male,Divorced,3,Graduate,Self-Employed,11,1632643.99,114055.15,Auto,24,14.39,739,Mortgage,Approved,2025-10-18 21:51:24.036113,6.99,High,True
+687,Applicant_687,47,Male,Married,1,Graduate,Business Owner,6,1166288.41,360102.09,Auto,84,7.86,659,Owned,Approved,2025-10-28 21:51:24.036116,30.88,High,True
+688,Applicant_688,33,Male,Married,1,Graduate,Salaried,6,972239.25,482855.77,Education,36,5.99,750,Owned,Approved,2026-01-09 21:51:24.036120,49.66,High,True
+689,Applicant_689,53,Female,Married,2,Under-Graduate,Business Owner,0,1212026.62,778681.31,Auto,120,7.2,776,Mortgage,Approved,2026-01-25 21:51:24.036123,64.25,High,True
+690,Applicant_690,54,Male,Married,4,High School,Salaried,1,796247.57,338098.35,Education,36,4.84,702,Rented,Pending,2025-10-18 21:51:24.036127,42.46,High,False
+691,Applicant_691,61,Female,Married,4,Graduate,Business Owner,6,819834.73,811716.25,Business,60,11.26,724,Owned,Approved,2026-05-19 21:51:24.036130,99.01,High,True
+692,Applicant_692,55,Female,Single,1,High School,Self-Employed,2,1513576.12,762964.5,Auto,36,15.98,631,Mortgage,Approved,2026-07-02 21:51:24.036133,50.41,High,True
+693,Applicant_693,21,Male,Married,2,Under-Graduate,Salaried,0,195768.39,200033.67,Auto,24,6.08,751,Rented,Pending,2026-01-25 21:51:24.036137,102.18,Upper-Middle,False
+694,Applicant_694,41,Female,Single,1,Graduate,Salaried,10,1237178.21,814391.14,Home,84,4.33,697,Owned,Approved,2026-03-25 21:51:24.036141,65.83,High,True
+695,Applicant_695,26,Male,Single,4,Graduate,Retired,0,805683.41,420597.29,Auto,84,12.02,656,Rented,Approved,2026-06-25 21:51:24.036145,52.2,High,True
+696,Applicant_696,48,Female,Married,4,Post-Graduate,Salaried,7,733404.23,360293.69,Business,48,9.61,582,Mortgage,Approved,2026-06-27 21:51:24.036148,49.13,High,True
+697,Applicant_697,37,Male,Married,2,High School,Salaried,6,628841.63,421781.08,Personal,60,9.67,641,Owned,Approved,2025-09-23 21:51:24.036152,67.07,High,True
+698,Applicant_698,25,Female,Married,3,Graduate,Salaried,27,911469.61,499018.4,Business,48,14.06,591,Owned,Approved,2026-06-27 21:51:24.036155,54.75,High,True
+699,Applicant_699,51,Female,Married,3,Under-Graduate,Self-Employed,5,832588.21,383787.51,Home,84,3.72,740,Owned,Approved,2026-05-26 21:51:24.036159,46.1,High,True
+700,Applicant_700,25,Female,Married,2,Graduate,Self-Employed,0,684119.05,264886.34,Education,36,3.62,777,Rented,Approved,2025-09-21 21:51:24.036162,38.72,High,True
+701,Applicant_701,58,Female,Married,0,Under-Graduate,Salaried,6,568936.9,289648.43,Education,48,7.93,753,Rented,Rejected,2026-08-02 21:51:24.036165,50.91,High,False
+702,Applicant_702,23,Male,Married,2,Post-Graduate,Salaried,14,150000.0,538903.99,Education,48,8.72,850,Owned,Rejected,2026-04-29 21:51:24.036169,359.27,Upper-Middle,False
+703,Applicant_703,43,Female,Divorced,2,Post-Graduate,Salaried,35,560478.5,455070.21,Education,48,7.26,643,Owned,Approved,2026-07-09 21:51:24.036172,81.19,High,True
+704,Applicant_704,57,Female,Single,2,Under-Graduate,Salaried,4,645081.94,647646.71,Education,84,17.11,727,Owned,Approved,2025-12-19 21:51:24.036175,100.4,High,True
+705,Applicant_705,57,Female,Married,1,Under-Graduate,Self-Employed,3,910492.43,514661.61,Education,36,7.41,585,Owned,Approved,2026-07-23 21:51:24.036179,56.53,High,True
+706,Applicant_706,30,Male,Single,4,High School,Business Owner,18,1635234.35,521563.92,Business,24,6.57,664,Owned,Approved,2025-11-12 21:51:24.036182,31.9,High,True
+707,Applicant_707,30,Female,Married,0,Graduate,Salaried,1,603617.52,665987.43,Home,48,8.94,561,Owned,Rejected,2026-05-20 21:51:24.036186,110.33,High,False
+708,Applicant_708,39,Female,Married,2,Under-Graduate,Salaried,7,440507.66,897297.06,Business,60,11.9,725,Owned,Approved,2025-10-08 21:51:24.036189,203.7,High,True
+709,Applicant_709,37,Female,Single,2,Graduate,Salaried,4,564201.56,908526.26,Home,36,5.96,651,Rented,Approved,2025-10-03 21:51:24.036192,161.03,High,True
+710,Applicant_710,41,Male,Married,2,Post-Graduate,Retired,0,911337.91,875313.8,Home,48,7.99,515,Mortgage,Approved,2026-04-14 21:51:24.036196,96.05,High,True
+711,Applicant_711,34,Female,Married,2,Post-Graduate,Retired,3,1085454.18,743725.77,Debt Consolidation,84,12.0,625,Mortgage,Approved,2026-02-15 21:51:24.036199,68.52,High,True
+712,Applicant_712,29,Male,Divorced,1,Post-Graduate,Business Owner,2,1141338.09,1083914.97,Debt Consolidation,36,12.19,823,Rented,Approved,2026-01-19 21:51:24.036202,94.97,High,True
+713,Applicant_713,21,Female,Single,0,Post-Graduate,Salaried,9,1181083.2,622590.65,Home,60,9.26,712,Owned,Rejected,2025-11-22 21:51:24.036206,52.71,High,False
+714,Applicant_714,33,Male,Single,2,High School,Salaried,23,1237692.24,591152.83,Auto,60,16.96,741,Owned,Pending,2025-10-06 21:51:24.036209,47.76,High,False
+715,Applicant_715,24,Female,Single,2,Graduate,Salaried,2,738446.55,1128297.96,Home,48,15.43,690,Owned,Rejected,2026-07-04 21:51:24.036213,152.79,High,False
+716,Applicant_716,21,Female,Single,0,Under-Graduate,Salaried,13,1671256.07,50000.0,Education,84,3.58,665,Owned,Pending,2026-05-10 21:51:24.036216,2.99,High,False
+717,Applicant_717,60,Male,Married,3,Graduate,Self-Employed,0,708092.59,440108.98,Personal,60,3.0,681,Rented,Pending,2026-04-01 21:51:24.036220,62.15,High,False
+718,Applicant_718,52,Female,Married,2,Graduate,Business Owner,6,893736.23,850698.8,Debt Consolidation,48,11.29,699,Mortgage,Approved,2025-12-06 21:51:24.036223,95.18,High,True
+719,Applicant_719,54,Male,Married,2,Graduate,Student,0,1368330.83,774473.63,Business,48,13.28,592,Rented,Approved,2026-03-19 21:51:24.036226,56.6,High,True
+720,Applicant_720,48,Female,Married,3,High School,Business Owner,21,1076570.01,1218382.44,Auto,60,7.71,741,Owned,Rejected,2026-02-22 21:51:24.036230,113.17,High,False
+721,Applicant_721,51,Female,Married,0,High School,Salaried,11,150000.0,530096.0,Business,48,6.74,769,Mortgage,Approved,2026-04-21 21:51:24.036233,353.4,Upper-Middle,True
+722,Applicant_722,28,Female,Married,0,High School,Business Owner,8,852254.33,379371.07,Auto,84,5.63,664,Owned,Approved,2026-05-12 21:51:24.036237,44.51,High,True
+723,Applicant_723,59,Female,Divorced,3,High School,Salaried,13,1194785.9,407016.27,Debt Consolidation,48,4.41,638,Rented,Approved,2026-06-21 21:51:24.036240,34.07,High,True
+724,Applicant_724,46,Female,Divorced,2,Graduate,Salaried,8,312611.89,589059.09,Personal,36,12.48,620,Mortgage,Approved,2026-06-23 21:51:24.036243,188.43,High,True
+725,Applicant_725,54,Male,Single,2,Graduate,Business Owner,27,1150277.12,954061.33,Education,36,7.17,820,Mortgage,Approved,2026-04-06 21:51:24.036247,82.94,High,True
+726,Applicant_726,23,Male,Married,3,Under-Graduate,Salaried,10,1006061.58,957559.48,Auto,12,9.56,643,Mortgage,Approved,2026-07-06 21:51:24.036250,95.18,High,True
+727,Applicant_727,32,Female,Single,3,Post-Graduate,Self-Employed,20,1323568.19,484315.89,Auto,12,3.0,732,Owned,Approved,2026-04-22 21:51:24.036253,36.59,High,True
+728,Applicant_728,21,Female,Married,4,Post-Graduate,Salaried,5,573227.47,570842.38,Home,84,12.01,664,Rented,Rejected,2025-10-11 21:51:24.036257,99.58,High,False
+729,Applicant_729,64,Female,Single,2,Graduate,Business Owner,0,1248357.37,328751.56,Personal,60,10.56,660,Mortgage,Approved,2026-02-02 21:51:24.036260,26.33,High,True
+730,Applicant_730,25,Female,Married,2,Post-Graduate,Business Owner,6,913843.3,357979.65,Education,60,3.79,618,Owned,Rejected,2025-10-12 21:51:24.036264,39.17,High,False
+731,Applicant_731,50,Male,Single,1,Post-Graduate,Salaried,1,1556420.12,792952.02,Auto,60,9.41,602,Mortgage,Approved,2026-01-24 21:51:24.036267,50.95,High,True
+732,Applicant_732,50,Female,Married,0,Graduate,Business Owner,7,1964419.98,948619.19,Education,60,8.52,739,Owned,Approved,2026-06-21 21:51:24.036271,48.29,High,True
+733,Applicant_733,37,Male,Single,2,Post-Graduate,Salaried,5,1465332.18,304760.57,Personal,48,6.92,600,Owned,Approved,2026-06-27 21:51:24.036274,20.8,High,True
+734,Applicant_734,43,Male,Divorced,1,Post-Graduate,Self-Employed,7,1042207.47,568027.78,Home,84,3.0,717,Mortgage,Approved,2026-01-30 21:51:24.036278,54.5,High,True
+735,Applicant_735,35,Male,Married,4,Post-Graduate,Business Owner,0,1778401.6,431938.14,Personal,48,6.19,687,Owned,Approved,2025-09-25 21:51:24.036281,24.29,High,True
+736,Applicant_736,57,Male,Married,2,Graduate,Business Owner,1,1091391.22,741884.06,Personal,84,9.56,740,Rented,Rejected,2025-10-05 21:51:24.036284,67.98,High,False
+737,Applicant_737,41,Male,Divorced,2,Under-Graduate,Retired,5,486821.71,391215.51,Debt Consolidation,60,6.58,631,Rented,Rejected,2026-07-07 21:51:24.036288,80.36,High,False
+738,Applicant_738,34,Male,Married,1,Graduate,Salaried,24,834290.68,50000.0,Auto,36,7.72,766,Owned,Pending,2026-05-04 21:51:24.036291,5.99,High,False
+739,Applicant_739,22,Female,Single,0,Graduate,Business Owner,3,1154668.87,781033.4,Home,48,13.74,668,Rented,Approved,2026-06-24 21:51:24.036294,67.64,High,True
+740,Applicant_740,31,Male,Single,0,Under-Graduate,Self-Employed,4,1180381.66,415024.58,Auto,48,8.23,850,Owned,Approved,2026-04-20 21:51:24.036298,35.16,High,True
+741,Applicant_741,59,Male,Married,1,Post-Graduate,Retired,10,399894.04,444155.76,Auto,24,3.0,550,Owned,Approved,2026-03-04 21:51:24.036301,111.07,High,True
+742,Applicant_742,58,Male,Married,0,Graduate,Salaried,7,412587.09,621964.62,Home,48,7.85,850,Mortgage,Approved,2025-11-23 21:51:24.036305,150.75,High,True
+743,Applicant_743,54,Male,Married,2,Under-Graduate,Business Owner,2,713476.06,598793.42,Business,36,8.85,669,Owned,Approved,2026-03-18 21:51:24.036308,83.93,High,True
+744,Applicant_744,58,Male,Single,3,Post-Graduate,Self-Employed,4,1063817.45,627714.06,Education,24,5.61,697,Mortgage,Approved,2025-09-30 21:51:24.036312,59.01,High,True
+745,Applicant_745,54,Male,Married,3,Under-Graduate,Salaried,1,1115025.02,50000.0,Personal,84,11.07,631,Rented,Approved,2026-03-29 21:51:24.036315,4.48,High,True
+746,Applicant_746,38,Female,Married,2,Under-Graduate,Self-Employed,27,906522.05,655766.52,Home,60,3.38,554,Owned,Approved,2025-09-12 21:51:24.036319,72.34,High,True
+747,Applicant_747,50,Female,Married,1,Post-Graduate,Salaried,1,516228.51,50000.0,Business,84,8.02,637,Rented,Approved,2026-01-04 21:51:24.036322,9.69,High,True
+748,Applicant_748,35,Female,Single,3,Post-Graduate,Self-Employed,3,1544777.18,715478.24,Personal,60,3.34,650,Mortgage,Approved,2026-03-23 21:51:24.036325,46.32,High,True
+749,Applicant_749,47,Male,Single,3,Graduate,Student,0,421176.78,813146.76,Personal,48,7.47,694,Mortgage,Approved,2025-10-05 21:51:24.036329,193.07,High,True
+750,Applicant_750,54,Male,Divorced,0,Graduate,Self-Employed,2,1370936.3,116814.36,Personal,48,10.98,769,Mortgage,Rejected,2026-05-14 21:51:24.036332,8.52,High,False
+751,Applicant_751,58,Female,Married,3,Post-Graduate,Self-Employed,12,1145529.31,591961.24,Business,60,7.93,695,Owned,Approved,2025-10-26 21:51:24.036336,51.68,High,True
+752,Applicant_752,53,Male,Single,1,Post-Graduate,Self-Employed,1,1362132.92,796010.16,Debt Consolidation,120,7.73,696,Owned,Approved,2025-12-16 21:51:24.036339,58.44,High,True
+753,Applicant_753,44,Male,Single,3,Post-Graduate,Salaried,0,672226.68,374278.99,Auto,36,8.6,710,Mortgage,Approved,2025-09-04 21:51:24.036342,55.68,High,True
+754,Applicant_754,35,Male,Single,4,Graduate,Salaried,5,792938.32,688618.18,Education,84,8.77,539,Mortgage,Approved,2026-05-07 21:51:24.036345,86.84,High,True
+755,Applicant_755,50,Male,Divorced,0,Graduate,Self-Employed,0,872017.02,50000.0,Home,84,10.93,546,Mortgage,Rejected,2026-07-29 21:51:24.036349,5.73,High,False
+756,Applicant_756,62,Male,Married,3,Post-Graduate,Salaried,0,659440.9,807494.91,Home,60,10.95,560,Owned,Rejected,2026-08-16 21:51:24.036352,122.45,High,False
+757,Applicant_757,37,Male,Married,2,Graduate,Salaried,13,940103.38,508398.39,Home,84,13.48,650,Mortgage,Approved,2026-03-04 21:51:24.036356,54.08,High,True
+758,Applicant_758,25,Female,Single,4,Under-Graduate,Self-Employed,11,1481635.78,427807.77,Home,48,9.09,530,Rented,Approved,2025-09-24 21:51:24.036359,28.87,High,True
+759,Applicant_759,49,Male,Married,2,Graduate,Salaried,19,331266.46,775531.61,Auto,120,3.0,624,Rented,Pending,2026-07-13 21:51:24.036363,234.11,High,False
+760,Applicant_760,24,Female,Single,3,Post-Graduate,Salaried,15,587115.32,984201.11,Home,60,11.5,570,Rented,Approved,2026-03-10 21:51:24.036366,167.63,High,True
+761,Applicant_761,30,Female,Single,0,High School,Self-Employed,9,543701.87,636000.44,Home,12,13.22,719,Rented,Rejected,2026-04-20 21:51:24.036369,116.98,High,False
+762,Applicant_762,37,Female,Married,1,Graduate,Salaried,0,812232.7,950439.89,Debt Consolidation,84,17.12,715,Mortgage,Approved,2025-12-26 21:51:24.036374,117.02,High,True
+763,Applicant_763,30,Female,Single,0,Post-Graduate,Retired,12,795789.49,65080.69,Home,48,13.58,655,Mortgage,Approved,2025-09-09 21:51:24.036377,8.18,High,True
+764,Applicant_764,37,Female,Married,4,Graduate,Student,14,1158925.83,686465.67,Business,48,6.78,528,Mortgage,Rejected,2026-02-06 21:51:24.036381,59.23,High,False
+765,Applicant_765,40,Male,Married,3,Post-Graduate,Business Owner,12,863489.24,463038.92,Home,48,9.16,661,Owned,Approved,2026-01-14 21:51:24.036384,53.62,High,True
+766,Applicant_766,44,Male,Single,3,Post-Graduate,Salaried,5,971153.31,279298.65,Debt Consolidation,24,7.55,706,Owned,Approved,2026-06-09 21:51:24.036387,28.76,High,True
+767,Applicant_767,25,Male,Divorced,4,Post-Graduate,Business Owner,2,1009379.22,50000.0,Personal,48,7.08,744,Mortgage,Approved,2025-10-22 21:51:24.036391,4.95,High,True
+768,Applicant_768,54,Female,Married,0,Post-Graduate,Business Owner,14,948161.62,671300.37,Business,60,8.1,820,Owned,Approved,2026-07-24 21:51:24.036394,70.8,High,True
+769,Applicant_769,26,Female,Married,1,High School,Business Owner,10,1131325.22,745081.21,Business,12,13.0,769,Mortgage,Rejected,2026-07-07 21:51:24.036397,65.86,High,False
+770,Applicant_770,22,Male,Single,0,Graduate,Salaried,31,801070.65,875766.37,Home,36,3.0,693,Owned,Approved,2026-03-20 21:51:24.036401,109.32,High,True
+771,Applicant_771,33,Female,Single,1,Graduate,Self-Employed,1,1508547.36,829417.32,Debt Consolidation,12,4.99,657,Owned,Approved,2026-06-05 21:51:24.036404,54.98,High,True
+772,Applicant_772,63,Male,Single,1,High School,Business Owner,2,1866647.94,283921.29,Personal,48,12.77,620,Owned,Rejected,2025-10-04 21:51:24.036407,15.21,High,False
+773,Applicant_773,63,Female,Married,2,Post-Graduate,Self-Employed,1,1132492.39,861397.54,Personal,60,13.59,788,Mortgage,Approved,2026-08-02 21:51:24.036411,76.06,High,True
+774,Applicant_774,31,Male,Married,1,High School,Self-Employed,12,941196.47,890977.3,Business,60,6.19,693,Rented,Approved,2026-01-15 21:51:24.036414,94.66,High,True
+775,Applicant_775,43,Male,Married,0,Post-Graduate,Self-Employed,1,1099832.92,427204.5,Auto,84,14.28,730,Owned,Rejected,2025-10-15 21:51:24.036418,38.84,High,False
+776,Applicant_776,36,Male,Single,0,Under-Graduate,Self-Employed,0,409586.77,507959.91,Personal,60,11.92,632,Mortgage,Pending,2026-03-27 21:51:24.036421,124.02,High,False
+777,Applicant_777,51,Male,Married,0,Post-Graduate,Salaried,35,922042.19,238436.82,Auto,36,7.56,580,Owned,Approved,2025-11-08 21:51:24.036425,25.86,High,True
+778,Applicant_778,31,Male,Married,4,Under-Graduate,Self-Employed,0,557470.16,914648.16,Education,84,3.0,647,Mortgage,Approved,2026-05-25 21:51:24.036428,164.07,High,True
+779,Applicant_779,36,Male,Divorced,3,High School,Salaried,14,1053990.77,76699.6,Home,60,3.0,655,Owned,Rejected,2026-01-15 21:51:24.036432,7.28,High,False
+780,Applicant_780,28,Female,Married,4,Post-Graduate,Self-Employed,3,559456.28,649791.79,Debt Consolidation,48,6.2,695,Owned,Rejected,2025-12-04 21:51:24.036436,116.15,High,False
+781,Applicant_781,24,Male,Divorced,1,Graduate,Salaried,14,712089.02,332887.83,Home,60,11.16,621,Mortgage,Rejected,2026-07-18 21:51:24.036439,46.75,High,False
+782,Applicant_782,60,Male,Single,1,Graduate,Self-Employed,6,150000.0,189801.21,Home,84,11.17,681,Owned,Approved,2026-04-17 21:51:24.036443,126.53,Upper-Middle,True
+783,Applicant_783,24,Female,Single,3,Graduate,Salaried,18,380701.72,50000.0,Education,60,6.87,774,Owned,Approved,2026-06-23 21:51:24.036446,13.13,High,True
+784,Applicant_784,45,Female,Married,1,Graduate,Business Owner,20,991949.52,439686.28,Personal,48,7.69,546,Owned,Approved,2026-01-30 21:51:24.036449,44.33,High,True
+785,Applicant_785,23,Male,Married,1,Graduate,Business Owner,0,502461.57,145916.17,Business,60,8.39,510,Rented,Rejected,2026-03-28 21:51:24.036453,29.04,High,False
+786,Applicant_786,52,Male,Single,1,Post-Graduate,Salaried,0,1275509.59,515797.45,Home,12,7.73,779,Owned,Rejected,2026-03-09 21:51:24.036456,40.44,High,False
+787,Applicant_787,23,Male,Single,0,Post-Graduate,Salaried,2,468444.36,995414.45,Home,48,9.07,562,Rented,Approved,2025-10-07 21:51:24.036459,212.49,High,True
+788,Applicant_788,47,Male,Single,1,Post-Graduate,Salaried,8,1031301.8,555862.05,Personal,48,8.39,649,Mortgage,Approved,2026-06-30 21:51:24.036463,53.9,High,True
+789,Applicant_789,49,Female,Married,1,Post-Graduate,Student,17,545249.75,1059238.54,Debt Consolidation,36,3.0,728,Mortgage,Approved,2026-02-25 21:51:24.036466,194.27,High,True
+790,Applicant_790,52,Male,Single,2,Graduate,Self-Employed,4,1004187.91,224963.49,Personal,12,7.77,675,Rented,Pending,2026-03-01 21:51:24.036470,22.4,High,False
+791,Applicant_791,39,Male,Single,0,Graduate,Self-Employed,7,236085.07,141336.58,Education,24,8.42,674,Owned,Approved,2025-10-10 21:51:24.036473,59.87,High,True
+792,Applicant_792,41,Female,Single,1,Graduate,Salaried,1,668726.81,212435.64,Debt Consolidation,60,11.96,685,Owned,Approved,2025-10-08 21:51:24.036476,31.77,High,True
+793,Applicant_793,25,Male,Single,3,Post-Graduate,Self-Employed,13,511514.69,481771.85,Auto,60,5.59,850,Rented,Approved,2026-08-16 21:51:24.036480,94.19,High,True
+794,Applicant_794,38,Female,Single,0,Graduate,Student,27,1203293.03,1262425.63,Education,120,9.21,822,Rented,Approved,2026-06-21 21:51:24.036483,104.91,High,True
+795,Applicant_795,48,Male,Single,1,Graduate,Business Owner,2,1034904.99,50000.0,Education,36,10.47,624,Owned,Approved,2025-10-03 21:51:24.036487,4.83,High,True
+796,Applicant_796,62,Female,Married,3,Post-Graduate,Self-Employed,5,356969.58,673505.67,Auto,48,7.98,764,Owned,Rejected,2026-02-07 21:51:24.036490,188.67,High,False
+797,Applicant_797,42,Male,Married,0,Under-Graduate,Salaried,0,768727.71,304009.71,Personal,84,3.0,720,Owned,Rejected,2026-08-22 21:51:24.036494,39.55,High,False
+798,Applicant_798,41,Female,Married,0,Graduate,Salaried,6,541072.86,437335.15,Education,36,12.04,678,Owned,Approved,2026-08-13 21:51:24.036497,80.83,High,True
+799,Applicant_799,26,Female,Married,2,Post-Graduate,Salaried,5,1230102.88,147754.42,Auto,60,11.11,607,Mortgage,Approved,2026-07-17 21:51:24.036500,12.01,High,True
+800,Applicant_800,21,Male,Married,1,Under-Graduate,Salaried,1,1358609.66,746158.73,Auto,60,9.3,716,Mortgage,Rejected,2026-07-28 21:51:24.036504,54.92,High,False
+801,Applicant_801,25,Female,Married,2,Under-Graduate,Salaried,4,273341.94,487700.96,Home,24,8.64,655,Owned,Approved,2026-02-28 21:51:24.036507,178.42,High,True
+802,Applicant_802,61,Female,Married,3,High School,Salaried,3,1180681.19,804486.99,Education,84,3.0,649,Mortgage,Approved,2025-12-09 21:51:24.036510,68.14,High,True
+803,Applicant_803,32,Female,Married,0,Graduate,Salaried,5,520681.57,549068.65,Home,60,11.21,618,Owned,Pending,2025-11-12 21:51:24.036514,105.45,High,False
+804,Applicant_804,46,Female,Single,2,Graduate,Retired,7,748833.29,50000.0,Home,12,13.7,759,Mortgage,Rejected,2026-08-07 21:51:24.036517,6.68,High,False
+805,Applicant_805,54,Female,Divorced,2,High School,Self-Employed,0,862901.69,807031.98,Business,24,4.6,618,Owned,Rejected,2026-02-27 21:51:24.036520,93.53,High,False
+806,Applicant_806,34,Male,Married,0,Post-Graduate,Business Owner,11,1576642.47,50000.0,Business,12,13.21,619,Mortgage,Approved,2026-02-25 21:51:24.036524,3.17,High,True
+807,Applicant_807,46,Male,Divorced,2,Post-Graduate,Business Owner,9,448460.11,50000.0,Personal,36,12.46,742,Owned,Approved,2025-12-27 21:51:24.036527,11.15,High,True
+808,Applicant_808,47,Female,Married,1,Under-Graduate,Salaried,3,1183899.89,243183.25,Education,48,4.5,668,Rented,Approved,2025-09-12 21:51:24.036531,20.54,High,True
+809,Applicant_809,29,Male,Married,2,Under-Graduate,Business Owner,0,381398.24,246920.45,Personal,48,7.12,670,Owned,Approved,2026-04-01 21:51:24.036534,64.74,High,True
+810,Applicant_810,46,Female,Married,0,High School,Salaried,11,353762.57,890885.98,Debt Consolidation,36,3.62,762,Owned,Rejected,2025-12-15 21:51:24.036537,251.83,High,False
+811,Applicant_811,42,Female,Married,2,High School,Self-Employed,24,861385.38,452076.21,Personal,84,8.27,785,Owned,Approved,2026-05-20 21:51:24.036541,52.48,High,True
+812,Applicant_812,50,Male,Single,1,Under-Graduate,Salaried,2,858691.8,849267.88,Business,48,10.07,509,Owned,Rejected,2026-07-04 21:51:24.036544,98.9,High,False
+813,Applicant_813,63,Male,Single,3,Graduate,Retired,3,150000.0,340983.11,Auto,12,3.88,669,Mortgage,Approved,2026-02-23 21:51:24.036547,227.32,Upper-Middle,True
+814,Applicant_814,37,Female,Married,0,High School,Salaried,1,1313838.52,588940.98,Debt Consolidation,36,9.85,567,Owned,Approved,2025-10-12 21:51:24.036551,44.83,High,True
+815,Applicant_815,46,Male,Married,1,Graduate,Salaried,6,150000.0,632731.85,Auto,48,10.74,649,Owned,Pending,2026-06-03 21:51:24.036554,421.82,Upper-Middle,False
+816,Applicant_816,56,Female,Married,2,Graduate,Retired,1,791625.03,694898.32,Home,48,10.79,679,Rented,Approved,2026-03-07 21:51:24.036558,87.78,High,True
+817,Applicant_817,21,Male,Married,3,High School,Salaried,3,1381046.18,369820.67,Auto,36,10.09,651,Mortgage,Approved,2026-08-06 21:51:24.036561,26.78,High,True
+818,Applicant_818,28,Female,Married,2,Graduate,Business Owner,9,1733673.59,394200.63,Home,24,4.2,597,Mortgage,Approved,2025-12-27 21:51:24.036564,22.74,High,True
+819,Applicant_819,55,Male,Married,2,Graduate,Business Owner,6,704780.05,416523.44,Debt Consolidation,60,8.07,593,Mortgage,Approved,2026-06-29 21:51:24.036568,59.1,High,True
+820,Applicant_820,35,Female,Single,3,Graduate,Business Owner,3,276820.37,50000.0,Education,120,9.73,738,Owned,Approved,2026-05-16 21:51:24.036571,18.06,High,True
+821,Applicant_821,42,Male,Divorced,3,High School,Retired,4,1366219.29,476507.48,Education,36,13.61,802,Owned,Approved,2026-04-11 21:51:24.036574,34.88,High,True
+822,Applicant_822,34,Female,Married,1,Post-Graduate,Retired,6,1196062.62,392568.41,Business,48,8.51,515,Rented,Approved,2025-10-29 21:51:24.036578,32.82,High,True
+823,Applicant_823,46,Male,Divorced,2,Under-Graduate,Salaried,0,654403.08,662420.41,Education,60,9.99,653,Owned,Rejected,2026-03-22 21:51:24.036581,101.23,High,False
+824,Applicant_824,48,Female,Married,3,Graduate,Business Owner,0,603705.02,525564.33,Home,60,5.24,738,Rented,Approved,2026-01-08 21:51:24.036584,87.06,High,True
+825,Applicant_825,43,Female,Married,4,Under-Graduate,Self-Employed,17,563043.13,874186.9,Business,48,4.46,677,Owned,Approved,2026-06-12 21:51:24.036588,155.26,High,True
+826,Applicant_826,34,Male,Married,3,Under-Graduate,Self-Employed,0,712165.39,519624.77,Business,84,4.01,590,Owned,Approved,2026-08-10 21:51:24.036591,72.96,High,True
+827,Applicant_827,44,Male,Single,1,Graduate,Salaried,9,976427.26,342582.41,Auto,48,7.03,641,Owned,Approved,2026-08-06 21:51:24.036595,35.09,High,True
+828,Applicant_828,22,Male,Divorced,0,Post-Graduate,Business Owner,20,623594.17,516155.22,Personal,48,15.72,704,Owned,Approved,2026-02-25 21:51:24.036598,82.77,High,True
+829,Applicant_829,46,Female,Single,2,Graduate,Retired,2,674167.89,702766.83,Home,60,7.09,655,Mortgage,Approved,2026-04-05 21:51:24.036601,104.24,High,True
+830,Applicant_830,34,Female,Married,3,High School,Retired,3,1106511.61,50000.0,Home,120,9.78,676,Rented,Approved,2026-07-21 21:51:24.036605,4.52,High,True
+831,Applicant_831,27,Male,Single,2,Post-Graduate,Self-Employed,6,257034.34,299730.41,Home,60,10.45,678,Mortgage,Rejected,2025-11-20 21:51:24.036608,116.61,High,False
+832,Applicant_832,23,Male,Married,2,High School,Salaried,17,699625.71,305630.51,Auto,12,4.68,638,Rented,Pending,2025-11-13 21:51:24.036611,43.68,High,False
+833,Applicant_833,43,Male,Single,3,Graduate,Salaried,22,179623.59,615077.26,Personal,36,6.98,745,Rented,Rejected,2026-04-07 21:51:24.036615,342.43,Upper-Middle,False
+834,Applicant_834,63,Female,Married,1,Under-Graduate,Business Owner,10,893364.99,647640.23,Personal,48,10.69,641,Rented,Approved,2026-08-15 21:51:24.036618,72.49,High,True
+835,Applicant_835,38,Male,Married,3,Under-Graduate,Business Owner,0,150000.0,528343.76,Auto,36,10.0,599,Mortgage,Approved,2026-02-23 21:51:24.036622,352.23,Upper-Middle,True
+836,Applicant_836,58,Female,Single,1,Under-Graduate,Self-Employed,8,1206004.05,50000.0,Education,60,3.0,850,Owned,Pending,2025-12-04 21:51:24.036625,4.15,High,False
+837,Applicant_837,55,Male,Single,1,High School,Salaried,4,324145.04,50000.0,Business,60,10.58,673,Mortgage,Approved,2025-12-02 21:51:24.036628,15.43,High,True
+838,Applicant_838,35,Female,Married,2,Graduate,Self-Employed,5,150000.0,433099.09,Home,60,6.57,471,Owned,Rejected,2026-05-23 21:51:24.036632,288.73,Upper-Middle,False
+839,Applicant_839,45,Male,Single,3,Graduate,Self-Employed,0,704554.68,359588.56,Home,120,6.66,780,Rented,Approved,2025-09-05 21:51:24.036635,51.04,High,True
+840,Applicant_840,57,Male,Married,0,Under-Graduate,Retired,1,1534442.92,501503.71,Debt Consolidation,36,9.92,780,Mortgage,Approved,2025-11-07 21:51:24.036639,32.68,High,True
+841,Applicant_841,48,Female,Single,0,Under-Graduate,Self-Employed,12,1134476.98,368568.51,Business,84,13.83,716,Rented,Rejected,2026-08-27 21:51:24.036642,32.49,High,False
+842,Applicant_842,30,Female,Single,4,Post-Graduate,Salaried,4,150000.0,928859.89,Debt Consolidation,60,7.8,730,Mortgage,Rejected,2025-11-06 21:51:24.036646,619.24,Upper-Middle,False
+843,Applicant_843,59,Female,Single,0,Graduate,Self-Employed,2,312749.89,50000.0,Auto,48,12.63,850,Rented,Rejected,2026-08-01 21:51:24.036650,15.99,High,False
+844,Applicant_844,37,Male,Single,2,Post-Graduate,Salaried,3,691759.85,584735.74,Business,60,3.46,602,Owned,Pending,2026-07-23 21:51:24.036654,84.53,High,False
+845,Applicant_845,59,Male,Married,2,Graduate,Retired,15,1745341.26,731842.91,Home,24,8.96,690,Mortgage,Approved,2026-03-21 21:51:24.036657,41.93,High,True
+846,Applicant_846,42,Female,Married,2,Post-Graduate,Salaried,11,474418.34,696430.77,Auto,60,6.61,837,Mortgage,Approved,2026-07-28 21:51:24.036660,146.8,High,True
+847,Applicant_847,46,Female,Single,2,Post-Graduate,Self-Employed,2,477645.9,720436.44,Education,48,9.49,850,Owned,Pending,2026-04-23 21:51:24.036664,150.83,High,False
+848,Applicant_848,64,Male,Married,1,Under-Graduate,Salaried,0,1460971.75,760712.45,Auto,36,7.46,650,Mortgage,Approved,2025-12-09 21:51:24.036667,52.07,High,True
+849,Applicant_849,45,Male,Married,2,Graduate,Business Owner,2,927962.88,330885.63,Home,60,3.81,840,Rented,Approved,2025-09-17 21:51:24.036671,35.66,High,True
+850,Applicant_850,37,Male,Married,1,Post-Graduate,Business Owner,20,1271200.01,191584.55,Auto,60,5.39,744,Mortgage,Approved,2026-01-30 21:51:24.036674,15.07,High,True
+851,Applicant_851,33,Female,Married,2,Graduate,Business Owner,6,559160.18,50000.0,Home,36,3.0,799,Owned,Approved,2026-03-31 21:51:24.036677,8.94,High,True
+852,Applicant_852,40,Male,Single,0,Graduate,Salaried,6,809345.66,398471.21,Business,12,3.93,741,Rented,Approved,2026-07-28 21:51:24.036681,49.23,High,True
+853,Applicant_853,45,Male,Married,2,Under-Graduate,Salaried,7,1376252.74,282290.73,Education,48,10.18,704,Owned,Approved,2026-05-20 21:51:24.036684,20.51,High,True
+854,Applicant_854,24,Male,Single,0,High School,Salaried,3,792063.65,825250.47,Home,48,7.62,850,Rented,Rejected,2025-10-03 21:51:24.036688,104.19,High,False
+855,Applicant_855,30,Male,Married,1,Graduate,Business Owner,13,1299221.28,419483.73,Home,84,9.31,637,Owned,Rejected,2025-10-30 21:51:24.036691,32.29,High,False
+856,Applicant_856,23,Male,Married,1,Under-Graduate,Salaried,5,1004906.92,211486.39,Home,84,14.85,832,Rented,Approved,2025-09-09 21:51:24.036695,21.05,High,True
+857,Applicant_857,61,Male,Married,0,High School,Self-Employed,0,434148.37,167210.07,Business,48,7.46,844,Owned,Approved,2026-01-21 21:51:24.036698,38.51,High,True
+858,Applicant_858,38,Male,Married,3,Under-Graduate,Student,1,843473.12,1056869.62,Home,60,10.72,789,Mortgage,Approved,2025-12-18 21:51:24.036701,125.3,High,True
+859,Applicant_859,56,Female,Married,1,Graduate,Student,6,1242553.6,493815.83,Personal,48,8.6,674,Rented,Approved,2026-03-10 21:51:24.036705,39.74,High,True
+860,Applicant_860,42,Male,Single,4,High School,Self-Employed,22,1117766.48,281178.75,Home,60,18.0,699,Owned,Approved,2025-12-14 21:51:24.036708,25.16,High,True
+861,Applicant_861,54,Male,Married,4,Graduate,Self-Employed,2,833898.84,534731.71,Home,36,3.0,578,Owned,Approved,2026-07-02 21:51:24.036711,64.12,High,True
+862,Applicant_862,28,Female,Single,2,Graduate,Salaried,16,150000.0,1031128.96,Personal,48,5.99,643,Mortgage,Approved,2026-08-19 21:51:24.036716,687.42,Upper-Middle,True
+863,Applicant_863,60,Female,Married,0,Graduate,Business Owner,11,150000.0,390889.42,Business,60,10.79,729,Owned,Approved,2026-08-23 21:51:24.036720,260.59,Upper-Middle,True
+864,Applicant_864,64,Male,Married,1,Post-Graduate,Business Owner,2,216677.76,692363.0,Home,12,5.86,565,Owned,Approved,2025-09-27 21:51:24.036723,319.54,High,True
+865,Applicant_865,39,Male,Single,3,Graduate,Salaried,0,645823.12,832209.09,Personal,60,10.48,656,Owned,Approved,2026-05-06 21:51:24.036726,128.86,High,True
+866,Applicant_866,62,Male,Married,1,Graduate,Self-Employed,0,699152.85,50000.0,Education,60,8.29,835,Rented,Approved,2025-12-06 21:51:24.036730,7.15,High,True
+867,Applicant_867,61,Female,Married,0,Graduate,Business Owner,10,259835.44,321244.52,Personal,48,11.53,667,Rented,Approved,2026-03-08 21:51:24.036733,123.63,High,True
+868,Applicant_868,57,Female,Married,2,Under-Graduate,Student,1,1259005.12,797104.26,Business,48,4.54,762,Owned,Approved,2026-01-20 21:51:24.036737,63.31,High,True
+869,Applicant_869,26,Female,Married,3,High School,Salaried,3,344492.37,304195.04,Business,84,9.1,725,Rented,Pending,2026-02-04 21:51:24.036740,88.3,High,False
+870,Applicant_870,46,Female,Single,3,Graduate,Self-Employed,5,301776.38,616095.11,Debt Consolidation,60,10.13,655,Owned,Approved,2026-08-04 21:51:24.036743,204.16,High,True
+871,Applicant_871,54,Female,Married,0,High School,Salaried,10,885294.3,287625.15,Home,36,8.96,667,Owned,Rejected,2026-03-11 21:51:24.036747,32.49,High,False
+872,Applicant_872,26,Male,Single,2,High School,Salaried,0,1239562.05,375245.47,Business,36,9.02,693,Owned,Approved,2026-05-17 21:51:24.036754,30.27,High,True
+873,Applicant_873,57,Male,Single,1,Under-Graduate,Retired,4,1671941.85,341138.13,Education,60,12.71,515,Rented,Rejected,2026-06-29 21:51:24.036757,20.4,High,False
+874,Applicant_874,53,Female,Married,1,Graduate,Business Owner,5,1083018.02,678267.64,Home,48,3.0,755,Mortgage,Approved,2026-06-03 21:51:24.036761,62.63,High,True
+875,Applicant_875,42,Female,Divorced,3,Under-Graduate,Business Owner,6,1481931.89,556442.43,Home,36,8.94,670,Mortgage,Rejected,2025-12-16 21:51:24.036764,37.55,High,False
+876,Applicant_876,41,Male,Married,1,High School,Salaried,13,365177.34,527680.64,Home,36,4.27,758,Rented,Approved,2026-03-16 21:51:24.036767,144.5,High,True
+877,Applicant_877,26,Female,Divorced,1,Under-Graduate,Business Owner,1,1713895.7,1202098.67,Business,84,11.15,711,Owned,Rejected,2026-03-14 21:51:24.036771,70.14,High,False
+878,Applicant_878,26,Male,Married,0,Graduate,Self-Employed,13,150000.0,987115.27,Education,60,5.57,666,Owned,Approved,2026-06-05 21:51:24.036774,658.08,Upper-Middle,True
+879,Applicant_879,24,Male,Single,3,Post-Graduate,Salaried,9,648464.3,50000.0,Education,120,3.0,695,Rented,Approved,2026-02-07 21:51:24.036777,7.71,High,True
+880,Applicant_880,50,Male,Married,3,Post-Graduate,Self-Employed,6,1074261.01,375845.29,Home,60,11.24,696,Owned,Rejected,2026-05-30 21:51:24.036781,34.99,High,False
+881,Applicant_881,31,Male,Married,2,Post-Graduate,Salaried,9,207913.19,1179409.83,Education,84,7.56,798,Rented,Approved,2026-05-31 21:51:24.036784,567.26,High,True
+882,Applicant_882,50,Female,Single,3,Graduate,Business Owner,4,479179.96,339114.79,Debt Consolidation,36,9.75,685,Mortgage,Pending,2026-04-30 21:51:24.036788,70.77,High,False
+883,Applicant_883,51,Male,Single,0,Graduate,Self-Employed,1,415630.99,1084568.88,Auto,60,13.49,703,Mortgage,Approved,2026-03-25 21:51:24.036791,260.95,High,True
+884,Applicant_884,44,Female,Married,2,Under-Graduate,Salaried,8,725911.6,380628.49,Business,12,9.8,579,Owned,Approved,2026-02-21 21:51:24.036794,52.43,High,True
+885,Applicant_885,29,Female,Married,1,High School,Salaried,5,1418633.14,434480.68,Personal,60,9.09,676,Owned,Rejected,2026-02-21 21:51:24.036798,30.63,High,False
+886,Applicant_886,23,Female,Single,0,Graduate,Salaried,8,856730.03,741799.98,Personal,48,8.33,796,Mortgage,Approved,2025-12-09 21:51:24.036801,86.59,High,True
+887,Applicant_887,51,Male,Single,2,High School,Salaried,3,664774.42,474741.99,Education,36,4.48,714,Mortgage,Approved,2026-07-07 21:51:24.036804,71.41,High,True
+888,Applicant_888,60,Male,Divorced,4,Graduate,Self-Employed,18,150000.0,638494.9,Personal,84,7.75,593,Mortgage,Rejected,2026-04-10 21:51:24.036808,425.66,Upper-Middle,False
+889,Applicant_889,57,Male,Single,0,Under-Graduate,Business Owner,7,1036702.08,940985.64,Auto,84,15.41,602,Rented,Rejected,2026-08-09 21:51:24.036811,90.77,High,False
+890,Applicant_890,56,Female,Divorced,1,Under-Graduate,Salaried,0,1166006.16,712464.26,Personal,12,7.19,620,Rented,Pending,2026-06-14 21:51:24.036814,61.1,High,False
+891,Applicant_891,44,Female,Single,1,Under-Graduate,Salaried,4,169992.09,539629.0,Home,60,7.95,759,Owned,Approved,2026-01-10 21:51:24.036818,317.44,Upper-Middle,True
+892,Applicant_892,51,Male,Married,1,High School,Self-Employed,11,823211.06,968587.52,Auto,48,12.9,750,Owned,Approved,2026-04-20 21:51:24.036821,117.66,High,True
+893,Applicant_893,26,Female,Married,4,Graduate,Business Owner,12,927203.28,745472.49,Home,48,3.11,403,Rented,Approved,2026-07-04 21:51:24.036824,80.4,High,True
+894,Applicant_894,22,Male,Single,2,High School,Salaried,5,1235840.7,294607.91,Personal,60,10.67,673,Rented,Approved,2025-11-30 21:51:24.036828,23.84,High,True
+895,Applicant_895,40,Female,Single,2,Graduate,Salaried,18,560092.62,1054421.07,Auto,36,3.0,691,Mortgage,Rejected,2026-05-20 21:51:24.036831,188.26,High,False
+896,Applicant_896,48,Male,Married,3,Under-Graduate,Self-Employed,2,499855.86,679862.37,Home,84,9.9,603,Mortgage,Approved,2026-06-20 21:51:24.036835,136.01,High,True
+897,Applicant_897,31,Female,Married,0,Under-Graduate,Salaried,4,667401.08,440170.5,Home,36,8.42,648,Owned,Approved,2025-11-02 21:51:24.036838,65.95,High,True
+898,Applicant_898,24,Male,Divorced,2,Under-Graduate,Salaried,18,1363774.82,50000.0,Debt Consolidation,60,10.64,786,Mortgage,Approved,2026-08-11 21:51:24.036841,3.67,High,True
+899,Applicant_899,35,Female,Married,1,Graduate,Business Owner,18,1267538.18,114278.61,Personal,60,4.96,712,Owned,Rejected,2025-09-08 21:51:24.036845,9.02,High,False
+900,Applicant_900,26,Female,Married,2,High School,Self-Employed,9,841461.88,976037.77,Education,36,6.63,640,Mortgage,Pending,2026-05-04 21:51:24.036848,115.99,High,False
+901,Applicant_901,50,Female,Married,4,Graduate,Self-Employed,15,1257910.61,987106.27,Business,36,10.82,665,Owned,Approved,2026-03-29 21:51:24.036852,78.47,High,True
+902,Applicant_902,58,Male,Married,3,Graduate,Business Owner,0,150000.0,523879.54,Education,60,6.72,661,Rented,Approved,2025-10-02 21:51:24.036855,349.25,Upper-Middle,True
+903,Applicant_903,22,Male,Married,1,Under-Graduate,Business Owner,16,1166661.68,50000.0,Auto,60,11.14,702,Owned,Rejected,2026-05-04 21:51:24.036859,4.29,High,False
+904,Applicant_904,35,Male,Married,3,Post-Graduate,Salaried,3,402493.53,195646.93,Debt Consolidation,36,9.23,565,Owned,Approved,2026-07-29 21:51:24.036862,48.61,High,True
+905,Applicant_905,31,Male,Married,0,Under-Graduate,Salaried,1,1556809.8,50000.0,Home,48,6.94,626,Owned,Approved,2025-10-09 21:51:24.036865,3.21,High,True
+906,Applicant_906,28,Male,Single,0,Graduate,Salaried,2,424302.12,50000.0,Auto,24,7.4,762,Rented,Approved,2026-07-08 21:51:24.036869,11.78,High,True
+907,Applicant_907,46,Female,Married,1,Graduate,Salaried,4,508895.13,1067504.66,Auto,36,8.51,674,Mortgage,Approved,2026-06-29 21:51:24.036872,209.77,High,True
+908,Applicant_908,64,Female,Single,1,Under-Graduate,Business Owner,2,1074969.49,1076777.01,Education,48,7.73,612,Rented,Approved,2026-01-11 21:51:24.036875,100.17,High,True
+909,Applicant_909,25,Male,Single,2,Post-Graduate,Student,3,1113581.65,186162.8,Education,24,11.06,615,Rented,Rejected,2025-12-12 21:51:24.036879,16.72,High,False
+910,Applicant_910,26,Male,Married,2,Graduate,Retired,1,671467.17,497554.21,Education,60,7.2,737,Owned,Approved,2025-09-02 21:51:24.036882,74.1,High,True
+911,Applicant_911,46,Male,Single,4,Under-Graduate,Self-Employed,2,998561.61,140257.08,Home,60,6.49,638,Owned,Approved,2026-08-23 21:51:24.036885,14.05,High,True
+912,Applicant_912,24,Female,Married,2,Post-Graduate,Salaried,6,1048151.93,495733.35,Education,84,11.69,720,Owned,Pending,2026-07-31 21:51:24.036889,47.3,High,False
+913,Applicant_913,39,Male,Single,2,Post-Graduate,Salaried,4,1007245.86,959005.09,Home,60,7.02,629,Mortgage,Rejected,2025-12-17 21:51:24.036892,95.21,High,False
+914,Applicant_914,40,Female,Married,0,Post-Graduate,Business Owner,3,688178.03,802041.33,Home,84,6.61,589,Owned,Approved,2025-08-29 21:51:24.036896,116.55,High,True
+915,Applicant_915,53,Male,Single,0,Under-Graduate,Self-Employed,10,1052084.41,726425.57,Home,48,3.0,699,Owned,Approved,2026-01-09 21:51:24.036899,69.05,High,True
+916,Applicant_916,40,Female,Single,2,Under-Graduate,Self-Employed,17,1412548.16,445629.67,Personal,60,4.86,672,Mortgage,Approved,2025-09-05 21:51:24.036903,31.55,High,True
+917,Applicant_917,32,Female,Married,1,Under-Graduate,Business Owner,11,359804.61,853350.79,Auto,120,5.56,734,Rented,Approved,2026-02-09 21:51:24.036906,237.17,High,True
+918,Applicant_918,21,Male,Married,3,Graduate,Business Owner,3,513975.99,681067.25,Business,60,6.61,750,Owned,Approved,2025-09-30 21:51:24.036909,132.51,High,True
+919,Applicant_919,46,Female,Single,0,Under-Graduate,Business Owner,10,860902.25,613096.36,Business,12,5.97,651,Mortgage,Approved,2025-11-30 21:51:24.036913,71.22,High,True
+920,Applicant_920,34,Male,Single,0,Under-Graduate,Salaried,1,427510.38,467685.39,Business,60,11.94,707,Rented,Approved,2025-09-23 21:51:24.036916,109.4,High,True
+921,Applicant_921,58,Female,Married,1,Under-Graduate,Business Owner,1,150000.0,589144.42,Education,84,5.79,648,Owned,Approved,2025-10-28 21:51:24.036920,392.76,Upper-Middle,True
+922,Applicant_922,57,Male,Single,1,Graduate,Student,3,1287249.19,580710.44,Auto,60,6.05,730,Mortgage,Approved,2026-07-13 21:51:24.036923,45.11,High,True
+923,Applicant_923,31,Female,Married,0,High School,Salaried,13,150000.0,348399.14,Auto,48,9.04,698,Owned,Approved,2026-07-31 21:51:24.036927,232.27,Upper-Middle,True
+924,Applicant_924,56,Female,Single,3,Under-Graduate,Self-Employed,2,689046.92,283023.37,Business,60,4.64,630,Owned,Approved,2026-08-21 21:51:24.036930,41.07,High,True
+925,Applicant_925,33,Female,Married,0,Graduate,Salaried,0,1153577.73,220866.05,Education,120,13.97,623,Mortgage,Approved,2026-01-08 21:51:24.036933,19.15,High,True
+926,Applicant_926,63,Female,Single,2,Post-Graduate,Retired,1,956679.92,238798.33,Personal,24,11.31,701,Rented,Approved,2026-02-10 21:51:24.036937,24.96,High,True
+927,Applicant_927,23,Male,Married,1,High School,Salaried,15,695100.25,447331.19,Personal,60,4.41,772,Rented,Approved,2026-05-26 21:51:24.036940,64.35,High,True
+928,Applicant_928,53,Male,Married,0,Graduate,Self-Employed,8,411024.17,401248.23,Home,36,12.05,752,Mortgage,Approved,2026-06-07 21:51:24.036943,97.62,High,True
+929,Applicant_929,26,Male,Married,1,High School,Salaried,2,987547.13,326194.55,Home,60,12.78,604,Mortgage,Approved,2026-06-01 21:51:24.036947,33.03,High,True
+930,Applicant_930,30,Male,Married,3,Under-Graduate,Business Owner,6,454642.22,305461.19,Business,60,4.5,612,Owned,Approved,2026-02-23 21:51:24.036950,67.19,High,True
+931,Applicant_931,25,Female,Married,1,Post-Graduate,Salaried,5,956373.03,581726.41,Auto,36,4.42,624,Owned,Rejected,2025-12-28 21:51:24.036953,60.83,High,False
+932,Applicant_932,43,Male,Married,3,Graduate,Salaried,8,906367.06,885730.09,Home,36,6.36,632,Mortgage,Pending,2026-06-21 21:51:24.036957,97.72,High,False
+933,Applicant_933,30,Female,Single,0,Graduate,Self-Employed,2,910413.16,496943.61,Personal,60,3.55,534,Mortgage,Approved,2025-10-21 21:51:24.036960,54.58,High,True
+934,Applicant_934,64,Female,Married,3,High School,Retired,15,593872.5,478627.38,Home,24,5.77,743,Rented,Pending,2026-02-22 21:51:24.036963,80.59,High,False
+935,Applicant_935,22,Female,Married,1,Graduate,Salaried,2,1664003.64,238231.73,Debt Consolidation,36,7.1,643,Rented,Approved,2026-01-01 21:51:24.036967,14.32,High,True
+936,Applicant_936,33,Male,Married,2,Under-Graduate,Salaried,9,993282.65,437540.45,Business,60,10.26,716,Owned,Approved,2026-01-22 21:51:24.036970,44.05,High,True
+937,Applicant_937,60,Female,Married,2,Graduate,Business Owner,0,738516.43,833294.18,Personal,36,8.78,654,Mortgage,Pending,2026-05-12 21:51:24.036973,112.83,High,False
+938,Applicant_938,22,Female,Married,4,Graduate,Self-Employed,3,955708.23,790489.11,Home,48,7.98,678,Mortgage,Approved,2025-10-25 21:51:24.036977,82.71,High,True
+939,Applicant_939,40,Male,Married,1,Graduate,Retired,3,540215.34,771032.65,Home,84,6.81,625,Mortgage,Approved,2026-07-21 21:51:24.036980,142.73,High,True
+940,Applicant_940,21,Female,Married,0,Post-Graduate,Salaried,6,695478.2,762043.27,Education,36,3.92,677,Mortgage,Approved,2025-09-13 21:51:24.036983,109.57,High,True
+941,Applicant_941,57,Female,Married,0,High School,Self-Employed,0,1806767.97,622285.12,Home,48,10.57,610,Owned,Approved,2025-11-25 21:51:24.036987,34.44,High,True
+942,Applicant_942,29,Male,Married,3,Graduate,Salaried,12,543047.68,612338.01,Auto,60,10.49,678,Owned,Approved,2026-08-18 21:51:24.036990,112.76,High,True
+943,Applicant_943,37,Male,Single,2,Graduate,Salaried,1,818890.92,568530.09,Auto,60,6.34,796,Mortgage,Approved,2026-08-02 21:51:24.036994,69.43,High,True
+944,Applicant_944,29,Male,Married,3,Graduate,Business Owner,9,667558.06,383272.12,Home,84,4.65,721,Mortgage,Approved,2026-07-11 21:51:24.036997,57.41,High,True
+945,Applicant_945,31,Male,Married,1,Post-Graduate,Self-Employed,13,434146.42,523435.83,Home,84,13.95,703,Owned,Approved,2025-09-15 21:51:24.037000,120.57,High,True
+946,Applicant_946,35,Male,Divorced,1,Post-Graduate,Business Owner,6,1018434.0,560367.91,Personal,60,9.36,574,Rented,Approved,2026-08-14 21:51:24.037004,55.02,High,True
+947,Applicant_947,44,Male,Married,0,High School,Salaried,10,864588.87,677287.21,Home,36,9.89,725,Mortgage,Pending,2026-05-20 21:51:24.037008,78.34,High,False
+948,Applicant_948,58,Male,Single,4,Post-Graduate,Self-Employed,8,1214410.92,528071.82,Home,12,10.04,733,Owned,Rejected,2026-02-22 21:51:24.037011,43.48,High,False
+949,Applicant_949,55,Male,Married,2,Post-Graduate,Self-Employed,3,1174231.17,1089445.19,Business,48,4.29,701,Owned,Approved,2026-08-16 21:51:24.037015,92.78,High,True
+950,Applicant_950,50,Female,Single,4,Graduate,Retired,13,1210283.09,161252.58,Debt Consolidation,24,13.75,697,Owned,Approved,2025-11-22 21:51:24.037018,13.32,High,True
+951,Applicant_951,51,Male,Single,1,High School,Salaried,2,482718.65,711253.2,Auto,60,7.09,668,Owned,Rejected,2025-09-21 21:51:24.037022,147.34,High,False
+952,Applicant_952,25,Female,Married,2,Graduate,Salaried,6,1106384.32,488451.76,Home,60,11.38,731,Rented,Approved,2025-10-04 21:51:24.037025,44.15,High,True
+953,Applicant_953,64,Male,Divorced,2,Graduate,Salaried,10,1116108.6,500600.96,Education,12,13.6,791,Mortgage,Approved,2026-03-14 21:51:24.037029,44.85,High,True
+954,Applicant_954,34,Male,Married,1,Under-Graduate,Self-Employed,3,441574.8,272478.78,Debt Consolidation,60,8.78,706,Rented,Approved,2026-04-28 21:51:24.037032,61.71,High,True
+955,Applicant_955,31,Male,Married,3,Post-Graduate,Salaried,2,722553.5,785416.11,Personal,36,4.36,602,Rented,Rejected,2026-05-25 21:51:24.037035,108.7,High,False
+956,Applicant_956,29,Male,Single,4,Post-Graduate,Retired,4,267555.16,682795.63,Business,48,3.0,608,Owned,Approved,2026-08-03 21:51:24.037039,255.2,High,True
+957,Applicant_957,54,Male,Single,3,Post-Graduate,Salaried,13,1117849.05,733418.47,Auto,60,8.37,738,Mortgage,Approved,2026-08-11 21:51:24.037042,65.61,High,True
+958,Applicant_958,32,Female,Married,3,Under-Graduate,Student,21,1116008.99,547388.71,Education,48,9.38,602,Mortgage,Approved,2026-07-30 21:51:24.037045,49.05,High,True
+959,Applicant_959,55,Male,Married,1,Graduate,Salaried,6,1422145.12,409029.45,Home,48,6.47,696,Mortgage,Approved,2025-10-09 21:51:24.037049,28.76,High,True
+960,Applicant_960,55,Female,Married,1,Under-Graduate,Business Owner,8,758480.6,481362.77,Business,24,8.97,652,Mortgage,Approved,2025-09-21 21:51:24.037052,63.46,High,True
+961,Applicant_961,21,Female,Married,4,Post-Graduate,Retired,18,1030587.83,621370.38,Business,48,10.01,594,Rented,Approved,2025-10-19 21:51:24.037055,60.29,High,True
+962,Applicant_962,60,Male,Single,0,Post-Graduate,Salaried,0,1245094.04,50000.0,Debt Consolidation,60,11.98,746,Rented,Approved,2026-06-17 21:51:24.037059,4.02,High,True
+963,Applicant_963,42,Male,Married,3,Post-Graduate,Retired,2,548443.39,744421.2,Auto,84,7.7,736,Owned,Approved,2025-12-01 21:51:24.037062,135.73,High,True
+964,Applicant_964,49,Female,Married,3,Graduate,Self-Employed,9,487613.94,1179333.99,Home,48,8.34,571,Rented,Approved,2025-12-21 21:51:24.037066,241.86,High,True
+965,Applicant_965,28,Male,Married,2,Under-Graduate,Retired,13,560845.92,634493.81,Education,48,7.87,718,Mortgage,Rejected,2025-11-06 21:51:24.037069,113.13,High,False
+966,Applicant_966,31,Male,Married,4,Post-Graduate,Business Owner,15,710281.81,421340.55,Business,60,8.62,706,Owned,Rejected,2026-04-06 21:51:24.037072,59.32,High,False
+967,Applicant_967,61,Female,Married,1,Graduate,Salaried,4,501778.26,454854.13,Personal,84,6.7,746,Mortgage,Approved,2025-11-27 21:51:24.037076,90.65,High,True
+968,Applicant_968,57,Male,Single,1,Post-Graduate,Salaried,0,578068.92,698111.86,Home,36,6.69,693,Rented,Approved,2026-01-17 21:51:24.037079,120.77,High,True
+969,Applicant_969,34,Female,Divorced,0,High School,Salaried,4,1202366.07,427679.17,Auto,48,6.91,794,Owned,Approved,2026-06-14 21:51:24.037083,35.57,High,True
+970,Applicant_970,50,Female,Single,1,Post-Graduate,Salaried,2,811461.35,743229.08,Education,60,9.05,669,Owned,Approved,2026-05-18 21:51:24.037086,91.59,High,True
+971,Applicant_971,55,Male,Married,1,High School,Salaried,2,972679.35,451240.6,Auto,60,5.53,658,Rented,Rejected,2026-08-08 21:51:24.037089,46.39,High,False
+972,Applicant_972,41,Male,Single,1,Graduate,Salaried,11,629713.28,979971.37,Personal,24,6.92,602,Owned,Approved,2026-05-03 21:51:24.037093,155.62,High,True
+973,Applicant_973,57,Male,Single,3,Graduate,Self-Employed,0,603453.83,972246.92,Education,60,14.83,605,Owned,Approved,2026-03-07 21:51:24.037096,161.11,High,True
+974,Applicant_974,25,Male,Single,4,Graduate,Business Owner,14,964222.36,407552.49,Personal,36,11.64,598,Owned,Rejected,2026-03-08 21:51:24.037100,42.27,High,False
+975,Applicant_975,39,Male,Married,0,Post-Graduate,Salaried,4,900424.93,477313.33,Education,48,5.15,697,Owned,Pending,2026-08-24 21:51:24.037104,53.01,High,False
+976,Applicant_976,34,Female,Married,1,Graduate,Salaried,7,1161194.67,493736.72,Personal,48,11.53,658,Rented,Approved,2025-09-22 21:51:24.037107,42.52,High,True
+977,Applicant_977,46,Male,Married,4,Graduate,Self-Employed,0,1370637.2,497489.43,Auto,84,10.7,706,Owned,Approved,2026-04-02 21:51:24.037110,36.3,High,True
+978,Applicant_978,24,Male,Married,0,High School,Salaried,3,573435.12,234719.87,Personal,48,8.14,583,Owned,Approved,2026-05-06 21:51:24.037114,40.93,High,True
+979,Applicant_979,45,Female,Married,0,Under-Graduate,Salaried,0,1194473.82,195567.01,Auto,36,6.02,611,Rented,Rejected,2025-10-11 21:51:24.037117,16.37,High,False
+980,Applicant_980,62,Female,Married,0,Under-Graduate,Salaried,26,418077.53,849932.12,Education,36,5.62,610,Owned,Rejected,2026-03-14 21:51:24.037121,203.3,High,False
+981,Applicant_981,45,Female,Married,2,Graduate,Retired,13,1679511.47,805140.36,Home,84,9.28,850,Rented,Approved,2025-11-01 21:51:24.037124,47.94,High,True
+982,Applicant_982,38,Male,Single,0,Graduate,Business Owner,4,535478.38,800305.8,Education,36,5.54,666,Owned,Approved,2026-05-02 21:51:24.037127,149.46,High,True
+983,Applicant_983,60,Female,Married,4,Graduate,Salaried,2,1126252.23,480574.06,Auto,48,12.34,674,Rented,Approved,2026-05-20 21:51:24.037131,42.67,High,True
+984,Applicant_984,28,Male,Married,1,Under-Graduate,Business Owner,21,415103.86,1029763.3,Auto,36,13.33,673,Owned,Approved,2025-11-27 21:51:24.037134,248.07,High,True
+985,Applicant_985,59,Male,Divorced,2,High School,Self-Employed,3,789163.65,493708.69,Debt Consolidation,60,8.35,804,Owned,Approved,2026-03-06 21:51:24.037138,62.56,High,True
+986,Applicant_986,60,Male,Divorced,1,Post-Graduate,Business Owner,1,1468293.26,741605.33,Home,48,12.49,550,Owned,Approved,2026-03-22 21:51:24.037140,50.51,High,True
+987,Applicant_987,34,Female,Single,2,Graduate,Business Owner,6,522918.34,111185.84,Personal,48,7.06,675,Mortgage,Approved,2026-01-13 21:51:24.037144,21.26,High,True
+988,Applicant_988,52,Male,Divorced,2,Post-Graduate,Self-Employed,23,1731674.47,435674.11,Debt Consolidation,48,6.0,550,Owned,Rejected,2026-07-21 21:51:24.037147,25.16,High,False
+989,Applicant_989,58,Male,Married,3,Graduate,Salaried,0,847889.76,456370.1,Home,84,12.35,489,Owned,Approved,2026-02-11 21:51:24.037151,53.82,High,True
+990,Applicant_990,53,Male,Divorced,3,Graduate,Salaried,2,1240285.02,481663.49,Business,48,14.03,621,Mortgage,Approved,2026-04-14 21:51:24.037154,38.83,High,True
+991,Applicant_991,43,Male,Married,2,Post-Graduate,Self-Employed,22,1011177.83,128860.29,Auto,60,15.37,712,Owned,Approved,2026-05-16 21:51:24.037157,12.74,High,True
+992,Applicant_992,35,Female,Married,4,Under-Graduate,Student,1,1032816.03,697086.66,Home,84,9.66,616,Mortgage,Rejected,2026-02-16 21:51:24.037161,67.49,High,False
+993,Applicant_993,53,Female,Married,3,Graduate,Self-Employed,0,279554.51,788010.89,Auto,84,11.52,711,Owned,Approved,2025-12-21 21:51:24.037164,281.88,High,True
+994,Applicant_994,45,Female,Married,3,Graduate,Business Owner,6,660858.88,291719.37,Debt Consolidation,36,9.59,688,Owned,Pending,2026-08-15 21:51:24.037168,44.14,High,False
+995,Applicant_995,37,Male,Married,0,High School,Retired,15,1328390.58,178744.38,Home,120,13.41,668,Mortgage,Approved,2026-07-04 21:51:24.037171,13.46,High,True
+996,Applicant_996,53,Male,Single,0,Graduate,Salaried,5,712271.52,284696.35,Education,12,10.02,781,Rented,Pending,2025-09-18 21:51:24.037174,39.97,High,False
+997,Applicant_997,22,Male,Single,1,Graduate,Business Owner,35,905532.83,638739.63,Education,48,11.32,632,Owned,Rejected,2026-06-04 21:51:24.037178,70.54,High,False
+998,Applicant_998,34,Male,Single,2,Graduate,Business Owner,9,231031.15,332951.06,Personal,84,4.53,710,Rented,Approved,2026-05-11 21:51:24.037181,144.12,High,True
+999,Applicant_999,60,Male,Married,1,Graduate,Retired,0,634969.22,462461.73,Home,36,7.69,535,Owned,Pending,2026-07-16 21:51:24.037184,72.83,High,False
+1000,Applicant_1000,60,Female,Single,1,Graduate,Retired,35,1299215.72,199430.99,Business,36,11.35,687,Rented,Approved,2026-06-18 21:51:24.037188,15.35,High,True
